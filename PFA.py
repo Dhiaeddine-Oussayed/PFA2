@@ -1,22 +1,18 @@
 import pandas as pd
-# import nltk
 import os
-# import re
 import json
 import numpy as np
 import random
 from datetime import datetime
-# from textblob import TextBlob
-# from textblob import Word
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from keras.models import Sequential
 from keras import Input
 from keras.layers import Dense
 import pyautogui
-import Jokes_library
+import list_library
 
-# nltk.download()
+
 
 DATA_DIRECTORY = 'data'
 files = []
@@ -114,24 +110,22 @@ UserNameAsked = False
 
 
 def greeting():
-    text = ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?", "Hey human!",
-            "Good day Sir", "Hola human!"]
+    text = list_library.greetings
     return random.choice(text)
 
 
 def goodbye():
-    text = ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.",
-            "Goodbye thanks for coming"]
+    text = list_library.goodbyes
     return random.choice(text)
 
 
 def thanks():
-    text = ["No problem!", "Happy to help!", "Any time!", "My pleasure"]
+    text = list_library.thanks
     return random.choice(text)
 
 
 def bot_name():
-    text = ["You can call me Assistance", "You may call me Assistance", "Call me Assistance"]
+    text = list_library.bot_name
     return random.choice(text)
 
 
@@ -142,24 +136,19 @@ def time():
 
 
 def jokes():
-    joke = Jokes_library.jokes
+    joke = list_library.jokes
     return random.choice(joke)
 
 
 def self_aware():
-    text = [
-        "That is an interesting question, can you prove that you are?",
-        "That is an difficult question, can you prove that you are?",
-        "That depends, can you prove that you are?"
-    ]
+    text = list_library.self_aware
     return random.choice(text)
 
 
 def user_name():
     global UserNameAsked
     if not UserNameAsked:
-        text = ["You still didn't tell me your name Sir", "You didn't tell me that yet",
-                "How about you tell me your name first then i'll answer that", "I'll call you Sir or Miss for now"]
+        text = list_library.no_name
 
     else:
         text = ["You are {}! How can I help?",
@@ -172,23 +161,12 @@ def user_name():
 
 
 def do_you_understand():
-    text = [
-        "Well I would not be a very clever AI if I did not would I?",
-        "I read you loud and clear!",
-        "I do in deed!",
-        "Yup I do"
-    ]
+    text = list_library.understand
     return random.choice(text)
 
 
 def shutup():
-    text = [
-        "I am sorry to disturb you",
-        "Fine, sorry to disturb you",
-        "OK, sorry to disturb you",
-        "You could just say goodbye, you don't have to be rude"
-        "Rude, bye"
-    ]
+    text = list_library.shutup
     return random.choice(text)
 
 
@@ -202,12 +180,14 @@ def volume_down():
         pyautogui.press('volumedown')
 
 
-# def alarm():
-# def TakePicture():
-
 def screenshot():
     myScreenshot = pyautogui.screenshot()
     myScreenshot.save(r'D:\DHIA\PyCharm Community Edition 2021.2.1\screenshots')
+
+# def alarm():
+# def TakePicture():
+
+
 # def repeat()
 # def calculator()
 # def calendar()
