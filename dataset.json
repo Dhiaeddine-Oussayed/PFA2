@@ -1,0 +1,4923 @@
+[[
+  "hi",
+  "greeting"
+],
+  [
+    "hello, anyone there",
+    "greeting"
+  ],
+  [
+    "hi there",
+    "greeting"
+  ],
+  [
+    "hola",
+    "greeting"
+  ],
+  [
+        "hey there!",
+        "greeting"
+    ],
+  [
+    "hello",
+    "greeting"
+  ],
+  [
+    "hello there",
+    "greeting"
+  ],
+  [
+    "hya",
+    "greeting"
+  ],
+  [
+    "hya there",
+    "greeting"
+  ],
+  [
+        "hello, ai",
+        "greeting"
+    ],
+    [
+        "hey, ai",
+        "greeting"
+    ],
+  [
+        "hello siri",
+        "greeting"
+    ],
+    [
+        "hi there alexa",
+        "greeting"
+    ],
+    [
+        "wake up, ai",
+        "greeting"
+    ],
+    [
+        "good day",
+        "greeting"
+    ],
+    [
+        "greetings to you",
+        "greeting"
+    ],
+  [
+        "well hello",
+        "greeting"
+    ],
+  [
+        "good evening",
+        "greeting"
+    ],
+    [
+        "yo",
+        "greeting"
+    ],
+  [
+        "hi ai",
+        "greeting"
+    ],
+    [
+        "just wanted to say hi",
+        "greeting"
+    ],
+    [
+        "hello, friend",
+        "greeting"
+    ],
+  [
+        "ahoy hoy",
+        "greeting"
+  ],
+[
+        "good morning",
+        "greeting"
+],
+[
+        "hey assistance",
+        "greeting"
+],
+[
+        "hello assistance",
+        "greeting"
+],
+[
+        "yo what's up",
+        "greeting"
+],
+[
+        "good evening",
+        "greeting"
+],
+  [
+    "good afternoon",
+    "greeting"
+  ],
+  [
+    "greetings",
+    "greeting"
+  ],
+[
+    "how are you?",
+    "courtesygreeting"
+  ],
+  [
+    "hi how are you?",
+    "courtesygreeting"
+  ],
+  [
+        "how are you doing, ai",
+        "courtesygreeting"
+    ],
+  [
+        "hello how's it going",
+        "courtesygreeting"
+    ],
+  [
+        "hi, how are you today",
+        "courtesygreeting"
+    ],
+    [
+        "ai how are you doing today",
+        "courtesygreeting"
+    ],
+  [
+        "hi there, how are things",
+        "courtesygreeting"
+    ],
+  [
+        "hello, how are you",
+        "courtesygreeting"
+    ],
+    [
+        "hey, how's it going",
+        "courtesygreeting"
+    ],
+    [
+        "hello, are you doing alright",
+        "courtesygreeting"
+    ],
+    [
+        "hi! are you doing okay",
+        "courtesygreeting"
+    ],
+  [
+        "hey how's it hanging",
+        "courtesygreeting"
+    ],
+    [
+        "how are you doing today, ai",
+        "courtesygreeting"
+    ],
+    [
+        "how is my ai doing",
+        "courtesygreeting"
+    ],
+  [
+        "how is everything with you",
+        "courtesygreeting"
+    ],
+  [
+        "whats up with you",
+        "courtesygreeting"
+    ],
+  [
+        "whats up",
+        "courtesygreeting"
+    ],
+  [
+        "yo, hows it going",
+        "courtesygreeting"
+    ],
+  [
+    "hello how are you?",
+    "courtesygreeting"
+  ],
+  [
+    "hola how are you?",
+    "courtesygreeting"
+  ],
+  [
+        "how have you been doing",
+        "courtesygreeting"
+    ],
+  [
+        "how are things with you",
+        "courtesygreeting"
+    ],
+  [
+        "what's up",
+        "courtesygreeting"
+    ],
+  [
+        "how're you doing",
+        "courtesygreeting"
+    ],
+  [
+        "is everything going okay",
+        "courtesygreeting"
+    ],
+    [
+        "how is everything going",
+        "courtesygreeting"
+    ],
+  [
+    "how are you doing?",
+    "courtesygreeting"
+  ],
+  [
+    "how's everything",
+    "courtesygreeting"
+  ],
+  [
+    "hello hope you are doing well?",
+    "courtesygreeting"
+  ],
+  [
+    "are you doing okay",
+    "courtesygreeting"
+  ],
+  [
+    "you have been a big help, thank you so much",
+    "thank_you"
+  ],
+  [
+    "i appreciate your help, thank you",
+    "thank_you"
+  ],
+  [
+    "i really appreciate your help, thank you",
+    "thank_you"
+  ],
+  [
+    "i am very grateful",
+    "thank_you"
+  ],
+  [
+    "i appreciate the assistance",
+    "thank_you"
+  ],
+  [
+    "i want to thank you for helping",
+    "thank_you"
+  ],
+  [
+    "much obliged",
+    "thank_you"
+  ],
+  [
+    "your help is appreciated",
+    "thank_you"
+  ],
+  [
+    "gracias",
+    "thank_you"
+  ],
+  [
+    "i appreciate that",
+    "thank_you"
+  ],
+  [
+    "thanks so much!",
+    "thank_you"
+  ],
+  [
+    "many thanks",
+    "thank_you"
+  ],
+  [
+    "appreciate it",
+    "thank_you"
+  ],
+  [
+    "thanks!",
+    "thank_you"
+  ],
+  [
+    "i thank you",
+    "thank_you"
+  ],
+  [
+    "thank you kindly",
+    "thank_you"
+  ],
+  [
+    "thank you so very much",
+    "thank_you"
+  ],
+  [
+    "thank you for helping me",
+    "thank_you"
+  ],
+  [
+    "i'm grateful to you",
+    "thank_you"
+  ],
+  [
+    "you did a good job thank you",
+    "thank_you"
+  ],
+  [
+    "good looking out",
+    "thank_you"
+  ],
+  [
+    "i wish you were here earlier",
+    "thank_you"
+  ],
+  [
+    "it's so much easier with you around",
+    "thank_you"
+  ],
+  [
+    "you've been a great help",
+    "thank_you"
+  ],
+  [
+    "thanks for the help",
+    "thank_you"
+  ],
+  [
+    "thanks please",
+    "thank_you"
+  ],
+  [
+    "why thank you",
+    "thank_you"
+  ],
+  [
+    "thanks for the answer",
+    "thank_you"
+  ],
+  [
+    "thank you very much for the answer",
+    "thank_you"
+  ],
+  [
+    "okay thanks",
+    "thank_you"
+  ],
+  [
+    "thanks a lot",
+    "thank_you"
+  ],
+  [
+    "thanks a lot for the answer",
+    "thank_you"
+  ],
+  [
+    "thank you for the answer",
+    "thank_you"
+  ],
+  [
+    "thank you a lot for that answer",
+    "thank_you"
+  ],
+  [
+    "thanks for helping me!",
+    "thank_you"
+  ],
+  [
+    "i'm so glad you helped me!",
+    "thank_you"
+  ],
+  [
+    "i appreciate your help!",
+    "thank_you"
+  ],
+  [
+    "i am thankful for your help!",
+    "thank_you"
+  ],
+  [
+    "i have much gratitude for your help",
+    "thank_you"
+  ],
+  [
+    "i appreciate your help",
+    "thank_you"
+  ],
+  [
+    "i appreciate you helping me",
+    "thank_you"
+  ],
+  [
+    "awesome, thanks",
+    "thank_you"
+  ],
+  [
+    "thank you so much",
+    "thank_you"
+  ],
+  [
+    "thank you very much for the assistance",
+    "thank_you"
+  ],
+  [
+    "i appreciate it",
+    "thank_you"
+  ],
+  [
+    "thanks again!",
+    "thank_you"
+  ],
+  [
+    "thanks for the info",
+    "thank_you"
+  ],
+  [
+    "thanks for letting me know",
+    "thank_you"
+  ],
+  [
+    "that's all i need, thanks!",
+    "thank_you"
+  ],
+  [
+    "thanks, that's helpful",
+    "thank_you"
+  ],
+  [
+    "thank you for the information",
+    "thank_you"
+  ],
+  [
+    "thanks for answering my question",
+    "thank_you"
+  ],
+  [
+    "your efforts don't go unnoticed",
+    "thank_you"
+  ],
+  [
+    "i appreciate what you did",
+    "thank_you"
+  ],
+  [
+    "you are so thoughtful and i appreciate your gesture",
+    "thank_you"
+  ],
+  [
+    "you are so nice to think of me",
+    "thank_you"
+  ],
+  [
+    "you were so kind to do that",
+    "thank_you"
+  ],
+  [
+    "your answer pleased me",
+    "thank_you"
+  ],
+  [
+    "i'm happy with your answer",
+    "thank_you"
+  ],
+  [
+    "your answer was enjoyable",
+    "thank_you"
+  ],
+  [
+    "your answer was good",
+    "thank_you"
+  ],
+  [
+    "thanks for giving me assistance",
+    "thank_you"
+  ],
+  [
+    "really great!",
+    "thank_you"
+  ],
+  [
+    "appreciate the help",
+    "thank_you"
+  ],
+  [
+    "i'm grateful for the answer you just gave me",
+    "thank_you"
+  ],
+  [
+    "that'll work, good job!",
+    "thank_you"
+  ],
+  [
+    "good answer, thanks for providing it",
+    "thank_you"
+  ],
+  [
+    "i'm grateful for the assistance",
+    "thank_you"
+  ],
+  [
+    "thanks for that!",
+    "thank_you"
+  ],
+  [
+    "good job with assisting me",
+    "thank_you"
+  ],
+  [
+    "nice, excellent!",
+    "thank_you"
+  ],
+  [
+    "i'm grateful",
+    "thank_you"
+  ],
+  [
+    "i appreciate that answer!",
+    "thank_you"
+  ],
+  [
+    "i would like to thank you",
+    "thank_you"
+  ],
+  [
+    "i can not thank you enough",
+    "thank_you"
+  ],
+  [
+    "i need to thank you",
+    "thank_you"
+  ],
+  [
+    "i really thank you",
+    "thank_you"
+  ],
+  [
+    "let me thank you",
+    "thank_you"
+  ],
+  [
+    "thank you!",
+    "thank_you"
+  ],
+  [
+    "thanks for the help!",
+    "thank_you"
+  ],
+  [
+    "you're the best!",
+    "thank_you"
+  ],
+  [
+    "i appreciate that answer",
+    "thank_you"
+  ],
+  [
+    "your answer is appreciated",
+    "thank_you"
+  ],
+  [
+    "i am thankful for the answer",
+    "thank_you"
+  ],
+  [
+    "oh sweet thanks",
+    "thank_you"
+  ],
+  [
+    "oh, thanks",
+    "thank_you"
+  ],
+  [
+    "merci beaucoup",
+    "thank_you"
+  ],
+  [
+    "thanks again",
+    "thank_you"
+  ],
+  [
+    "thanks",
+    "thank_you"
+  ],
+  [
+    "thank you for answering that",
+    "thank_you"
+  ],
+  [
+    "thank you",
+    "thank_you"
+  ],
+  [
+    "thanks for that",
+    "thank_you"
+  ],
+  [
+    "thank you for your time",
+    "thank_you"
+  ],
+  [
+    "i appreciate the help",
+    "thank_you"
+  ],
+  [
+    "thank ya!",
+    "thank_you"
+  ],
+  [
+    "thanks for your response",
+    "thank_you"
+  ],
+  [
+    "youre a doll",
+    "thank_you"
+  ],
+  [
+    "thanks for your cooperation",
+    "thank_you"
+  ],
+  [
+    "i owe you one!",
+    "thank_you"
+  ],
+  [
+    "thanks for helping out",
+    "thank_you"
+  ],
+  [
+    "please, recite to me some good one liners",
+    "tell_joke"
+  ],
+  [
+    "do you know any good jokes about zebras",
+    "tell_joke"
+  ],
+  [
+    "can you tell me any truly funny knock knock jokes",
+    "tell_joke"
+  ],
+  [
+    "what do people find funny about food",
+    "tell_joke"
+  ],
+  [
+    "what are some funny things about food",
+    "tell_joke"
+  ],
+  [
+    "show me something funny about food",
+    "tell_joke"
+  ],
+  [
+    "indicate something funny on the topic of food",
+    "tell_joke"
+  ],
+  [
+    "what's a good joke",
+    "tell_joke"
+  ],
+  [
+    "i'd love to hear a joke",
+    "tell_joke"
+  ],
+  [
+    "can you tell a joke",
+    "tell_joke"
+  ],
+  [
+    "would you tell me a joke",
+    "tell_joke"
+  ],
+  [
+    "how about you tell me a joke",
+    "tell_joke"
+  ],
+  [
+    "will you tell a joke",
+    "tell_joke"
+  ],
+  [
+    "please tell me a joke",
+    "tell_joke"
+  ],
+  [
+    "make me laugh",
+    "tell_joke"
+  ],
+  [
+    "do you have any jokes",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny",
+    "tell_joke"
+  ],
+  [
+    "hit me with a good joke",
+    "tell_joke"
+  ],
+  [
+    "what's the funniest joke you know",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke if you'd like to",
+    "tell_joke"
+  ],
+  [
+    "tell me a funny joke",
+    "tell_joke"
+  ],
+  [
+    "i'd like you to tell me a joke",
+    "tell_joke"
+  ],
+  [
+    "do you know any good jokes",
+    "tell_joke"
+  ],
+  [
+    "know any jokes",
+    "tell_joke"
+  ],
+  [
+    "i wanna hear something funny",
+    "tell_joke"
+  ],
+  [
+    "i would like to listen to a funny joke",
+    "tell_joke"
+  ],
+  [
+    "what jokes do you know",
+    "tell_joke"
+  ],
+  [
+    "could you please tell me a good joke",
+    "tell_joke"
+  ],
+  [
+    "what funny jokes do you know",
+    "tell_joke"
+  ],
+  [
+    "can you make me laugh",
+    "tell_joke"
+  ],
+  [
+    "can you tell me a few funny jokes",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about parenting",
+    "tell_joke"
+  ],
+  [
+    "do you have a list of funny jokes",
+    "tell_joke"
+  ],
+  [
+    "i want to hear something funny",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about animals",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about politics",
+    "tell_joke"
+  ],
+  [
+    "tell me something amusing",
+    "tell_joke"
+  ],
+  [
+    "say something funny",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about adulthood",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about americans",
+    "tell_joke"
+  ],
+  [
+    "could you please share a joke with me",
+    "tell_joke"
+  ],
+  [
+    "i could really use a laugh right now",
+    "tell_joke"
+  ],
+  [
+    "would you like to tell me a joke",
+    "tell_joke"
+  ],
+  [
+    "can you tell me a joke",
+    "tell_joke"
+  ],
+  [
+    "i'd like to hear a joke",
+    "tell_joke"
+  ],
+  [
+    "i want to hear you tell a joke",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about politicians",
+    "tell_joke"
+  ],
+  [
+    "tell me something that'll make me laugh",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about cows",
+    "tell_joke"
+  ],
+  [
+    "do you know anything funny about cats",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about jobs",
+    "tell_joke"
+  ],
+  [
+    "what's the funniest thing you know about artificial intelligence",
+    "tell_joke"
+  ],
+  [
+    "can you tell me a joke about politicians",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about cars",
+    "tell_joke"
+  ],
+  [
+    "can you tell me something funny",
+    "tell_joke"
+  ],
+  [
+    "do you know any good jokes about lawyers",
+    "tell_joke"
+  ],
+  [
+    "what is your favorite funny joke",
+    "tell_joke"
+  ],
+  [
+    "make me laugh with a funny joke",
+    "tell_joke"
+  ],
+  [
+    "what funny joke do you know",
+    "tell_joke"
+  ],
+  [
+    "i want to hear a joke that's funny",
+    "tell_joke"
+  ],
+  [
+    "tell me a dirty joke",
+    "tell_joke"
+  ],
+  [
+    "tell me a non-offensive joke",
+    "tell_joke"
+  ],
+  [
+    "i would like to hear a funny joke",
+    "tell_joke"
+  ],
+  [
+    "look for funny jokes",
+    "tell_joke"
+  ],
+  [
+    "what are some funny jokes",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about pizza",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about people",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about love",
+    "tell_joke"
+  ],
+  [
+    "say something hilarious",
+    "tell_joke"
+  ],
+  [
+    "make me giggle",
+    "tell_joke"
+  ],
+  [
+    "i need a good laugh",
+    "tell_joke"
+  ],
+  [
+    "heard any good jokes lately",
+    "tell_joke"
+  ],
+  [
+    "tell me a pun",
+    "tell_joke"
+  ],
+  [
+    "what's the latest joke you've heard",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about dogs",
+    "tell_joke"
+  ],
+  [
+    "let me know something funny",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about cats",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny now",
+    "tell_joke"
+  ],
+  [
+    "i wanna know something funny",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about rats",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about animals",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about lawyers",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about rats",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about cats",
+    "tell_joke"
+  ],
+  [
+    "tell me something funny about dogs",
+    "tell_joke"
+  ],
+  [
+    "i need to know somthing funny",
+    "tell_joke"
+  ],
+  [
+    "do you have anything funny to tell me",
+    "tell_joke"
+  ],
+  [
+    "do you have any jokes to tell me",
+    "tell_joke"
+  ],
+  [
+    "mind sharing a joke",
+    "tell_joke"
+  ],
+  [
+    "could you share a joke",
+    "tell_joke"
+  ],
+  [
+    "i love dad jokes can you tell me one",
+    "tell_joke"
+  ],
+  [
+    "i would love to hear a joke about the dmv",
+    "tell_joke"
+  ],
+  [
+    "can you tell me some dog jokes",
+    "tell_joke"
+  ],
+  [
+    "please tell me a joke about dinosaurs",
+    "tell_joke"
+  ],
+  [
+    "i'd like to hear a joke about donkeys",
+    "tell_joke"
+  ],
+  [
+    "tell me a joke about baseball",
+    "tell_joke"
+  ],
+  [
+    "what's the funniest thing you know about peanuts",
+    "tell_joke"
+  ],
+  [
+    "i need a good joke about office parties",
+    "tell_joke"
+  ],
+  [
+    "give me a joke about horses",
+    "tell_joke"
+  ],
+   [
+        "goodbye, helpful ai device!",
+        "goodbye"
+    ],
+    [
+        "bye-bye",
+        "goodbye"
+    ],
+    [
+        "goodbye, ai assistant",
+        "goodbye"
+    ],
+    [
+        "glad we got to talk",
+        "goodbye"
+    ],
+    [
+        "nice to speak with you",
+        "goodbye"
+    ],
+    [
+        "this was a great conversation",
+        "goodbye"
+    ],
+    [
+        "talk to you later",
+        "goodbye"
+    ],
+    [
+        "tata for now",
+        "goodbye"
+    ],
+    [
+        "i'm out of here",
+        "goodbye"
+    ],
+    [
+        "that's all, bye",
+        "goodbye"
+    ],
+    [
+        "see ya later",
+        "goodbye"
+    ],
+    [
+        "adios ai",
+        "goodbye"
+    ],
+    [
+        "it was great to see you again, see ya later!",
+        "goodbye"
+    ],
+    [
+        "i had a pleasure talking to you, see you later",
+        "goodbye"
+    ],
+    [
+        "nice talking again, bye",
+        "goodbye"
+    ],
+    [
+        "i have to go but it was nice talking again!",
+        "goodbye"
+    ],
+    [
+        "i am glad we got to talk again, see you soon",
+        "goodbye"
+    ],
+    [
+        "catch you around",
+        "goodbye"
+    ],
+    [
+        "later, thanks for chatting",
+        "goodbye"
+    ],
+    [
+        "see ya",
+        "goodbye"
+    ],
+    [
+        "great chat, talk to you later",
+        "goodbye"
+    ],
+    [
+        "nice talk, talk to you later",
+        "goodbye"
+    ],
+    [
+        "thanks for chatting, later",
+        "goodbye"
+    ],
+    [
+        "goodbye to you",
+        "goodbye"
+    ],
+    [
+        "it is time to say goodbye",
+        "goodbye"
+    ],
+    [
+        "i have to say goodbye",
+        "goodbye"
+    ],
+    [
+        "see you later",
+        "goodbye"
+    ],
+
+    [
+        "it was good chatting",
+        "goodbye"
+    ],
+    [
+        "it was nice chatting with you",
+        "goodbye"
+    ],
+    [
+        "see you later, alligator",
+        "goodbye"
+    ],
+  [
+    "can you guess my name",
+    "user_name"
+  ],
+  [
+    "i want you to guess my name",
+    "user_name"
+  ],
+  [
+    "by what name people call me",
+    "user_name"
+  ],
+  [
+    "do you remember my name",
+    "user_name"
+  ],
+  [
+    "say what you think my name is",
+    "user_name"
+  ],
+  [
+    "show me what you think my name is",
+    "user_name"
+  ],
+  [
+    "tell me what you think my name is",
+    "user_name"
+  ],
+  [
+    "what can you call me",
+    "user_name"
+  ],
+  [
+    "what would you like to call me",
+    "user_name"
+  ],
+  [
+    "what would i be referred to as",
+    "user_name"
+  ],
+  [
+    "what would you like to refer to me as",
+    "user_name"
+  ],
+  [
+    "what do you think you will refer to me as",
+    "user_name"
+  ],
+  [
+    "what will you call me",
+    "user_name"
+  ],
+  [
+    "what will you refer to me as",
+    "user_name"
+  ],
+  [
+    "what are you going to refer to me as",
+    "user_name"
+  ],
+  [
+    "you saved my name how",
+    "user_name"
+  ],
+  [
+    "in what format did you save my name",
+    "user_name"
+  ],
+  [
+    "you wrote what for my name",
+    "user_name"
+  ],
+  [
+    "what did ya save my name as",
+    "user_name"
+  ],
+  [
+    "how did you save my name",
+    "user_name"
+  ],
+  [
+    "what's my name in your system",
+    "user_name"
+  ],
+  [
+    "how is my name listed",
+    "user_name"
+  ],
+  [
+    "the name you have for me is what",
+    "user_name"
+  ],
+  [
+    "what name am i under",
+    "user_name"
+  ],
+  [
+    "call me by my name",
+    "user_name"
+  ],
+  [
+    "tell me my designation",
+    "user_name"
+  ],
+  [
+    "by what nym do you think of me",
+    "user_name"
+  ],
+  [
+    "how do you say my name",
+    "user_name"
+  ],
+  [
+    "what do you know me as",
+    "user_name"
+  ],
+  [
+    "what do you say for my name",
+    "user_name"
+  ],
+  [
+    "what's my name huh",
+    "user_name"
+  ],
+  [
+    "please tell me the name you use for me",
+    "user_name"
+  ],
+  [
+    "what name do you use to talk about me",
+    "user_name"
+  ],
+  [
+    "how do you reference me",
+    "user_name"
+  ],
+  [
+    "who do you think i am",
+    "user_name"
+  ],
+  [
+    "can you tell me what you refer to me as",
+    "user_name"
+  ],
+  [
+    "what am i called by you",
+    "user_name"
+  ],
+  [
+    "what is my name saved as in your system",
+    "user_name"
+  ],
+  [
+    "do you have any idea what my name is",
+    "user_name"
+  ],
+  [
+    "can you tell me what my name is",
+    "user_name"
+  ],
+  [
+    "what is the name you associate with me",
+    "user_name"
+  ],
+  [
+    "what name do you have listed for me",
+    "user_name"
+  ],
+  [
+    "what is the name you have listed for my identity",
+    "user_name"
+  ],
+  [
+    "what do you refer to me as",
+    "user_name"
+  ],
+  [
+    "what name do you know me by",
+    "user_name"
+  ],
+  [
+    "how do you address me",
+    "user_name"
+  ],
+  [
+    "tell me what you believe my name to be",
+    "user_name"
+  ],
+  [
+    "what am i known as to you",
+    "user_name"
+  ],
+  [
+    "what do you think i am called",
+    "user_name"
+  ],
+  [
+    "tell me your guess of what my name is",
+    "user_name"
+  ],
+  [
+    "can you tell me what you call me",
+    "user_name"
+  ],
+  [
+    "what do you have my name saved under",
+    "user_name"
+  ],
+  [
+    "what's my name saved under",
+    "user_name"
+  ],
+  [
+    "what's my name",
+    "user_name"
+  ],
+  [
+    "what name do you call me",
+    "user_name"
+  ],
+  [
+    "what is my name",
+    "user_name"
+  ],
+  [
+    "what is my name saved under",
+    "user_name"
+  ],
+  [
+    "what is the name that you have for me, please",
+    "user_name"
+  ],
+  [
+    "what is the name that you have for me",
+    "user_name"
+  ],
+  [
+    "what name do you call me by",
+    "user_name"
+  ],
+
+  [
+    "what do you have me saved under",
+    "user_name"
+  ],
+  [
+    "what's the name that you have for me, please",
+    "user_name"
+  ],
+  [
+    "what is my name saved as",
+    "user_name"
+  ],
+  [
+    "what name do you refer to me as",
+    "user_name"
+  ],
+  [
+    "what might my name be",
+    "user_name"
+  ],
+  [
+    "can you tell me my name",
+    "user_name"
+  ],
+  [
+    "if you were smart, would you know my name",
+    "user_name"
+  ],
+  [
+    "do you call me a certain name",
+    "user_name"
+  ],
+  [
+    "do i have a name to you",
+    "user_name"
+  ],
+  [
+    "what is your name for me",
+    "user_name"
+  ],
+  [
+    "i want you to let me know what names you have for me",
+    "user_name"
+  ],
+  [
+    "could you let me know what names you have for me",
+    "user_name"
+  ],
+  [
+    "would you tell me what names you have for me",
+    "user_name"
+  ],
+  [
+    "let me know what names you have for me",
+    "user_name"
+  ],
+  [
+    "i need to know what names you have for me",
+    "user_name"
+  ],
+  [
+    "do you my name",
+    "user_name"
+  ],
+  [
+    "do you know how to refer to me",
+    "user_name"
+  ],
+  [
+    "can you tell me what your refer to me as",
+    "user_name"
+  ],
+  [
+    "my name is what",
+    "user_name"
+  ],
+  [
+    "do you know what you call me",
+    "user_name"
+  ],
+  [
+    "what is the name you call me",
+    "user_name"
+  ],
+  [
+    "what name is mine",
+    "user_name"
+  ],
+  [
+    "you have what name for me",
+    "user_name"
+  ],
+  [
+    "so what is my name saved as",
+    "user_name"
+  ],
+  [
+    "so what is my current name saved as",
+    "user_name"
+  ],
+  [
+    "i wanna know what do you call me",
+    "user_name"
+  ],
+  [
+    "let me know the name you have for me",
+    "user_name"
+  ],
+  [
+    "so what name do you have for me",
+    "user_name"
+  ],
+  [
+    "let me know what do you call me",
+    "user_name"
+  ],
+  [
+    "do you know my name",
+    "user_name"
+  ],
+  [
+    "say my user name",
+    "user_name"
+  ],
+  [
+    "what is my user name",
+    "user_name"
+  ],
+  [
+    "do you still remember my name",
+    "user_name"
+  ],
+  [
+    "do you remember my name",
+    "user_name"
+  ],
+  [
+    "okay now, what is my name",
+    "user_name"
+  ],
+  [
+    "now tell me my name, do you remember it",
+    "user_name"
+  ],
+  [
+    "say my name again",
+    "user_name"
+  ],
+  [
+    "now do you know my name",
+    "user_name"
+  ],
+  [
+    "now call my name",
+    "user_name"
+  ],
+  [
+    "what was my name, do you remember it",
+    "user_name"
+  ],
+  [
+    "what time is it in punta gorda, florida",
+    "time"
+  ],
+  [
+    "what time is it in glenwood springs, co",
+    "time"
+  ],
+  [
+    "what time is it in fredericksburg, tx",
+    "time"
+  ],
+  [
+    "what time is it in las vegas, nv",
+    "time"
+  ],
+  [
+    "what time is it in houston, tx",
+    "time"
+  ],
+  [
+    "i need to know the current time in the central timezone",
+    "time"
+  ],
+  [
+    "would you tell me the current time in the eastern timezone",
+    "time"
+  ],
+  [
+    "let me know the current time in the central timezone",
+    "time"
+  ],
+  [
+    "tell me what time it is in the central timezone",
+    "time"
+  ],
+  [
+    "i am needing to know the current time in the eastern timezone",
+    "time"
+  ],
+  [
+    "what is the time right now in the hst timezone",
+    "time"
+  ],
+  [
+    "can you tell me the current time",
+    "time"
+  ],
+  [
+    "what is the current time in cst",
+    "time"
+  ],
+  [
+    "i need to know what time it is in florida",
+    "time"
+  ],
+  [
+    "what is the time right now",
+    "time"
+  ],
+  [
+    "in the mst time zone, what time is it right now",
+    "time"
+  ],
+  [
+    "tell me what time it is right now",
+    "time"
+  ],
+  [
+    "can you tell me the current time in the pacific timezone",
+    "time"
+  ],
+  [
+    "look up the time in california",
+    "time"
+  ],
+  [
+    "what is the current est time",
+    "time"
+  ],
+  [
+    "can you tell me what time it is please",
+    "time"
+  ],
+  [
+    "what time is it getting to be",
+    "time"
+  ],
+  [
+    "what time do you have on your watch",
+    "time"
+  ],
+  [
+    "what time would it be in rome right now",
+    "time"
+  ],
+  [
+    "what's the time in london",
+    "time"
+  ],
+  [
+    "what's the time set to in florida right now",
+    "time"
+  ],
+  [
+    "what time is it currently in istanbul",
+    "time"
+  ],
+  [
+    "what time is it right now in paris",
+    "time"
+  ],
+  [
+    "what's the time right now",
+    "time"
+  ],
+  [
+    "current time, please",
+    "time"
+  ],
+  [
+    "would you mind telling me the time",
+    "time"
+  ],
+  [
+    "can you give me the time",
+    "time"
+  ],
+  [
+    "please let me know what time it is",
+    "time"
+  ],
+  [
+    "what is the exact time right now in the hawaii time zone",
+    "time"
+  ],
+  [
+    "what is the time",
+    "time"
+  ],
+  [
+    "what is the time right now in the peruvian time zone",
+    "time"
+  ],
+  [
+    "what is the exact time",
+    "time"
+  ],
+  [
+    "what time is it exactly in the new zealand time zone",
+    "time"
+  ],
+  [
+    "what is the exact time in the ist time zone",
+    "time"
+  ],
+  [
+    "what is the time in the utc timezone",
+    "time"
+  ],
+  [
+    "what time is it exactly",
+    "time"
+  ],
+  [
+    "what is the time now",
+    "time"
+  ],
+  [
+    "what time is it in russia",
+    "time"
+  ],
+  [
+    "what time is it",
+    "time"
+  ],
+  [
+    "what is the time in sydney, australia",
+    "time"
+  ],
+  [
+    "what time is it in honolulu",
+    "time"
+  ],
+  [
+    "what's the current time in greenwhich please",
+    "time"
+  ],
+  [
+    "what's the current time in est",
+    "time"
+  ],
+  [
+    "what time is it on the pacific coast right now",
+    "time"
+  ],
+  [
+    "given my time, what time is it in mst",
+    "time"
+  ],
+  [
+    "have you the time",
+    "time"
+  ],
+  [
+    "when is it right now",
+    "time"
+  ],
+  [
+    "what hour and minute is it",
+    "time"
+  ],
+  [
+    "what time is it right now in cst",
+    "time"
+  ],
+  [
+    "what time is it in the eastern standard timezone",
+    "time"
+  ],
+  [
+    "what time is it in the pacific standard timezone",
+    "time"
+  ],
+  [
+    "what time is it in the alaska standard timezone",
+    "time"
+  ],
+  [
+    "what time is it in the central standard timezone",
+    "time"
+  ],
+  [
+    "what time is it in the mountain standard timezone",
+    "time"
+  ],
+  [
+    "now what is the time",
+    "time"
+  ],
+  [
+    "at the moment what is the time, please",
+    "time"
+  ],
+  [
+    "i want to know the time",
+    "time"
+  ],
+  [
+    "what time is it now",
+    "time"
+  ],
+  [
+    "do you know the current time in southern california",
+    "time"
+  ],
+  [
+    "what is the current time in china",
+    "time"
+  ],
+  [
+    "what is the current time in mexico city",
+    "time"
+  ],
+  [
+    "what is the current time in new york",
+    "time"
+  ],
+  [
+    "what is the current time in istanbul",
+    "time"
+  ],
+  [
+    "what time is it in buenos aires",
+    "time"
+  ],
+  [
+    "what time is it in north korea",
+    "time"
+  ],
+  [
+    "what does it say on the clock",
+    "time"
+  ],
+  [
+    "in tokyo, what's the time",
+    "time"
+  ],
+  [
+    "in tokyo, what time is it, please",
+    "time"
+  ],
+  [
+    "what's the time in tokyo",
+    "time"
+  ],
+  [
+    "time in tokyo",
+    "time"
+  ],
+  [
+    "what time is it in tokyo",
+    "time"
+  ],
+  [
+    "the time please",
+    "time"
+  ],
+  [
+    "i want to know what time it is, please",
+    "time"
+  ],
+  [
+    "can you tell me the time",
+    "time"
+  ],
+  [
+    "i would like to know the time, please",
+    "time"
+  ],
+  [
+    "i need to know the time",
+    "time"
+  ],
+  [
+    "the current time",
+    "time"
+  ],
+  [
+    "in the eastern timezone, what time is it now",
+    "time"
+  ],
+  [
+    "in the central timezone, what time is it",
+    "time"
+  ],
+  [
+    "what's the current time now cst",
+    "time"
+  ],
+  [
+    "in pacific time, what's the current time",
+    "time"
+  ],
+  [
+    "what time is it now pacific time",
+    "time"
+  ],
+  [
+    "what is the current time, please",
+    "time"
+  ],
+  [
+    "what's the current time, please",
+    "time"
+  ],
+  [
+    "what is the time, please",
+    "time"
+  ],
+  [
+    "how is the time",
+    "time"
+  ],
+  [
+    "please tell me the time",
+    "time"
+  ],
+  [
+    "what time is it in london",
+    "time"
+  ],
+  [
+    "what time is it in new york",
+    "time"
+  ],
+  [
+    "what time is it in paris",
+    "time"
+  ],
+  [
+    "what time is it in daniel boone national forest timezone",
+    "time"
+  ],
+  [
+    "what is the time in atlantic timezone",
+    "time"
+  ],
+  [
+    "what's the time in anchorage timezone",
+    "time"
+  ],
+  [
+    "in bst timezone, what time is it",
+    "time"
+  ],
+  [
+    "do you have the time",
+    "time"
+  ],
+  [
+    "please set a 4 minute timer",
+    "timer"
+  ],
+  [
+    "please set a timer for 6 minutes",
+    "timer"
+  ],
+  [
+    "set a timer for 5 minutes",
+    "timer"
+  ],
+  [
+    "i need a 7 minute timer",
+    "timer"
+  ],
+  [
+    "i need to set the timer for two minutes",
+    "timer"
+  ],
+  [
+    "can you set a timer for me for fifteen minutes starting now",
+    "timer"
+  ],
+  [
+    "start the timer now and stop at thirty minutes",
+    "timer"
+  ],
+  [
+    "i would like you to set the timer to go off in ten minutes",
+    "timer"
+  ],
+  [
+    "please set a timer for 40 minutes",
+    "timer"
+  ],
+  [
+    "wake me in an hour",
+    "timer"
+  ],
+  [
+    "please set a timer for cookies",
+    "timer"
+  ],
+  [
+    "i want a timer set",
+    "timer"
+  ],
+  [
+    "remind me in (x) hours",
+    "timer"
+  ],
+  [
+    "set timer for (x) minutes",
+    "timer"
+  ],
+  [
+    "i gotta have a 10 minute timer, please",
+    "timer"
+  ],
+  [
+    "please set a timer for me",
+    "timer"
+  ],
+  [
+    "i need a 10 minute timer",
+    "timer"
+  ],
+  [
+    "i wish to have a 10 minute timer",
+    "timer"
+  ],
+  [
+    "i really need to set a timer",
+    "timer"
+  ],
+  [
+    "set a new timer for ten seconds",
+    "timer"
+  ],
+  [
+    "set a timer for me",
+    "timer"
+  ],
+  [
+    "i want a 10 minute timer",
+    "timer"
+  ],
+  [
+    "i gotta set a timer",
+    "timer"
+  ],
+  [
+    "set a 10 minute timer",
+    "timer"
+  ],
+  [
+    "set a brand new timer for eight seconds",
+    "timer"
+  ],
+  [
+    "set a ten second timer",
+    "timer"
+  ],
+  [
+    "i must set a timer",
+    "timer"
+  ],
+  [
+    "set a timer for twelve seconds",
+    "timer"
+  ],
+  [
+    "set a timer for fifteen seconds",
+    "timer"
+  ],
+  [
+    "tell me when two minutes are up",
+    "timer"
+  ],
+  [
+    "start a timer for two minutes",
+    "timer"
+  ],
+  [
+    "set a timer for two minutes",
+    "timer"
+  ],
+  [
+    "start counting down from two minutes",
+    "timer"
+  ],
+  [
+    "can you set a timer for two minutes",
+    "timer"
+  ],
+  [
+    "\"please set 5 minute timer",
+    "timer"
+  ],
+  [
+    "can u please set the timer for 5 minutes",
+    "timer"
+  ],
+  [
+    "set timer of 5 minutes",
+    "timer"
+  ],
+  [
+    "\"can u set a timer for 5 minutes",
+    "timer"
+  ],
+  [
+    "set a one hour timer",
+    "timer"
+  ],
+  [
+    "please set a timer for 20 minutes",
+    "timer"
+  ],
+  [
+    "set a five minute timer please",
+    "timer"
+  ],
+  [
+    "set a timer for two hours",
+    "timer"
+  ],
+  [
+    "can you set a two hour timer",
+    "timer"
+  ],
+  [
+    "set the timer for me please, please",
+    "timer"
+  ],
+  [
+    "you need to set the timer for me",
+    "timer"
+  ],
+  [
+    "i need you to set timer for me",
+    "timer"
+  ],
+  [
+    "please set the timer for me",
+    "timer"
+  ],
+  [
+    "i would like a timer set",
+    "timer"
+  ],
+  [
+    "can you set a timer",
+    "timer"
+  ],
+  [
+    "i need you to set a time",
+    "timer"
+  ],
+  [
+    "i need a timer set for 15 minutes",
+    "timer"
+  ],
+  [
+    "start a countdown for 20 minutes",
+    "timer"
+  ],
+  [
+    "set a timer for 15 minutes",
+    "timer"
+  ],
+  [
+    "i'll need you to set a timer for 10 minutes",
+    "timer"
+  ],
+  [
+    "let's get a timer set for 5 minutes, please",
+    "timer"
+  ],
+  [
+    "set a timer for 35 minutes",
+    "timer"
+  ],
+  [
+    "please start counting down from 10 minutes",
+    "timer"
+  ],
+  [
+    "let's get a timer going for 10 minutes",
+    "timer"
+  ],
+  [
+    "i need a timer for 20 seconds",
+    "timer"
+  ],
+  [
+    "timer 5 minutes",
+    "timer"
+  ],
+  [
+    "alert me in 20 minutes",
+    "timer"
+  ],
+  [
+    "give me a 10 minute countdown",
+    "timer"
+  ],
+  [
+    "let me know in 15 minutes please",
+    "timer"
+  ],
+  [
+    "i'm cooking an egg, timer for 3 mins",
+    "timer"
+  ],
+  [
+    "10 minute timer",
+    "timer"
+  ],
+  [
+    "start a timer for 10 minutes",
+    "timer"
+  ],
+  [
+    "timer 10 minutes",
+    "timer"
+  ],
+  [
+    "count down 10 minutes",
+    "timer"
+  ],
+  [
+    "make up a timer for me",
+    "timer"
+  ],
+  [
+    "create a timer for me",
+    "timer"
+  ],
+  [
+    "can you set a timer for me",
+    "timer"
+  ],
+  [
+    "i need to set a timer",
+    "timer"
+  ],
+  [
+    "set up a timer",
+    "timer"
+  ],
+  [
+    "could you start a timer for me",
+    "timer"
+  ],
+  [
+    "lets set a timer for me",
+    "timer"
+  ],
+  [
+    "please run a timer for me",
+    "timer"
+  ],
+  [
+    "set a one minute timer",
+    "timer"
+  ],
+  [
+    "set a five minute timer",
+    "timer"
+  ],
+  [
+    "set a seven minute timer, please",
+    "timer"
+  ],
+  [
+    "start a timer for me",
+    "timer"
+  ],
+  [
+    "set a four minute timer",
+    "timer"
+  ],
+  [
+    "set a six minute timer",
+    "timer"
+  ],
+  [
+    "how do i set a timer",
+    "timer"
+  ],
+  [
+    "i want a timer for 5 minutes",
+    "timer"
+  ],
+  [
+    "timer for 5 minutes",
+    "timer"
+  ],
+  [
+    "set a timer to go off in 5 minutes, please",
+    "timer"
+  ],
+  [
+    "set timer for 5 minutes",
+    "timer"
+  ],
+  [
+    "i want to set a timer",
+    "timer"
+  ],
+  [
+    "make a timer for 5 minutes",
+    "timer"
+  ],
+  [
+    "please set a timer for",
+    "timer"
+  ],
+  [
+    "remind me that time is up in sixty minutes",
+    "timer"
+  ],
+  [
+    "set an alarm for nine minutes from now, please",
+    "timer"
+  ],
+  [
+    "tell me when ninety minutes have passed",
+    "timer"
+  ],
+  [
+    "please set timer for 4 pm",
+    "timer"
+  ],
+  [
+    "want 5 minute timer",
+    "timer"
+  ],
+  [
+    "set 30 minute timer",
+    "timer"
+  ],
+  [
+    "get a 3 minute timer",
+    "timer"
+  ],
+  [
+    "please, can you set the timer for me",
+    "timer"
+  ],
+  [
+    "can you please the timer",
+    "timer"
+  ],
+  [
+    "will you set the timer, please",
+    "timer"
+  ],
+  [
+    "could you speak louder",
+    "volumeup"
+  ],
+  [
+    "can you speak louder",
+    "volumeup"
+  ],
+  [
+    "will you speak louder",
+    "volumeup"
+  ],
+  [
+    "you speak louder",
+    "volumeup"
+  ],
+  [
+    "can  speak louder",
+    "volumeup"
+  ],
+  [
+    "you talk louder",
+    "volumeup"
+  ],
+  [
+    "can you speak more loud",
+    "volumeup"
+  ],
+  [
+    "will you speak more loud",
+    "volumeup"
+  ],
+  [
+    "will  speak more loud",
+    "volumeup"
+  ],
+  [
+    "will you talk more loud",
+    "volumeup"
+  ],
+  [
+    "you talk more loud",
+    "volumeup"
+  ],
+  [
+    "would you speak higher",
+    "volumeup"
+  ],
+  [
+    "you speak higher",
+    "volumeup"
+  ],
+  [
+    "could  speak higher",
+    "volumeup"
+  ],
+  [
+    "would  speak higher",
+    "volumeup"
+  ],
+  [
+    "could you talk higher",
+    "volumeup"
+  ],
+  [
+    "will  talk higher",
+    "volumeup"
+  ],
+  [
+    "i can't hear you",
+    "volumeup"
+  ],
+  [
+    "you are speaking too quiet",
+    "volumeup"
+  ],
+  [
+    "would you speak louder",
+    "volumeup"
+  ],
+  [
+    "could  speak louder",
+    "volumeup"
+  ],
+  [
+    "will  speak louder",
+    "volumeup"
+  ],
+  [
+    "would  speak louder",
+    "volumeup"
+  ],
+  [
+    "speak louder",
+    "volumeup"
+  ],
+  [
+    "could you talk louder",
+    "volumeup"
+  ],
+  [
+    "can you talk louder",
+    "volumeup"
+  ],
+  [
+    "will you talk louder",
+    "volumeup"
+  ],
+  [
+    "would you talk louder",
+    "volumeup"
+  ],
+  [
+    "could  talk louder",
+    "volumeup"
+  ],
+  [
+    "can  talk louder",
+    "volumeup"
+  ],
+  [
+    "will  talk louder",
+    "volumeup"
+  ],
+  [
+    "would  talk louder",
+    "volumeup"
+  ],
+  [
+    "talk louder",
+    "volumeup"
+  ],
+  [
+    "could you speak more loud",
+    "volumeup"
+  ],
+  [
+    "would you speak more loud",
+    "volumeup"
+  ],
+  [
+    "you speak more loud",
+    "volumeup"
+  ],
+  [
+    "could  speak more loud",
+    "volumeup"
+  ],
+  [
+    "can  speak more loud",
+    "volumeup"
+  ],
+  [
+    "would  speak more loud",
+    "volumeup"
+  ],
+  [
+    "speak more loud",
+    "volumeup"
+  ],
+  [
+    "could you talk more loud",
+    "volumeup"
+  ],
+  [
+    "can you talk more loud",
+    "volumeup"
+  ],
+  [
+    "would you talk more loud",
+    "volumeup"
+  ],
+  [
+    "could  talk more loud",
+    "volumeup"
+  ],
+  [
+    "can  talk more loud",
+    "volumeup"
+  ],
+  [
+    "will  talk more loud",
+    "volumeup"
+  ],
+  [
+    "would  talk more loud",
+    "volumeup"
+  ],
+  [
+    "talk more loud",
+    "volumeup"
+  ],
+  [
+    "could you speak higher",
+    "volumeup"
+  ],
+  [
+    "can you speak higher",
+    "volumeup"
+  ],
+  [
+    "will you speak higher",
+    "volumeup"
+  ],
+  [
+    "can  speak higher",
+    "volumeup"
+  ],
+  [
+    "will  speak higher",
+    "volumeup"
+  ],
+  [
+    "speak higher",
+    "volumeup"
+  ],
+  [
+    "can you talk higher",
+    "volumeup"
+  ],
+  [
+    "will you talk higher",
+    "volumeup"
+  ],
+  [
+    "would you talk higher",
+    "volumeup"
+  ],
+  [
+    "you talk higher",
+    "volumeup"
+  ],
+  [
+    "could  talk higher",
+    "volumeup"
+  ],
+  [
+    "can  talk higher",
+    "volumeup"
+  ],
+  [
+    "would  talk higher",
+    "volumeup"
+  ],
+  [
+    "talk higher",
+    "volumeup"
+  ],
+  [
+    "i can't hear you very well",
+    "volumeup"
+  ],
+  [
+    "i can't hear you  well",
+    "volumeup"
+  ],
+  [
+    "i can't hear you very",
+    "volumeup"
+  ],
+  [
+    "you are talking too quiet",
+    "volumeup"
+  ],
+  [
+    "you are  too quiet",
+    "volumeup"
+  ],
+  [
+    "you are speaking too low",
+    "volumeup"
+  ],
+  [
+    "you are talking too low",
+    "volumeup"
+  ],
+  [
+    "you are  too low",
+    "volumeup"
+  ],
+  [
+    "you are speaking too quietly",
+    "volumeup"
+  ],
+  [
+    "you are talking too quietly",
+    "volumeup"
+  ],
+  [
+    "you are  too quietly",
+    "volumeup"
+  ],
+  [
+    "volume up",
+    "volumeup"
+  ],
+  [
+    "volume up please",
+    "volumeup"
+  ],
+  [
+    "raise the volume please",
+    "volumeup"
+  ],
+  [
+    "volume louder",
+    "volumeup"
+  ],
+  [
+    "more volume",
+    "volumeup"
+  ],
+  [
+    "increase the volume",
+    "volumeup"
+  ],
+  [
+    "boost the volume",
+    "volumeup"
+  ],
+[
+    "you speak quiet",
+    "volumedown"
+  ],
+  [
+    "will  speak quiet",
+    "volumedown"
+  ],
+  [
+    "would you talk quiet",
+    "volumedown"
+  ],
+  [
+    "could  talk quiet",
+    "volumedown"
+  ],
+  [
+    "would  talk quiet",
+    "volumedown"
+  ],
+  [
+    "will  speak more quiet",
+    "volumedown"
+  ],
+  [
+    "would  speak more quiet",
+    "volumedown"
+  ],
+  [
+    "will you talk more quiet",
+    "volumedown"
+  ],
+  [
+    "you talk more quiet",
+    "volumedown"
+  ],
+  [
+    "would  talk more quiet",
+    "volumedown"
+  ],
+  [
+    "could you speak less loud",
+    "volumedown"
+  ],
+  [
+    "would you speak less loud",
+    "volumedown"
+  ],
+  [
+    "could you talk less loud",
+    "volumedown"
+  ],
+  [
+    "would you talk less loud",
+    "volumedown"
+  ],
+  [
+    "you talk less loud",
+    "volumedown"
+  ],
+  [
+    "would you speak quieter",
+    "volumedown"
+  ],
+  [
+    "can  speak quieter",
+    "volumedown"
+  ],
+  [
+    "would  speak quieter",
+    "volumedown"
+  ],
+  [
+    "could you talk quieter",
+    "volumedown"
+  ],
+  [
+    "will  talk quieter",
+    "volumedown"
+  ],
+  [
+    "will you speak silently",
+    "volumedown"
+  ],
+  [
+    "could  speak silently",
+    "volumedown"
+  ],
+  [
+    "can  speak silently",
+    "volumedown"
+  ],
+  [
+    "speak silently",
+    "volumedown"
+  ],
+  [
+    "would you talk silently",
+    "volumedown"
+  ],
+  [
+    "will  talk silently",
+    "volumedown"
+  ],
+  [
+    "will you speak down",
+    "volumedown"
+  ],
+  [
+    "you talk down",
+    "volumedown"
+  ],
+  [
+    "will  talk down",
+    "volumedown"
+  ],
+  [
+    "would  talk down",
+    "volumedown"
+  ],
+  [
+    "talk down",
+    "volumedown"
+  ],
+  [
+    "could you speak quiet",
+    "volumedown"
+  ],
+  [
+    "can you speak quiet",
+    "volumedown"
+  ],
+  [
+    "will you speak quiet",
+    "volumedown"
+  ],
+  [
+    "would you speak quiet",
+    "volumedown"
+  ],
+  [
+    "could  speak quiet",
+    "volumedown"
+  ],
+  [
+    "can  speak quiet",
+    "volumedown"
+  ],
+  [
+    "would  speak quiet",
+    "volumedown"
+  ],
+  [
+    "speak quiet",
+    "volumedown"
+  ],
+  [
+    "could you talk quiet",
+    "volumedown"
+  ],
+  [
+    "can you talk quiet",
+    "volumedown"
+  ],
+  [
+    "will you talk quiet",
+    "volumedown"
+  ],
+  [
+    "you talk quiet",
+    "volumedown"
+  ],
+  [
+    "can  talk quiet",
+    "volumedown"
+  ],
+  [
+    "will  talk quiet",
+    "volumedown"
+  ],
+  [
+    "talk quiet",
+    "volumedown"
+  ],
+  [
+    "could you speak more quiet",
+    "volumedown"
+  ],
+  [
+    "can you speak more quiet",
+    "volumedown"
+  ],
+  [
+    "will you speak more quiet",
+    "volumedown"
+  ],
+  [
+    "would you speak more quiet",
+    "volumedown"
+  ],
+  [
+    "you speak more quiet",
+    "volumedown"
+  ],
+  [
+    "could  speak more quiet",
+    "volumedown"
+  ],
+  [
+    "can  speak more quiet",
+    "volumedown"
+  ],
+  [
+    "speak more quiet",
+    "volumedown"
+  ],
+  [
+    "could you talk more quiet",
+    "volumedown"
+  ],
+  [
+    "can you talk more quiet",
+    "volumedown"
+  ],
+  [
+    "would you talk more quiet",
+    "volumedown"
+  ],
+  [
+    "could  talk more quiet",
+    "volumedown"
+  ],
+  [
+    "can  talk more quiet",
+    "volumedown"
+  ],
+  [
+    "will  talk more quiet",
+    "volumedown"
+  ],
+  [
+    "talk more quiet",
+    "volumedown"
+  ],
+  [
+    "can you speak less loud",
+    "volumedown"
+  ],
+  [
+    "will you speak less loud",
+    "volumedown"
+  ],
+  [
+    "you speak less loud",
+    "volumedown"
+  ],
+  [
+    "could  speak less loud",
+    "volumedown"
+  ],
+  [
+    "can  speak less loud",
+    "volumedown"
+  ],
+  [
+    "will  speak less loud",
+    "volumedown"
+  ],
+  [
+    "would  speak less loud",
+    "volumedown"
+  ],
+  [
+    "speak less loud",
+    "volumedown"
+  ],
+  [
+    "can you talk less loud",
+    "volumedown"
+  ],
+  [
+    "will you talk less loud",
+    "volumedown"
+  ],
+  [
+    "could  talk less loud",
+    "volumedown"
+  ],
+  [
+    "can  talk less loud",
+    "volumedown"
+  ],
+  [
+    "will  talk less loud",
+    "volumedown"
+  ],
+  [
+    "would  talk less loud",
+    "volumedown"
+  ],
+  [
+    "talk less loud",
+    "volumedown"
+  ],
+  [
+    "could you speak quieter",
+    "volumedown"
+  ],
+  [
+    "will you talk quieter",
+    "volumedown"
+  ],
+  [
+    "would you talk quieter",
+    "volumedown"
+  ],
+  [
+    "can  talk quieter",
+    "volumedown"
+  ],
+  [
+    "would  talk quieter",
+    "volumedown"
+  ],
+  [
+    "talk quieter",
+    "volumedown"
+  ],
+  [
+    "could you speak down",
+    "volumedown"
+  ],
+  [
+    "can you speak down",
+    "volumedown"
+  ],
+  [
+    "would you speak down",
+    "volumedown"
+  ],
+  [
+    "you speak down",
+    "volumedown"
+  ],
+  [
+    "could  speak down",
+    "volumedown"
+  ],
+  [
+    "can  speak down",
+    "volumedown"
+  ],
+  [
+    "will  speak down",
+    "volumedown"
+  ],
+  [
+    "would  speak down",
+    "volumedown"
+  ],
+  [
+    "speak down",
+    "volumedown"
+  ],
+  [
+    "could you talk down",
+    "volumedown"
+  ],
+  [
+    "can you talk down",
+    "volumedown"
+  ],
+  [
+    "will you talk down",
+    "volumedown"
+  ],
+  [
+    "would you talk down",
+    "volumedown"
+  ],
+  [
+    "could  talk down",
+    "volumedown"
+  ],
+  [
+    "can  talk down",
+    "volumedown"
+  ],
+  [
+    "volume down",
+    "volumedown"
+  ],
+  [
+    "decrease the volume",
+    "volumedown"
+  ],
+  [
+    "reduce the sound please",
+    "volumedown"
+  ],
+  [
+    "take a screenshot",
+    "screenshot"
+  ],
+  [
+    "make a screenshot",
+    "screenshot"
+  ],
+  [
+    "have a screenshot",
+    "screenshot"
+  ],
+  [
+    "save the screen",
+    "screenshot"
+  ],
+  [
+    "take a snap of the screen",
+    "screenshot"
+  ],
+  [
+    "take a screen of this",
+    "screenshot"
+  ],
+  [
+    "screenshot this",
+    "screenshot"
+  ],
+  [
+    "save this screen",
+    "screenshot"
+  ],
+  [
+    "i wan you to take screenshot of this",
+    "screenshot"
+  ],
+  [
+    "can you screen this please",
+    "screenshot"
+  ],
+  [
+    "i wan this for a screenshot",
+    "screenshot"
+  ],
+  [
+    "hey ai, screenshot",
+    "screenshot"
+  ],
+  [
+    "yo assistance screenshot please",
+    "screenshot"
+  ],
+  [
+    "i wan to take a screenshot of this",
+    "screenshot"
+  ],
+  [
+    "save what the screen is showing",
+    "screenshot"
+  ],
+  [
+    "let's save this screen",
+    "screenshot"
+  ],
+  [
+    "i want this screen save please assistance",
+    "screenshot"
+  ],
+  [
+    "i want a screenshot alexa",
+    "screenshot"
+  ],
+  [
+    "make a screen shot siri",
+    "screenshot"
+  ],
+  [
+    "make a screen shot ai",
+    "screenshot"
+  ],
+  [
+    "what is 7 x 7",
+    "calculator"
+  ],
+  [
+    "please add 456 and 781 for me",
+    "calculator"
+  ],
+  [
+    "what is 8 factorial",
+    "calculator"
+  ],
+  [
+    "can you tell me what 30% off 279 is",
+    "calculator"
+  ],
+  [
+    "can you tell me what 30% off 235 is, please",
+    "calculator"
+  ],
+  [
+    "what is the sum of 3 plus 5",
+    "calculator"
+  ],
+  [
+    "could you tell me what 30% off 235 is, please",
+    "calculator"
+  ],
+  [
+    "can you tell me what 30% off 235 is",
+    "calculator"
+  ],
+  [
+    "can you tell me what 30% off 279 is, please",
+    "calculator"
+  ],
+  [
+    "what is the sum of 10 plus 5",
+    "calculator"
+  ],
+  [
+    "what is 4 + 4",
+    "calculator"
+  ],
+  [
+    "what is 60 percent off of 350 dollars",
+    "calculator"
+  ],
+  [
+    "what is an 18 percent tip on 20 dollars",
+    "calculator"
+  ],
+  [
+    "what is 25 percent of 6999",
+    "calculator"
+  ],
+  [
+    "can you tell me what is 18 percent of $2500",
+    "calculator"
+  ],
+  [
+    "what is 3/4 of 18",
+    "calculator"
+  ],
+  [
+    "i need to know what is 85% of $1500",
+    "calculator"
+  ],
+  [
+    "what is 20% of a thousand",
+    "calculator"
+  ],
+  [
+    "what is 55 times 300",
+    "calculator"
+  ],
+  [
+    "what is the square root of 1 million",
+    "calculator"
+  ],
+  [
+    "will you help me with a math problem",
+    "calculator"
+  ],
+  [
+    "can you help me solve a math problem",
+    "calculator"
+  ],
+  [
+    "how to solve this math problem",
+    "calculator"
+  ],
+  [
+    "what is 4 + 7",
+    "calculator"
+  ],
+  [
+    "what is 4 x 4",
+    "calculator"
+  ],
+  [
+    "what is 2 + 2",
+    "calculator"
+  ],
+  [
+    "what is 20+ 5",
+    "calculator"
+  ],
+  [
+    "what is 500 x 25",
+    "calculator"
+  ],
+  [
+    "what is 2+2",
+    "calculator"
+  ],
+  [
+    "what is 10 + 20",
+    "calculator"
+  ],
+  [
+    "what is 22+ 6",
+    "calculator"
+  ],
+  [
+    "what is the square root of 80",
+    "calculator"
+  ],
+  [
+    "what is 5 x 4",
+    "calculator"
+  ],
+  [
+    "what is 15% of 3143",
+    "calculator"
+  ],
+  [
+    "what is the square root of 10294",
+    "calculator"
+  ],
+  [
+    "how many square feet is a 13 by 74 room",
+    "calculator"
+  ],
+  [
+    "what is three quarters of one sixth",
+    "calculator"
+  ],
+  [
+    "what is 213 times 3",
+    "calculator"
+  ],
+  [
+    "what is the square root of 144",
+    "calculator"
+  ],
+  [
+    "what is the antilog of 365",
+    "calculator"
+  ],
+  [
+    "what is 78 times 85",
+    "calculator"
+  ],
+  [
+    "what is 250 times 118 times 9",
+    "calculator"
+  ],
+  [
+    "what is 78 times 81 minus 5",
+    "calculator"
+  ],
+  [
+    "what is 1785 minus 334 minus 87 plus 374 minus 400 plus 17",
+    "calculator"
+  ],
+  [
+    "help me with math",
+    "calculator"
+  ],
+  [
+    "i need you to help me with some math if you can",
+    "calculator"
+  ],
+  [
+    "please help with my math",
+    "calculator"
+  ],
+  [
+    "can you help me do math",
+    "calculator"
+  ],
+  [
+    "can you do a math problem",
+    "calculator"
+  ],
+  [
+    "what is 1 million twelve hundred divided by 400 thousand",
+    "calculator"
+  ],
+  [
+    "what is the square root of 10500",
+    "calculator"
+  ],
+  [
+    "what is 20 times 20 times 30",
+    "calculator"
+  ],
+  [
+    "what is 10 to the 12th power",
+    "calculator"
+  ],
+  [
+    "how much is 50 plus 756",
+    "calculator"
+  ],
+  [
+    "what is 750 divided by 5",
+    "calculator"
+  ],
+  [
+    "if i win 200000 how do i split it 7 ways",
+    "calculator"
+  ],
+  [
+    "what is 900 times 8",
+    "calculator"
+  ],
+  [
+    "can you tell me what 80 divided buy 4 is",
+    "calculator"
+  ],
+  [
+    "560 divided by 3",
+    "calculator"
+  ],
+  [
+    "what is 606 divided by 5",
+    "calculator"
+  ],
+  [
+    "subtract 100 from 12",
+    "calculator"
+  ],
+  [
+    "what is 005 percent of 1 percent",
+    "calculator"
+  ],
+  [
+    "what is the square root of 31",
+    "calculator"
+  ],
+  [
+    "what is six divided by 16",
+    "calculator"
+  ],
+  [
+    "how many times can 12 go into 600",
+    "calculator"
+  ],
+  [
+    "what is the square root of sixteen",
+    "calculator"
+  ],
+  [
+    "what is 562 times 400",
+    "calculator"
+  ],
+  [
+    "add twelve and twelve please",
+    "calculator"
+  ],
+  [
+    "what is 10 + 10",
+    "calculator"
+  ],
+  [
+    "what is the square root of 5",
+    "calculator"
+  ],
+  [
+    "what is 1/2 times 5/8",
+    "calculator"
+  ],
+  [
+    "what is 80980 + 098098 + 80980 + 1243",
+    "calculator"
+  ],
+  [
+    "what is 13 times 45",
+    "calculator"
+  ],
+  [
+    "what is 34 times 80908",
+    "calculator"
+  ],
+  [
+    "what is 90908 divided by 30890",
+    "calculator"
+  ],
+  [
+    "what is 38% of 389209",
+    "calculator"
+  ],
+  [
+    "what is the square root of 66",
+    "calculator"
+  ],
+  [
+    "what is 2/3 x 1/9",
+    "calculator"
+  ],
+  [
+    "can you do algebra",
+    "calculator"
+  ],
+  [
+    "what is 1 fifth times 2 fifths",
+    "calculator"
+  ],
+  [
+    "what's 3 plus 3",
+    "calculator"
+  ],
+  [
+    "what's ten times eight",
+    "calculator"
+  ],
+  [
+    "i need to know what 75 plus 43 is",
+    "calculator"
+  ],
+  [
+    "what do you get if you divide 3 by 2",
+    "calculator"
+  ],
+  [
+    "what is the area of a 20 x 20 room",
+    "calculator"
+  ],
+  [
+    "subtract 85 from 997",
+    "calculator"
+  ],
+  [
+    "what is 20 + 20",
+    "calculator"
+  ],
+  [
+    "what is the square root of 2784",
+    "calculator"
+  ],
+  [
+    "how many times does 8 go into 2000",
+    "calculator"
+  ],
+  [
+    "what is 35 times 23",
+    "calculator"
+  ],
+  [
+    "what is 3 to the 6th power",
+    "calculator"
+  ],
+  [
+    "what is 63 percent of 145",
+    "calculator"
+  ],
+  [
+    "can you calculate 18 divided by 45",
+    "calculator"
+  ],
+  [
+    "what is the square root of 104",
+    "calculator"
+  ],
+  [
+    "what's the answer to 5-6=",
+    "calculator"
+  ],
+  [
+    "what is the sum of 8 + 3",
+    "calculator"
+  ],
+  [
+    "please provide the square root of 36",
+    "calculator"
+  ],
+  [
+    "what does 6 x 1 equal",
+    "calculator"
+  ],
+  [
+    "what does 2 + 2 equal",
+    "calculator"
+  ],
+  [
+    "what is 10000 divided by 20",
+    "calculator"
+  ],
+  [
+    "what are the conditions like in orlando",
+    "weather"
+  ],
+  [
+    "what's the temperature like in tampa",
+    "weather"
+  ],
+  [
+    "what's the forecast like for pittsburgh",
+    "weather"
+  ],
+  [
+    "what are the conditions like in sarasota",
+    "weather"
+  ],
+  [
+    "what's the climate like in chicago",
+    "weather"
+  ],
+  [
+    "what will the temperature be tomorrow",
+    "weather"
+  ],
+  [
+    "will it rain today",
+    "weather"
+  ],
+  [
+    "will it freeze tonight",
+    "weather"
+  ],
+  [
+    "give me the 7 day forecast",
+    "weather"
+  ],
+  [
+    "is it hot outside",
+    "weather"
+  ],
+  [
+    "what is the weather going to be like today",
+    "weather"
+  ],
+  [
+    "is it going to rain today",
+    "weather"
+  ],
+  [
+    "what is the weather going to be like tomorrow",
+    "weather"
+  ],
+  [
+    "is it going to rain tonight",
+    "weather"
+  ],
+  [
+    "are there any tornadoes coming soon",
+    "weather"
+  ],
+  [
+    "is it snowing in the next two weeks",
+    "weather"
+  ],
+  [
+    "what is the weather like in denver",
+    "weather"
+  ],
+  [
+    "what is the weather like tomorrow",
+    "weather"
+  ],
+  [
+    "what is the record high temperature for today",
+    "weather"
+  ],
+  [
+    "whats the predicted weather suppose to be like",
+    "weather"
+  ],
+  [
+    "whats the forecast for the weather",
+    "weather"
+  ],
+  [
+    "what does the weather look like",
+    "weather"
+  ],
+  [
+    "what does the forecast look like",
+    "weather"
+  ],
+  [
+    "what is the weather going to be like",
+    "weather"
+  ],
+  [
+    "tell me this week's forecast",
+    "weather"
+  ],
+  [
+    "will it get over 90 degrees today",
+    "weather"
+  ],
+  [
+    "what's the temperature outside",
+    "weather"
+  ],
+  [
+    "tell me how the weather is",
+    "weather"
+  ],
+  [
+    "weather",
+    "weather"
+  ],
+  [
+    "what's the weather",
+    "weather"
+  ],
+  [
+    "is it raining",
+    "weather"
+  ],
+  [
+    "how is it outside",
+    "weather"
+  ],
+  [
+    "how hot will it be tomorrow",
+    "weather"
+  ],
+  [
+    "what is the weather for tomorrow in georgia",
+    "weather"
+  ],
+  [
+    "what is the forecast for this week",
+    "weather"
+  ],
+  [
+    "will it snow this weekend",
+    "weather"
+  ],
+  [
+    "is there any rain in the next 3 days",
+    "weather"
+  ],
+  [
+    "can you tell me what the weather will be please",
+    "weather"
+  ],
+  [
+    "how's the weather",
+    "weather"
+  ],
+  [
+    "what's the weather looking like",
+    "weather"
+  ],
+  [
+    "what weather should i expect",
+    "weather"
+  ],
+  [
+    "costa mesa current weather",
+    "weather"
+  ],
+  [
+    "what is the temperature in costa mesa",
+    "weather"
+  ],
+  [
+    "what is the weather report for costa mesa",
+    "weather"
+  ],
+  [
+    "weather in costa mesa",
+    "weather"
+  ],
+  [
+    "costa mesa weather",
+    "weather"
+  ],
+  [
+    "i need meteorological data for tallahassee",
+    "weather"
+  ],
+  [
+    "how's the weather in tallahassee",
+    "weather"
+  ],
+  [
+    "read me the current weather report for tallahassee",
+    "weather"
+  ],
+  [
+    "tell me the weather report for tallahassee",
+    "weather"
+  ],
+  [
+    "what's the current weather situation for tallahassee",
+    "weather"
+  ],
+  [
+    "what's the weekend forecast",
+    "weather"
+  ],
+  [
+    "can you tell me the low tonight",
+    "weather"
+  ],
+  [
+    "is it going to be sunny today",
+    "weather"
+  ],
+  [
+    "what's the highest chance of rain for today",
+    "weather"
+  ],
+  [
+    "how cold is it going to be tonight",
+    "weather"
+  ],
+  [
+    "what is the weather forecast for seattle",
+    "weather"
+  ],
+  [
+    "what is the weather outlook for seattle",
+    "weather"
+  ],
+  [
+    "what are the weather conditions in seattle",
+    "weather"
+  ],
+  [
+    "how is the weather in seattle",
+    "weather"
+  ],
+  [
+    "what is the weather report for seattle",
+    "weather"
+  ],
+  [
+    "can you give me info on miami weather",
+    "weather"
+  ],
+  [
+    "what is miami weather like",
+    "weather"
+  ],
+  [
+    "what can you tell me about miami weather",
+    "weather"
+  ],
+  [
+    "what kind of weather does miami have",
+    "weather"
+  ],
+  [
+    "how is the weather in miami",
+    "weather"
+  ],
+  [
+    "what's the weather like right now",
+    "weather"
+  ],
+  [
+    "give me a rundown of the weather",
+    "weather"
+  ],
+  [
+    "what kind of weather is there",
+    "weather"
+  ],
+  [
+    "tell me what the weather is like",
+    "weather"
+  ],
+  [
+    "when is it going to rain again",
+    "weather"
+  ],
+  [
+    "what is the high temperature for tomorrow",
+    "weather"
+  ],
+  [
+    "how many of inches of snow did my hometown get last year",
+    "weather"
+  ],
+  [
+    "what are the atmospheric conditions in sparks",
+    "weather"
+  ],
+  [
+    "is it raining in sparks",
+    "weather"
+  ],
+  [
+    "is it cloudy or sunny in sparks",
+    "weather"
+  ],
+  [
+    "is sparks experiencing bad weather right now",
+    "weather"
+  ],
+  [
+    "what is the weather like in sparks right now",
+    "weather"
+  ],
+  [
+    "what is the temp right now",
+    "weather"
+  ],
+  [
+    "when will it rain next",
+    "weather"
+  ],
+  [
+    "when is the next rain chance",
+    "weather"
+  ],
+  [
+    "what will the weather be this weekend",
+    "weather"
+  ],
+  [
+    "what s the uv index tomorrow",
+    "weather"
+  ],
+  [
+    "tell me today's weather forecast",
+    "weather"
+  ],
+  [
+    "tell me about the weather today",
+    "weather"
+  ],
+  [
+    "i want to know the weather forecast for today",
+    "weather"
+  ],
+  [
+    "what will the weather be like",
+    "weather"
+  ],
+  [
+    "what's the chance of rain on friday",
+    "weather"
+  ],
+  [
+    "is there a uv or smog alert for tomorrow",
+    "weather"
+  ],
+  [
+    "is it snowing right now in richmond, va",
+    "weather"
+  ],
+  [
+    "what will the low temperatures be over the weekend",
+    "weather"
+  ],
+  [
+    "can you let me know if it will be warm this week",
+    "weather"
+  ],
+  [
+    "when is the next time it is suppose to rain",
+    "weather"
+  ],
+  [
+    "how cold will it be tomorrow",
+    "weather"
+  ],
+  [
+    "what is today's high temperature predicted to be",
+    "weather"
+  ],
+  [
+    "how much snow will we be getting tomorrow",
+    "weather"
+  ],
+  [
+    "what's the current weather",
+    "weather"
+  ],
+  [
+    "what's it doing outside right now",
+    "weather"
+  ],
+  [
+    "what's today's weather going to be",
+    "weather"
+  ],
+  [
+    "please tell me the weather forecast",
+    "weather"
+  ],
+  [
+    "what expression would i use to say i love you if i were an italian",
+    "translate"
+  ],
+  [
+    "can you tell me how to say 'i do not speak much spanish', in spanish",
+    "translate"
+  ],
+  [
+    "what is the equivalent of, 'life is good' in french",
+    "translate"
+  ],
+  [
+    "tell me how to say, 'it is a beautiful morning' in italian",
+    "translate"
+  ],
+  [
+    "if i were mongolian, how would i say that i am a tourist",
+    "translate"
+  ],
+  [
+    "how do i say 'hotel' in finnish",
+    "translate"
+  ],
+  [
+    "i need you to translate the sentence, 'we will be there soon' into portuguese",
+    "translate"
+  ],
+  [
+    "please tell me how to ask for a taxi in french",
+    "translate"
+  ],
+  [
+    "can you tell me how i would say, 'more bread please' in french",
+    "translate"
+  ],
+  [
+    "what is the correct way to say 'i am a visitor' in french",
+    "translate"
+  ],
+  [
+    "how would i say, 'i don't know the answer' in spanish",
+    "translate"
+  ],
+  [
+    "i would like to know the proper way to greet an adult in portuguese",
+    "translate"
+  ],
+  [
+    "what words would i use to tell someone i am lost if i were japanese",
+    "translate"
+  ],
+  [
+    "how would i say thank you if i were russian",
+    "translate"
+  ],
+  [
+    "can you tell me how i would normally say thank you as a french person",
+    "translate"
+  ],
+  [
+    "i would like to know how to say hello in french",
+    "translate"
+  ],
+  [
+    "if i were english how would i say subway",
+    "translate"
+  ],
+  [
+    "i would i say subway if i were english",
+    "translate"
+  ],
+  [
+    "how do you say hi in french",
+    "translate"
+  ],
+  [
+    "in england how do they say subway",
+    "translate"
+  ],
+  [
+    "translate hello in french",
+    "translate"
+  ],
+  [
+    "how is hello said in french",
+    "translate"
+  ],
+  [
+    "what do you call a subway if you were english",
+    "translate"
+  ],
+  [
+    "how would i say if i were english subway",
+    "translate"
+  ],
+  [
+    "how should i say hello in french",
+    "translate"
+  ],
+  [
+    "how could i say twin in chinese",
+    "translate"
+  ],
+  [
+    "how can i say not now in spanish",
+    "translate"
+  ],
+  [
+    "what do spanish people say for the word cow",
+    "translate"
+  ],
+  [
+    "translate hello to english",
+    "translate"
+  ],
+  [
+    "how do you say goodbye in spanish",
+    "translate"
+  ],
+  [
+    "how would i say love in french",
+    "translate"
+  ],
+  [
+    "could you translate atm machine into english",
+    "translate"
+  ],
+  [
+    "please translate grocery into french for me",
+    "translate"
+  ],
+  [
+    "how do germans say goodnight",
+    "translate"
+  ],
+  [
+    "tell me how the russians say notebook",
+    "translate"
+  ],
+  [
+    "how do vietnameses people say hello",
+    "translate"
+  ],
+  [
+    "how do i say thank you in japanese",
+    "translate"
+  ],
+  [
+    "what is latin for i love you",
+    "translate"
+  ],
+  [
+    "how can i thank somebody in italian",
+    "translate"
+  ],
+  [
+    "how do i say you're welcome in chinese",
+    "translate"
+  ],
+  [
+    "translate hello english to french",
+    "translate"
+  ],
+  [
+    "what is hello in french",
+    "translate"
+  ],
+  [
+    "what phrase means goodbye in hawaii",
+    "translate"
+  ],
+  [
+    "what spanish word means hello",
+    "translate"
+  ],
+  [
+    "translate hello to french",
+    "translate"
+  ],
+  [
+    "translate english to french hello",
+    "translate"
+  ],
+  [
+    "what is the word for hello spanish",
+    "translate"
+  ],
+  [
+    "how do they say goodbye in hawaii",
+    "translate"
+  ],
+  [
+    "what's local slang for goodbye in hawaii",
+    "translate"
+  ],
+  [
+    "how do you say hello in french",
+    "translate"
+  ],
+  [
+    "tell me how to say hello in spanish",
+    "translate"
+  ],
+  [
+    "what do i say for goodbye in hawaii",
+    "translate"
+  ],
+  [
+    "translate hello into french for me",
+    "translate"
+  ],
+  [
+    "how do i say hello in french",
+    "translate"
+  ],
+  [
+    "translate for me hello into french",
+    "translate"
+  ],
+  [
+    "how would they say say goodbye in hawaii",
+    "translate"
+  ],
+  [
+    "what is spanish for hello",
+    "translate"
+  ],
+  [
+    "how would i say hello in french",
+    "translate"
+  ],
+  [
+    "how can i say i love you in italy",
+    "translate"
+  ],
+  [
+    "what is spanish for good morning",
+    "translate"
+  ],
+  [
+    "how do you say it's snowing in german",
+    "translate"
+  ],
+  [
+    "how would you say can i borrow five dollars in portuguese",
+    "translate"
+  ],
+  [
+    "do you know how to say where is the restroom in french",
+    "translate"
+  ],
+  [
+    "how would i say pleased to meet you if i were japanese",
+    "translate"
+  ],
+  [
+    "can you translate hello into swedish for me",
+    "translate"
+  ],
+  [
+    "can you translate i love you into french for me",
+    "translate"
+  ],
+  [
+    "can you translate where's the bar into irish for me",
+    "translate"
+  ],
+  [
+    "how would i say goodbye if i were norwegian",
+    "translate"
+  ],
+  [
+    "how would i say i love you if i were french",
+    "translate"
+  ],
+  [
+    "how would i say hello if i were swedish",
+    "translate"
+  ],
+  [
+    "can you translate good bye into russian for me",
+    "translate"
+  ],
+  [
+    "can you translate i have to go pee into korean for me",
+    "translate"
+  ],
+  [
+    "how would i say i'm not guilty if i were mexican",
+    "translate"
+  ],
+  [
+    "how do you say thank you in spanish",
+    "translate"
+  ],
+  [
+    "how does one say thank you in spanish",
+    "translate"
+  ],
+  [
+    "how can i say thank you in spanish",
+    "translate"
+  ],
+  [
+    "what is thank you in spanish",
+    "translate"
+  ],
+  [
+    "what is the way to say thank you in spanish",
+    "translate"
+  ],
+  [
+    "how do they say \"who is your father\" in german",
+    "translate"
+  ],
+  [
+    "how do they say \"where's the bathroom\" in spanish",
+    "translate"
+  ],
+  [
+    "how do they say \"how's it going\" in swahili",
+    "translate"
+  ],
+  [
+    "how do they say \"i love you\" in japanese",
+    "translate"
+  ],
+  [
+    "how do they say \"what's up\" in chinese",
+    "translate"
+  ],
+  [
+    "how do you say thank you in german",
+    "translate"
+  ],
+  [
+    "how do you say please in arabic",
+    "translate"
+  ],
+  [
+    "how do you say cat in spanish",
+    "translate"
+  ],
+  [
+    "how do you say i'm hungry in french",
+    "translate"
+  ],
+  [
+    "how do you say i need coffee in dutch",
+    "translate"
+  ],
+  [
+    "how do they say yes in brazil",
+    "translate"
+  ],
+  [
+    "can you translate cat into russian for me",
+    "translate"
+  ],
+  [
+    "can you translate bowl into russian for me",
+    "translate"
+  ],
+  [
+    "how do they say hello in france",
+    "translate"
+  ],
+  [
+    "i wanna know a phrase in spanish",
+    "translate"
+  ],
+  [
+    "can you translate bat into russian for me",
+    "translate"
+  ],
+  [
+    "how do they say no in germany",
+    "translate"
+  ],
+  [
+    "can you translate hi into spanish for me",
+    "translate"
+  ],
+  [
+    "i wanna learn a phrase in russian",
+    "translate"
+  ],
+  [
+    "how do they say hello in germany",
+    "translate"
+  ],
+  [
+    "can you translate milk into spanish for me",
+    "translate"
+  ],
+  [
+    "how do they say hello in brazil",
+    "translate"
+  ],
+  [
+    "what is your name?",
+    "namequery"
+  ],
+  [
+    "what could i call you?",
+    "namequery"
+  ],
+  [
+    "what can i call you?",
+    "namequery"
+  ],
+  [
+    "what do your friends call you?",
+    "namequery"
+  ],
+  [
+    "who are you?",
+    "namequery"
+  ],
+  [
+    "tell me your name?",
+    "namequery"
+  ],
+  [
+    "what should I call you?",
+    "namequery"
+  ],
+  [
+    "what is your name please",
+    "namequery"
+  ],
+  [
+    "what's your name",
+    "namequery"
+  ],
+  [
+    "what should i name you",
+    "namequery"
+  ],
+  [
+    "do you have a name",
+    "namequery"
+  ],
+  [
+    "what do they call you",
+    "namequery"
+  ],
+  [
+    "what do they name you",
+    "namequery"
+  ],
+  [
+    "is there a name that they call you with",
+    "namequery"
+  ],
+  [
+    "how do they usually refer to you",
+    "namequery"
+  ],
+  [
+    "by what name do they refer to you",
+    "namequery"
+  ],
+  [
+    "by what name people call you",
+    "namequery"
+  ],
+  [
+    "what would you like me to call you",
+    "namequery"
+  ],
+  [
+    "what would i call you",
+    "namequery"
+  ],
+  [
+    "what name are you under",
+    "namequery"
+  ],
+  [
+    "by what name do they think of you",
+    "namequery"
+  ],
+  [
+    "what's your name, huh",
+    "namequery"
+  ],
+  [
+    "please tell me the name they use for you",
+    "namequery"
+  ],
+  [
+    "what are you called",
+    "namequery"
+  ],
+  [
+    "what is your name saved under",
+    "namequery"
+  ],
+  [
+    "what is the name they have for you",
+    "namequery"
+  ],
+  [
+    "what might your name be",
+    "namequery"
+  ],
+  [
+    "identify yourself",
+    "namequery"
+  ],
+  [
+    "what name do you refer to yourself as",
+    "namequery"
+  ],
+  [
+    "can you tell me your name",
+    "namequery"
+  ],
+  [
+    "do you call yourself a certain name",
+    "namequery"
+  ],
+  [
+    "if you were smart n you would know your name",
+    "namequery"
+  ],
+  [
+    "do you have name for yourself",
+    "namequery"
+  ],
+  [
+    "i want you to let me know what name you have for yourself",
+    "namequery"
+  ],
+  [
+    "can you tell me what you refer to yourself as",
+    "namequery"
+  ],
+  [
+    "do you know what they call you",
+    "namequery"
+  ],
+  [
+    "what name is yours",
+    "namequery"
+  ],
+  [
+    "let me know your name",
+    "namequery"
+  ],
+  [
+    "what do you call yourself",
+    "namequery"
+  ],
+  [
+    "you call yourself what",
+    "namequery"
+  ],
+  [
+    "what is the meaning of realism",
+    "definition"
+  ],
+  [
+    "what is regard mean",
+    "definition"
+  ],
+  [
+    "what is the meaning of interorganizational",
+    "definition"
+  ],
+  [
+    "what is it is all relative mean",
+    "definition"
+  ],
+  [
+    "what is intercontinental mean",
+    "definition"
+  ],
+  [
+    "what is the meaning of supercede",
+    "definition"
+  ],
+  [
+    "what is let it be mean",
+    "definition"
+  ],
+  [
+    "what is the definition of incomprehensible",
+    "definition"
+  ],
+  [
+    "what is the meaning of stupendous",
+    "definition"
+  ],
+  [
+    "what is the definition of intelligent",
+    "definition"
+  ],
+  [
+    "what is good riddance mean",
+    "definition"
+  ],
+  [
+    "what is break a leg mean",
+    "definition"
+  ],
+  [
+    "what is the meaning of hyperactive",
+    "definition"
+  ],
+  [
+    "what is the definition of valor",
+    "definition"
+  ],
+  [
+    "what is stupedous meant",
+    "definition"
+  ],
+  [
+    "find the meaning of qat",
+    "definition"
+  ],
+  [
+    "what the heck is qat",
+    "definition"
+  ],
+  [
+    "define qat for me",
+    "definition"
+  ],
+  [
+    "read me a definition for qat",
+    "definition"
+  ],
+  [
+    "look up qat please",
+    "definition"
+  ],
+  [
+    "what might the meaning of altruism be",
+    "definition"
+  ],
+  [
+    "exactly what does altruism mean",
+    "definition"
+  ],
+  [
+    "what does altruism mean",
+    "definition"
+  ],
+  [
+    "what is the definition of altruism",
+    "definition"
+  ],
+  [
+    "what is the meaning of altruism",
+    "definition"
+  ],
+  [
+    "affiliate's definition is what",
+    "definition"
+  ],
+  [
+    "the definition of affiliate is",
+    "definition"
+  ],
+  [
+    "what's the meaning of affiliate",
+    "definition"
+  ],
+  [
+    "what's affiliate definition",
+    "definition"
+  ],
+  [
+    "definition of affiliate is what",
+    "definition"
+  ],
+  [
+    "whats the definition of poor",
+    "definition"
+  ],
+  [
+    "describe the meaning of \"dog",
+    "definition"
+  ],
+  [
+    "what does \"money\" mean",
+    "definition"
+  ],
+  [
+    "tell me what the word die means",
+    "definition"
+  ],
+  [
+    "what is the definition of succumb",
+    "definition"
+  ],
+  [
+    "what is the meaning of telepathy",
+    "definition"
+  ],
+  [
+    "what does tertiary mean",
+    "definition"
+  ],
+  [
+    "tell me the definition of the word redemption",
+    "definition"
+  ],
+  [
+    "what is the meaning of the word lux",
+    "definition"
+  ],
+  [
+    "what is an ataraxy",
+    "definition"
+  ],
+  [
+    "what does the word ataraxy mean",
+    "definition"
+  ],
+  [
+    "what does ataraxy mean",
+    "definition"
+  ],
+  [
+    "use the word ataraxy in a sentence",
+    "definition"
+  ],
+  [
+    "define ataraxy",
+    "definition"
+  ],
+  [
+    "what does discretionary mean",
+    "definition"
+  ],
+  [
+    "define discretionary",
+    "definition"
+  ],
+  [
+    "i want to know the definition of discretionary",
+    "definition"
+  ],
+  [
+    "can you give the definition of deiscretionary",
+    "definition"
+  ],
+  [
+    "let's hear the definition of iridium",
+    "definition"
+  ],
+  [
+    "what's the definition of analogy",
+    "definition"
+  ],
+  [
+    "can you tell me the definition of sucrose",
+    "definition"
+  ],
+  [
+    "definition of anachronism",
+    "definition"
+  ],
+  [
+    "what's the definition of patriarchy",
+    "definition"
+  ],
+  [
+    "can you tell me the definition of yttrbium",
+    "definition"
+  ],
+  [
+    "please share the definition of episcopalian",
+    "definition"
+  ],
+  [
+    "what does saffron mean",
+    "definition"
+  ],
+  [
+    "define sonogram",
+    "definition"
+  ],
+  [
+    "define thoroughbred",
+    "definition"
+  ],
+  [
+    "what's the meaning of a fortnight",
+    "definition"
+  ],
+  [
+    "what is an anachronism",
+    "definition"
+  ],
+  [
+    "what's the meaning of emulsify",
+    "definition"
+  ],
+  [
+    "tell me what cyst means",
+    "definition"
+  ],
+  [
+    "what is the definition of flange",
+    "definition"
+  ],
+  [
+    "tell me what flange means",
+    "definition"
+  ],
+  [
+    "define flange",
+    "definition"
+  ],
+  [
+    "flange means what",
+    "definition"
+  ],
+  [
+    "what is the meaning of flange",
+    "definition"
+  ],
+  [
+    "what does \"rescind\" mean",
+    "definition"
+  ],
+  [
+    "what is the meaning of word \"rescind",
+    "definition"
+  ],
+  [
+    "is \"rescind\" a word of positive connotation",
+    "definition"
+  ],
+  [
+    "where i can use word \"rescind",
+    "definition"
+  ],
+  [
+    "read me the definition of ajar",
+    "definition"
+  ],
+  [
+    "what does ajar mean",
+    "definition"
+  ],
+  [
+    "can you show me the dictionary definition of ajar",
+    "definition"
+  ],
+  [
+    "tell me what monstrosity means",
+    "definition"
+  ],
+  [
+    "give me the definition of ajar",
+    "definition"
+  ],
+  [
+    "what is the definition of didactic",
+    "definition"
+  ],
+  [
+    "i need to know what adumbrate means can you look it up for me now",
+    "definition"
+  ],
+  [
+    "i want to know what the word discomfit means",
+    "definition"
+  ],
+  [
+    "find what the word diaphanous mean please",
+    "definition"
+  ],
+  [
+    "do you know what calumny means  please look it up for me",
+    "definition"
+  ],
+  [
+    "find out what the word abrogate means for me",
+    "definition"
+  ],
+  [
+    "tell me what edict means",
+    "definition"
+  ],
+  [
+    "what does the word abjure mean",
+    "definition"
+  ],
+  [
+    "can you tell me what dirge means",
+    "definition"
+  ],
+  [
+    "tell me what the word arboreal means",
+    "definition"
+  ],
+  [
+    "whats the definition of transmute",
+    "definition"
+  ],
+  [
+    "what is the meaning of the word slander",
+    "definition"
+  ],
+  [
+    "what is meant by defense",
+    "definition"
+  ],
+  [
+    "tell me what the word bounty means",
+    "definition"
+  ],
+  [
+    "what does deceive mean",
+    "definition"
+  ],
+  [
+    "define zesty",
+    "definition"
+  ],
+  [
+    "look up zesty in dictionary",
+    "definition"
+  ],
+  [
+    "definition of zesty",
+    "definition"
+  ],
+  [
+    "what is the definition of zesty",
+    "definition"
+  ],
+  [
+    "what does zesty mean",
+    "definition"
+  ],
+  [
+    "tell me what alternative means",
+    "definition"
+  ],
+  [
+    "what does alternative mean",
+    "definition"
+  ],
+  [
+    "give me the meaning of alternative",
+    "definition"
+  ],
+  [
+    "tell me the meaning of alternative",
+    "definition"
+  ]
+]

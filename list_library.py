@@ -154,12 +154,6 @@ thanks = ["No problem!", "Happy to help!", "Any time!", "My pleasure"]
 
 bot_name = ["You can call me Assistance", "You may call me Assistance", "Call me Assistance"]
 
-self_aware = [
-    "That is an interesting question, can you prove that you are?",
-    "That is an difficult question, can you prove that you are?",
-    "That depends, can you prove that you are?"
-]
-
 no_name = ["You still didn't tell me your name Sir", "You didn't tell me that yet",
            "How about you tell me your name first then i'll answer that", "I'll call you Sir or Miss for now"]
 
