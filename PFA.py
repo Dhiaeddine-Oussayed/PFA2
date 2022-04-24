@@ -3,18 +3,20 @@ import random
 from datetime import datetime
 import pyautogui
 import list_library
-from keras.models import Sequential
-from keras import Input
-from keras.layers import Dense
+# from keras.models import Sequential
+from keras import models
+# from keras import Input
+# from keras.layers import Dense
 import json
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn.feature_extraction.text import TfidfVectorizer
 import speech_recognition as sr
 import pickle
+import os
 
-
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 dataset = json.load(open('dataset.json'))
 
@@ -47,20 +49,22 @@ A.sort_indices()
 B.sort_indices()
 number_of_classes = len(set(Y))
 
-model = Sequential()
-model.add(Input(shape=A.shape[1]))
-model.add(Dense(128, activation='relu'))
-model.add(Dense(64, activation='relu'))
+model = models.load_model("ann_model")
 
-model.add(Dense(number_of_classes, activation='softmax'))
-
-model.compile(optimizer="Adam", loss="categorical_crossentropy", metrics=["accuracy"])
-
-print(model.summary())
-
-history = model.fit(A, Y_train, validation_data=(B, Y_test), batch_size=30, epochs=10, verbose=1)
-
-
+# model = Sequential()
+# model.add(Input(shape=A.shape[1]))
+# model.add(Dense(128, activation='relu'))
+# model.add(Dense(64, activation='relu'))
+#
+# model.add(Dense(number_of_classes, activation='softmax'))
+#
+# model.compile(optimizer="Adam", loss="categorical_crossentropy", metrics=["accuracy"])
+#
+# print(model.summary())
+#
+# history = model.fit(A, Y_train, validation_data=(B, Y_test), batch_size=30, epochs=10, verbose=1)
+#
+# model.save("ann_model")
 # pickle.dump(tfidf, open("tfidf.pkl", "wb"))
 
 
