@@ -1,7 +1,8 @@
-[[
-  "hi",
-  "greeting"
-],
+[
+  [
+    "hi",
+    "greeting"
+  ],
   [
     "hello, anyone there",
     "greeting"
@@ -15,9 +16,9 @@
     "greeting"
   ],
   [
-        "hey there!",
-        "greeting"
-    ],
+    "hey there!",
+    "greeting"
+  ],
   [
     "hello",
     "greeting"
@@ -35,81 +36,81 @@
     "greeting"
   ],
   [
-        "hello, ai",
-        "greeting"
-    ],
-    [
-        "hey, ai",
-        "greeting"
-    ],
-  [
-        "hello siri",
-        "greeting"
-    ],
-    [
-        "hi there alexa",
-        "greeting"
-    ],
-    [
-        "wake up, ai",
-        "greeting"
-    ],
-    [
-        "good day",
-        "greeting"
-    ],
-    [
-        "greetings to you",
-        "greeting"
-    ],
-  [
-        "well hello",
-        "greeting"
-    ],
-  [
-        "good evening",
-        "greeting"
-    ],
-    [
-        "yo",
-        "greeting"
-    ],
-  [
-        "hi ai",
-        "greeting"
-    ],
-    [
-        "just wanted to say hi",
-        "greeting"
-    ],
-    [
-        "hello, friend",
-        "greeting"
-    ],
-  [
-        "ahoy hoy",
-        "greeting"
+    "hello, ai",
+    "greeting"
   ],
-[
-        "good morning",
-        "greeting"
-],
-[
-        "hey assistance",
-        "greeting"
-],
-[
-        "hello assistance",
-        "greeting"
-],
-[
-        "yo what's up",
-        "greeting"
-],
-[
-        "good evening",
-        "greeting"
-],
+  [
+    "hey, ai",
+    "greeting"
+  ],
+  [
+    "hello siri",
+    "greeting"
+  ],
+  [
+    "hi there alexa",
+    "greeting"
+  ],
+  [
+    "wake up, ai",
+    "greeting"
+  ],
+  [
+    "good day",
+    "greeting"
+  ],
+  [
+    "greetings to you",
+    "greeting"
+  ],
+  [
+    "well hello",
+    "greeting"
+  ],
+  [
+    "good evening",
+    "greeting"
+  ],
+  [
+    "yo",
+    "greeting"
+  ],
+  [
+    "hi ai",
+    "greeting"
+  ],
+  [
+    "just wanted to say hi",
+    "greeting"
+  ],
+  [
+    "hello, friend",
+    "greeting"
+  ],
+  [
+    "ahoy hoy",
+    "greeting"
+  ],
+  [
+    "good morning",
+    "greeting"
+  ],
+  [
+    "hey assistance",
+    "greeting"
+  ],
+  [
+    "hello assistance",
+    "greeting"
+  ],
+  [
+    "yo what's up",
+    "greeting"
+  ],
+  [
+    "good evening",
+    "greeting"
+  ],
   [
     "good afternoon",
     "greeting"
@@ -118,7 +119,7 @@
     "greetings",
     "greeting"
   ],
-[
+  [
     "how are you?",
     "courtesygreeting"
   ],
@@ -127,69 +128,69 @@
     "courtesygreeting"
   ],
   [
-        "how are you doing, ai",
-        "courtesygreeting"
-    ],
+    "how are you doing, ai",
+    "courtesygreeting"
+  ],
   [
-        "hello how's it going",
-        "courtesygreeting"
-    ],
+    "hello how's it going",
+    "courtesygreeting"
+  ],
   [
-        "hi, how are you today",
-        "courtesygreeting"
-    ],
-    [
-        "ai how are you doing today",
-        "courtesygreeting"
-    ],
+    "hi, how are you today",
+    "courtesygreeting"
+  ],
   [
-        "hi there, how are things",
-        "courtesygreeting"
-    ],
+    "ai how are you doing today",
+    "courtesygreeting"
+  ],
   [
-        "hello, how are you",
-        "courtesygreeting"
-    ],
-    [
-        "hey, how's it going",
-        "courtesygreeting"
-    ],
-    [
-        "hello, are you doing alright",
-        "courtesygreeting"
-    ],
-    [
-        "hi! are you doing okay",
-        "courtesygreeting"
-    ],
+    "hi there, how are things",
+    "courtesygreeting"
+  ],
   [
-        "hey how's it hanging",
-        "courtesygreeting"
-    ],
-    [
-        "how are you doing today, ai",
-        "courtesygreeting"
-    ],
-    [
-        "how is my ai doing",
-        "courtesygreeting"
-    ],
+    "hello, how are you",
+    "courtesygreeting"
+  ],
   [
-        "how is everything with you",
-        "courtesygreeting"
-    ],
+    "hey, how's it going",
+    "courtesygreeting"
+  ],
   [
-        "whats up with you",
-        "courtesygreeting"
-    ],
+    "hello, are you doing alright",
+    "courtesygreeting"
+  ],
   [
-        "whats up",
-        "courtesygreeting"
-    ],
+    "hi! are you doing okay",
+    "courtesygreeting"
+  ],
   [
-        "yo, hows it going",
-        "courtesygreeting"
-    ],
+    "hey how's it hanging",
+    "courtesygreeting"
+  ],
+  [
+    "how are you doing today, ai",
+    "courtesygreeting"
+  ],
+  [
+    "how is my ai doing",
+    "courtesygreeting"
+  ],
+  [
+    "how is everything with you",
+    "courtesygreeting"
+  ],
+  [
+    "whats up with you",
+    "courtesygreeting"
+  ],
+  [
+    "whats up",
+    "courtesygreeting"
+  ],
+  [
+    "yo, hows it going",
+    "courtesygreeting"
+  ],
   [
     "hello how are you?",
     "courtesygreeting"
@@ -199,29 +200,29 @@
     "courtesygreeting"
   ],
   [
-        "how have you been doing",
-        "courtesygreeting"
-    ],
+    "how have you been doing",
+    "courtesygreeting"
+  ],
   [
-        "how are things with you",
-        "courtesygreeting"
-    ],
+    "how are things with you",
+    "courtesygreeting"
+  ],
   [
-        "what's up",
-        "courtesygreeting"
-    ],
+    "what's up",
+    "courtesygreeting"
+  ],
   [
-        "how're you doing",
-        "courtesygreeting"
-    ],
+    "how're you doing",
+    "courtesygreeting"
+  ],
   [
-        "is everything going okay",
-        "courtesygreeting"
-    ],
-    [
-        "how is everything going",
-        "courtesygreeting"
-    ],
+    "is everything going okay",
+    "courtesygreeting"
+  ],
+  [
+    "how is everything going",
+    "courtesygreeting"
+  ],
   [
     "how are you doing?",
     "courtesygreeting"
@@ -1038,127 +1039,126 @@
     "give me a joke about horses",
     "tell_joke"
   ],
-   [
-        "goodbye, helpful ai device!",
-        "goodbye"
-    ],
-    [
-        "bye-bye",
-        "goodbye"
-    ],
-    [
-        "goodbye, ai assistant",
-        "goodbye"
-    ],
-    [
-        "glad we got to talk",
-        "goodbye"
-    ],
-    [
-        "nice to speak with you",
-        "goodbye"
-    ],
-    [
-        "this was a great conversation",
-        "goodbye"
-    ],
-    [
-        "talk to you later",
-        "goodbye"
-    ],
-    [
-        "tata for now",
-        "goodbye"
-    ],
-    [
-        "i'm out of here",
-        "goodbye"
-    ],
-    [
-        "that's all, bye",
-        "goodbye"
-    ],
-    [
-        "see ya later",
-        "goodbye"
-    ],
-    [
-        "adios ai",
-        "goodbye"
-    ],
-    [
-        "it was great to see you again, see ya later!",
-        "goodbye"
-    ],
-    [
-        "i had a pleasure talking to you, see you later",
-        "goodbye"
-    ],
-    [
-        "nice talking again, bye",
-        "goodbye"
-    ],
-    [
-        "i have to go but it was nice talking again!",
-        "goodbye"
-    ],
-    [
-        "i am glad we got to talk again, see you soon",
-        "goodbye"
-    ],
-    [
-        "catch you around",
-        "goodbye"
-    ],
-    [
-        "later, thanks for chatting",
-        "goodbye"
-    ],
-    [
-        "see ya",
-        "goodbye"
-    ],
-    [
-        "great chat, talk to you later",
-        "goodbye"
-    ],
-    [
-        "nice talk, talk to you later",
-        "goodbye"
-    ],
-    [
-        "thanks for chatting, later",
-        "goodbye"
-    ],
-    [
-        "goodbye to you",
-        "goodbye"
-    ],
-    [
-        "it is time to say goodbye",
-        "goodbye"
-    ],
-    [
-        "i have to say goodbye",
-        "goodbye"
-    ],
-    [
-        "see you later",
-        "goodbye"
-    ],
-
-    [
-        "it was good chatting",
-        "goodbye"
-    ],
-    [
-        "it was nice chatting with you",
-        "goodbye"
-    ],
-    [
-        "see you later, alligator",
-        "goodbye"
-    ],
+  [
+    "goodbye, helpful ai device!",
+    "goodbye"
+  ],
+  [
+    "bye-bye",
+    "goodbye"
+  ],
+  [
+    "goodbye, ai assistant",
+    "goodbye"
+  ],
+  [
+    "glad we got to talk",
+    "goodbye"
+  ],
+  [
+    "nice to speak with you",
+    "goodbye"
+  ],
+  [
+    "this was a great conversation",
+    "goodbye"
+  ],
+  [
+    "talk to you later",
+    "goodbye"
+  ],
+  [
+    "tata for now",
+    "goodbye"
+  ],
+  [
+    "i'm out of here",
+    "goodbye"
+  ],
+  [
+    "that's all, bye",
+    "goodbye"
+  ],
+  [
+    "see ya later",
+    "goodbye"
+  ],
+  [
+    "adios ai",
+    "goodbye"
+  ],
+  [
+    "it was great to see you again, see ya later!",
+    "goodbye"
+  ],
+  [
+    "i had a pleasure talking to you, see you later",
+    "goodbye"
+  ],
+  [
+    "nice talking again, bye",
+    "goodbye"
+  ],
+  [
+    "i have to go but it was nice talking again!",
+    "goodbye"
+  ],
+  [
+    "i am glad we got to talk again, see you soon",
+    "goodbye"
+  ],
+  [
+    "catch you around",
+    "goodbye"
+  ],
+  [
+    "later, thanks for chatting",
+    "goodbye"
+  ],
+  [
+    "see ya",
+    "goodbye"
+  ],
+  [
+    "great chat, talk to you later",
+    "goodbye"
+  ],
+  [
+    "nice talk, talk to you later",
+    "goodbye"
+  ],
+  [
+    "thanks for chatting, later",
+    "goodbye"
+  ],
+  [
+    "goodbye to you",
+    "goodbye"
+  ],
+  [
+    "it is time to say goodbye",
+    "goodbye"
+  ],
+  [
+    "i have to say goodbye",
+    "goodbye"
+  ],
+  [
+    "see you later",
+    "goodbye"
+  ],
+  [
+    "it was good chatting",
+    "goodbye"
+  ],
+  [
+    "it was nice chatting with you",
+    "goodbye"
+  ],
+  [
+    "see you later, alligator",
+    "goodbye"
+  ],
   [
     "can you guess my name",
     "user_name"
@@ -1399,7 +1399,6 @@
     "what name do you call me by",
     "user_name"
   ],
-
   [
     "what do you have me saved under",
     "user_name"
@@ -2680,7 +2679,7 @@
     "boost the volume",
     "volumeup"
   ],
-[
+  [
     "you speak quiet",
     "volumedown"
   ],
@@ -4919,5 +4918,1729 @@
   [
     "tell me the meaning of alternative",
     "definition"
+  ],
+  [
+    "can i get some music by three six mafia in here",
+    "play_music"
+  ],
+  [
+    "what does x\u2019s music sound like",
+    "play_music"
+  ],
+  [
+    "may i hear some music by fleet foxes",
+    "play_music"
+  ],
+  [
+    "can i hear some music by cloud control",
+    "play_music"
+  ],
+  [
+    "can x\u2019s music be played",
+    "play_music"
+  ],
+  [
+    "play some music for me",
+    "play_music"
+  ],
+  [
+    "i'd like to hear my workout playlist",
+    "play_music"
+  ],
+  [
+    "put on my jam session playlist please",
+    "play_music"
+  ],
+  [
+    "can i hear my smooth jazz playlist",
+    "play_music"
+  ],
+  [
+    "play a song for me",
+    "play_music"
+  ],
+  [
+    "let's hear my workout playlist",
+    "play_music"
+  ],
+  [
+    "put my workout playlist on",
+    "play_music"
+  ],
+  [
+    "put my music on, please",
+    "play_music"
+  ],
+  [
+    "play rock playlist",
+    "play_music"
+  ],
+  [
+    "play some music",
+    "play_music"
+  ],
+  [
+    "rock playlist please",
+    "play_music"
+  ],
+  [
+    "can you play music",
+    "play_music"
+  ],
+  [
+    "i want to listen to music",
+    "play_music"
+  ],
+  [
+    "can you play the rock playlist",
+    "play_music"
+  ],
+  [
+    "music please",
+    "play_music"
+  ],
+  [
+    "rock music playlist",
+    "play_music"
+  ],
+  [
+    "i want to hear my rock playlist",
+    "play_music"
+  ],
+  [
+    "play that song hey",
+    "play_music"
+  ],
+  [
+    "yo play that song that go like she take my money",
+    "play_music"
+  ],
+  [
+    "can u play the song that sound like bells going off",
+    "play_music"
+  ],
+  [
+    "play me the playlist entitled jazz",
+    "play_music"
+  ],
+  [
+    "turn on the rap playlist",
+    "play_music"
+  ],
+  [
+    "turn my drake playlist on",
+    "play_music"
+  ],
+  [
+    "i want to hear my hip hop playlist",
+    "play_music"
+  ],
+  [
+    "i need to listen to my beyonce playlist",
+    "play_music"
+  ],
+  [
+    "can you play right above it",
+    "play_music"
+  ],
+  [
+    "can you play everlong by foo fighters",
+    "play_music"
+  ],
+  [
+    "play the song god's plan",
+    "play_music"
+  ],
+  [
+    "please play come as you are by nirvana",
+    "play_music"
+  ],
+  [
+    "please play the new lady gaga song",
+    "play_music"
+  ],
+  [
+    "can you put on music by beach house",
+    "play_music"
+  ],
+  [
+    "can you find music by slow magic to put on",
+    "play_music"
+  ],
+  [
+    "i want to play my maroon 5 playlist",
+    "play_music"
+  ],
+  [
+    "i want to listen to my maroon 5 playlist, play it for me",
+    "play_music"
+  ],
+  [
+    "look up my maroon 5 playlists; play it",
+    "play_music"
+  ],
+  [
+    "would you play my maroon 5 playlist",
+    "play_music"
+  ],
+  [
+    "i need for you to play my maroon 5 playlist",
+    "play_music"
+  ],
+  [
+    "can you play music the beatles",
+    "play_music"
+  ],
+  [
+    "i need to play the song that goes like hey jude don't make it bad",
+    "play_music"
+  ],
+  [
+    "please play even flow by pearl jam",
+    "play_music"
+  ],
+  [
+    "play help! by the beatles",
+    "play_music"
+  ],
+  [
+    "i wanna play the song that goes like hey jude don't make it bad",
+    "play_music"
+  ],
+  [
+    "please play 1979 by the smashing pumpkins",
+    "play_music"
+  ],
+  [
+    "can you play music by bob dylan",
+    "play_music"
+  ],
+  [
+    "can you play music by led zeppelin",
+    "play_music"
+  ],
+  [
+    "go ahead and play the song that goes like hey jude don't make it bad",
+    "play_music"
+  ],
+  [
+    "please play the song that goes like hey jude don't make it bad",
+    "play_music"
+  ],
+  [
+    "can you play some music by the beatles for me",
+    "play_music"
+  ],
+  [
+    "play the song that goes like hey jude don't make it bad",
+    "play_music"
+  ],
+  [
+    "play heart shaped box",
+    "play_music"
+  ],
+  [
+    "play hey jude",
+    "play_music"
+  ],
+  [
+    "can you play music by the rolling stones",
+    "play_music"
+  ],
+  [
+    "commence playing music",
+    "play_music"
+  ],
+  [
+    "play me some music",
+    "play_music"
+  ],
+  [
+    "i want to hear some music",
+    "play_music"
+  ],
+  [
+    "start up some music",
+    "play_music"
+  ],
+  [
+    "start playing some music",
+    "play_music"
+  ],
+  [
+    "i want to hear my vaporwave playlist",
+    "play_music"
+  ],
+  [
+    "play my post-rock playlist",
+    "play_music"
+  ],
+  [
+    "play the song called guerrilla radio",
+    "play_music"
+  ],
+  [
+    "resume my metal playlist",
+    "play_music"
+  ],
+  [
+    "resume my death metal playlist",
+    "play_music"
+  ],
+  [
+    "please play my taylor swift mix",
+    "play_music"
+  ],
+  [
+    "start my playlist",
+    "play_music"
+  ],
+  [
+    "start playing my black metal playlist",
+    "play_music"
+  ],
+  [
+    "play the song called blood brothers",
+    "play_music"
+  ],
+  [
+    "play that song called bring the noise",
+    "play_music"
+  ],
+  [
+    "play me some tunes",
+    "play_music"
+  ],
+  [
+    "i want to hear pop music",
+    "play_music"
+  ],
+  [
+    "play some rock",
+    "play_music"
+  ],
+  [
+    "play that song called colony of birchman",
+    "play_music"
+  ],
+  [
+    "play the song called tiny dancer",
+    "play_music"
+  ],
+  [
+    "turn the radio on for some music",
+    "play_music"
+  ],
+  [
+    "can you play your guitar right now",
+    "play_music"
+  ],
+  [
+    "can you play me that, \"baby shark, doo doo,\" song",
+    "play_music"
+  ],
+  [
+    "play the song with the lyrics, \"baby shark, doo doo",
+    "play_music"
+  ],
+  [
+    "find the song with, \"baby shark, doo doo",
+    "play_music"
+  ],
+  [
+    "i want to hear the song that has, \"baby shark, doo doo",
+    "play_music"
+  ],
+  [
+    "that \"baby shark, doo doo,\" song, i want to hear it",
+    "play_music"
+  ],
+  [
+    "i want to hear beatles music",
+    "play_music"
+  ],
+  [
+    "i want to listen to music by the beatles",
+    "play_music"
+  ],
+  [
+    "play songs by the beatles",
+    "play_music"
+  ],
+  [
+    "play music by the beatles",
+    "play_music"
+  ],
+  [
+    "play beatles",
+    "play_music"
+  ],
+  [
+    "pull up my shower playlist",
+    "play_music"
+  ],
+  [
+    "i need to hear my shower playlist",
+    "play_music"
+  ],
+  [
+    "use my shower playlist",
+    "play_music"
+  ],
+  [
+    "do the shower playlist please",
+    "play_music"
+  ],
+  [
+    "i want to hear my shower playlist",
+    "play_music"
+  ],
+  [
+    "is it okay to listen to elvis' music",
+    "play_music"
+  ],
+  [
+    "can you play elvis",
+    "play_music"
+  ],
+  [
+    "can you let me listen to elvis",
+    "play_music"
+  ],
+  [
+    "do you have music by elvis",
+    "play_music"
+  ],
+  [
+    "do you have any elvis music",
+    "play_music"
+  ],
+  [
+    "find that song that goes something like i'm hooked on a feeling",
+    "play_music"
+  ],
+  [
+    "go past this song",
+    "next_song"
+  ],
+  [
+    "put on the next song",
+    "next_song"
+  ],
+  [
+    "please play the next song",
+    "next_song"
+  ],
+  [
+    "go forward to the next song on the playlist",
+    "next_song"
+  ],
+  [
+    "change the song to the next one",
+    "next_song"
+  ],
+  [
+    "go to the next song on the playlist",
+    "next_song"
+  ],
+  [
+    "go to my next song",
+    "next_song"
+  ],
+  [
+    "skip this song",
+    "next_song"
+  ],
+  [
+    "can you skip this song",
+    "next_song"
+  ],
+  [
+    "pass this song",
+    "next_song"
+  ],
+  [
+    "i want to hear the very next song on this playlist",
+    "next_song"
+  ],
+  [
+    "i would like to hear the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "skip this song and play the next",
+    "next_song"
+  ],
+  [
+    "play the next hit",
+    "next_song"
+  ],
+  [
+    "remember to play the next number on this particular playlist",
+    "next_song"
+  ],
+  [
+    "i would like to hear the next tune on this particular playlist",
+    "next_song"
+  ],
+  [
+    "please put on the next number on this playlist",
+    "next_song"
+  ],
+  [
+    "can you move to the next song",
+    "next_song"
+  ],
+  [
+    "lets pause this song and move onto the next",
+    "next_song"
+  ],
+  [
+    "lets pass on this song and do the next",
+    "next_song"
+  ],
+  [
+    "play the next musical number",
+    "next_song"
+  ],
+  [
+    "play the next tune",
+    "next_song"
+  ],
+  [
+    "lets just play the next song please",
+    "next_song"
+  ],
+  [
+    "hop to the next one",
+    "next_song"
+  ],
+  [
+    "go to next song",
+    "next_song"
+  ],
+  [
+    "play the next track",
+    "next_song"
+  ],
+  [
+    "skip over this song",
+    "next_song"
+  ],
+  [
+    "play the next song instead",
+    "next_song"
+  ],
+  [
+    "play the song coming on next",
+    "next_song"
+  ],
+  [
+    "play the next song queued up",
+    "next_song"
+  ],
+  [
+    "move to the next song",
+    "next_song"
+  ],
+  [
+    "what is the next song to be played",
+    "next_song"
+  ],
+  [
+    "can we play the next track",
+    "next_song"
+  ],
+  [
+    "can we stop this song and play the next one",
+    "next_song"
+  ],
+  [
+    "can we skip this song",
+    "next_song"
+  ],
+  [
+    "skip this and go to the next song",
+    "next_song"
+  ],
+  [
+    "skip and play next song",
+    "next_song"
+  ],
+  [
+    "skip and next",
+    "next_song"
+  ],
+  [
+    "go to the next song and skip",
+    "next_song"
+  ],
+  [
+    "go to the next song now",
+    "next_song"
+  ],
+  [
+    "play one song forward",
+    "next_song"
+  ],
+  [
+    "i want to hear the next song",
+    "next_song"
+  ],
+  [
+    "go forward one song",
+    "next_song"
+  ],
+  [
+    "the next song should be played",
+    "next_song"
+  ],
+  [
+    "what's next on the list",
+    "next_song"
+  ],
+  [
+    "play the next song",
+    "next_song"
+  ],
+  [
+    "next song on the list, please",
+    "next_song"
+  ],
+  [
+    "you must skip this song and play the next one",
+    "next_song"
+  ],
+  [
+    "go ahead and skip this song and play the next one",
+    "next_song"
+  ],
+  [
+    "you need to skip this song and play the next one",
+    "next_song"
+  ],
+  [
+    "go ahead and play the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "go passed the song now",
+    "next_song"
+  ],
+  [
+    "will you play the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "i need you to play the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "please skip this song and play the next one",
+    "next_song"
+  ],
+  [
+    "please change the song now",
+    "next_song"
+  ],
+  [
+    "please play the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "i want you to play the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "i need you to skip this song and play the next one",
+    "next_song"
+  ],
+  [
+    "i don't want this song, move to the next",
+    "next_song"
+  ],
+  [
+    "skip to the next song",
+    "next_song"
+  ],
+  [
+    "play next song using this playlist",
+    "next_song"
+  ],
+  [
+    "go to next song, please",
+    "next_song"
+  ],
+  [
+    "forget this song and go to the next",
+    "next_song"
+  ],
+  [
+    "move on to the next song",
+    "next_song"
+  ],
+  [
+    "using this playlist, play next song",
+    "next_song"
+  ],
+  [
+    "jump to the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "skip to the next song please",
+    "next_song"
+  ],
+  [
+    "please go to the song after this one",
+    "next_song"
+  ],
+  [
+    "please jump to the song that follows this one",
+    "next_song"
+  ],
+  [
+    "let's play the next song now",
+    "next_song"
+  ],
+  [
+    "can you fast forward to the next song",
+    "next_song"
+  ],
+  [
+    "continue to next song on the playlist",
+    "next_song"
+  ],
+  [
+    "take me to the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "find the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "proceed to the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "listen to next song on playlist",
+    "next_song"
+  ],
+  [
+    "i want to listen to another song",
+    "next_song"
+  ],
+  [
+    "go to the next tune",
+    "next_song"
+  ],
+  [
+    "beginning playing the next tune",
+    "next_song"
+  ],
+  [
+    "start playing the next track",
+    "next_song"
+  ],
+  [
+    "advance to the next song",
+    "next_song"
+  ],
+  [
+    "go forward to the next track",
+    "next_song"
+  ],
+  [
+    "give me the next song",
+    "next_song"
+  ],
+  [
+    "skip this song and play the next one",
+    "next_song"
+  ],
+  [
+    "play the song after this",
+    "next_song"
+  ],
+  [
+    "switch to the next song on this playlist please",
+    "next_song"
+  ],
+  [
+    "change the song to the next one on this playlist",
+    "next_song"
+  ],
+  [
+    "i want to listen to the next song on this playlist instead",
+    "next_song"
+  ],
+  [
+    "stop the current song and play the next one on this playlist",
+    "next_song"
+  ],
+  [
+    "could you skip to the next song on this playlist, please",
+    "next_song"
+  ],
+  [
+    "could you play the next song on this playlist, please",
+    "next_song"
+  ],
+  [
+    "can you play the next song on this playlist, please",
+    "next_song"
+  ],
+  [
+    "could you play the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "could you skip to the next song on this playlist",
+    "next_song"
+  ],
+  [
+    "play next on the playlist",
+    "next_song"
+  ],
+  [
+    "skip to next song",
+    "next_song"
+  ],
+  [
+    "next song play",
+    "next_song"
+  ],
+  [
+    "stop this song and go to the next one",
+    "next_song"
+  ],
+  [
+    "play the next song on this list",
+    "next_song"
+  ],
+  [
+    "how much is an overdraft fee for bank",
+    "oos"
+  ],
+  [
+    "why are exponents preformed before multiplication in the order of operations",
+    "oos"
+  ],
+  [
+    "what size wipers does this car take",
+    "oos"
+  ],
+  [
+    "where is the dipstick",
+    "oos"
+  ],
+  [
+    "how much is 1 share of aapl",
+    "oos"
+  ],
+  [
+    "how is glue made",
+    "oos"
+  ],
+  [
+    "any headlines from my area",
+    "oos"
+  ],
+  [
+    "what is the largest state in the us",
+    "oos"
+  ],
+  [
+    "what is the current market trend",
+    "oos"
+  ],
+  [
+    "what is the most popular airline",
+    "oos"
+  ],
+  [
+    "what is the formula for the circumference of a circle",
+    "oos"
+  ],
+  [
+    "what are some ways to reduce spending",
+    "oos"
+  ],
+  [
+    "what time does the louvre open",
+    "oos"
+  ],
+  [
+    "are there any local stations covering the moral march in raleigh in februaryu",
+    "oos"
+  ],
+  [
+    "how many planets have we discovered",
+    "oos"
+  ],
+  [
+    "how do i change my billing address",
+    "oos"
+  ],
+  [
+    "how do i open an online line of credit",
+    "oos"
+  ],
+  [
+    "how do i remove a coffee blemish",
+    "oos"
+  ],
+  [
+    "how expensive is an apple share",
+    "oos"
+  ],
+  [
+    "where can i find the cruise control on my kia sportage 2010",
+    "oos"
+  ],
+  [
+    "how many sides are in a hexagon",
+    "oos"
+  ],
+  [
+    "how fast does an airplane travel",
+    "oos"
+  ],
+  [
+    "is it worth investing in target",
+    "oos"
+  ],
+  [
+    "i need to speak to customer service regarding my flight",
+    "oos"
+  ],
+  [
+    "how long do wire transfers take",
+    "oos"
+  ],
+  [
+    "what are some deals on amazon",
+    "oos"
+  ],
+  [
+    "what city is the super bowl",
+    "oos"
+  ],
+  [
+    "what trees change color in autumn",
+    "oos"
+  ],
+  [
+    "do people prefer summer over fall",
+    "oos"
+  ],
+  [
+    "how long is winter",
+    "oos"
+  ],
+  [
+    "what were some of ben franklin's notable accomplishments",
+    "oos"
+  ],
+  [
+    "where was john denver born",
+    "oos"
+  ],
+  [
+    "where did abraham lincoln live",
+    "oos"
+  ],
+  [
+    "when was kobe bryant born",
+    "oos"
+  ],
+  [
+    "who's toledo's starting point guard for the next game",
+    "oos"
+  ],
+  [
+    "how many players are on the chicago bulls",
+    "oos"
+  ],
+  [
+    "who is the coach of the chicago bulls",
+    "oos"
+  ],
+  [
+    "when do the utah jazz play next",
+    "oos"
+  ],
+  [
+    "what other nations were involved in the chinese trade war",
+    "oos"
+  ],
+  [
+    "what years has korea been at war",
+    "oos"
+  ],
+  [
+    "when was the theory of evolution first considered",
+    "oos"
+  ],
+  [
+    "who formulated the theory of relativity",
+    "oos"
+  ],
+  [
+    "what stage of evolution am i",
+    "oos"
+  ],
+  [
+    "what other personality type is most compatible with infjs",
+    "oos"
+  ],
+  [
+    "what does my personality mean",
+    "oos"
+  ],
+  [
+    "what's the most dominant scale in bluegrass",
+    "oos"
+  ],
+  [
+    "what year was saxaphone first played",
+    "oos"
+  ],
+  [
+    "which piano is best for classical",
+    "oos"
+  ],
+  [
+    "is k-12 education required outside of the united states",
+    "oos"
+  ],
+  [
+    "what are the benefits of completing college",
+    "oos"
+  ],
+  [
+    "are you able to answer algebra equations",
+    "oos"
+  ],
+  [
+    "can you help me study for a history exam",
+    "oos"
+  ],
+  [
+    "how many points per game is lebron james averaging this season",
+    "oos"
+  ],
+  [
+    "what team does eli mannign play for",
+    "oos"
+  ],
+  [
+    "get me dwight howard shooting average",
+    "oos"
+  ],
+  [
+    "can you list me tiger wood's stats",
+    "oos"
+  ],
+  [
+    "what's the runtime of all the lord of the rings movies combined",
+    "oos"
+  ],
+  [
+    "which character is the most famous from titanic",
+    "oos"
+  ],
+  [
+    "how many oscars did star wars films win",
+    "oos"
+  ],
+  [
+    "what year was shawshank redemption released",
+    "oos"
+  ],
+  [
+    "which marvel character has appeared in the most movies",
+    "oos"
+  ],
+  [
+    "when's the next movie starring thor set to come out",
+    "oos"
+  ],
+  [
+    "who was the first capcom character",
+    "oos"
+  ],
+  [
+    "are any justice league movies coming out",
+    "oos"
+  ],
+  [
+    "can you tell me something about the nfl",
+    "oos"
+  ],
+  [
+    "please explain the catch rule to me",
+    "oos"
+  ],
+  [
+    "is there overtime in college football",
+    "oos"
+  ],
+  [
+    "when did the mls start",
+    "oos"
+  ],
+  [
+    "what's the best price on super smash bros ultimate right now",
+    "oos"
+  ],
+  [
+    "what is the highest earning game on atari",
+    "oos"
+  ],
+  [
+    "when is the next nintendo direct",
+    "oos"
+  ],
+  [
+    "when was nintendo created",
+    "oos"
+  ],
+  [
+    "please find the capital of pakistan and its population",
+    "oos"
+  ],
+  [
+    "how many people live in taiwan",
+    "oos"
+  ],
+  [
+    "what are some of picasso's most famous works",
+    "oos"
+  ],
+  [
+    "what are van gogh's best pieces",
+    "oos"
+  ],
+  [
+    "where can i see art",
+    "oos"
+  ],
+  [
+    "when did camus die",
+    "oos"
+  ],
+  [
+    "how much money does radiohead earn a year",
+    "oos"
+  ],
+  [
+    "who is radiohead",
+    "oos"
+  ],
+  [
+    "what's the biggest saas marketing company in the united states",
+    "oos"
+  ],
+  [
+    "how do i start my own marketing firm",
+    "oos"
+  ],
+  [
+    "how can i get involved in restaurant marketing",
+    "oos"
+  ],
+  [
+    "what is saas marketing",
+    "oos"
+  ],
+  [
+    "what do you call someone who was born in segovia",
+    "oos"
+  ],
+  [
+    "what is rhineland",
+    "oos"
+  ],
+  [
+    "who is the scariest character in start trek",
+    "oos"
+  ],
+  [
+    "who is the current captain of this ship",
+    "oos"
+  ],
+  [
+    "what year was star trek released",
+    "oos"
+  ],
+  [
+    "when was toyota created",
+    "oos"
+  ],
+  [
+    "who are some notable alumni of ucsd",
+    "oos"
+  ],
+  [
+    "what is the next football game",
+    "oos"
+  ],
+  [
+    "how many students attend ucsb",
+    "oos"
+  ],
+  [
+    "when do classes start",
+    "oos"
+  ],
+  [
+    "how can i become an aerospace engineer",
+    "oos"
+  ],
+  [
+    "what percentage of species display cold blooded traits",
+    "oos"
+  ],
+  [
+    "what does it mean to be an alpha male",
+    "oos"
+  ],
+  [
+    "what animals have alpha males",
+    "oos"
+  ],
+  [
+    "why do males want to be alpha",
+    "oos"
+  ],
+  [
+    "what's the average battery life of an android phone",
+    "oos"
+  ],
+  [
+    "what things can you help me with exactly",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are the things you can help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what exactly can you help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can you help me with exactly",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can you help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of questions can you answer",
+    "what_can_i_ask_you"
+  ],
+  [
+    "tell me the subject areas you are familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sorts of subjects are you well versed in",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are the subject areas you are knowledgable in",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of things are you knowledgable about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "tell me the types of things i can ask you about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sorts of things can i ask you about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "tell me what you are capable of answering",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sorts of queries should i give you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sorts of subjects do you know about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what type of questions may i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "which types of questions may i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kind of questions may i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "which types of questions can i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kind of questions can i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what topics can i ask you about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what information can i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what subjects do you know something about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of questions can i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what types of things do you know",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kind of questions do you accept",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what questions are permissible",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are my list of commands",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are the kinds of things you can help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kind of questions are you good at answering",
+    "what_can_i_ask_you"
+  ],
+  [
+    "can i ask you about anything",
+    "what_can_i_ask_you"
+  ],
+  [
+    "can you help me with anything i need",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what all can you do",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what things do you know about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are you able to help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what types of things are you able to do",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can you answer for me",
+    "what_can_i_ask_you"
+  ],
+  [
+    "is there anything i can't ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what questions do you respond to",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what should i ask you about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are you able to answer",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what's the sort of thing i should ask",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kind of things can you answer",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what things can you do",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can you do",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what types of questions do you have a response for",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of questions can you respond to",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what do you have answers for",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what questions am i allowed to ask",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of things can you do",
+    "what_can_i_ask_you"
+  ],
+  [
+    "ai can you tell me what things i may ask",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can i ask you, ai",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what am i able to ask the ai",
+    "what_can_i_ask_you"
+  ],
+  [
+    "ai, tell me what things i should ask of you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sorts of things am i able to ask of you ai",
+    "what_can_i_ask_you"
+  ],
+  [
+    "how can i get you to help me",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what types of things can i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sort of things can you help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are you able to do",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can i use you to help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "how can i use you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what subjects do you know",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what subjects are you familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what subjects do you know about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what types of subjects do you know",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are you familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what do you know",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what subjects are you versed in",
+    "what_can_i_ask_you"
+  ],
+  [
+    "can you tell me the subjects you know best",
+    "what_can_i_ask_you"
+  ],
+  [
+    "tell me the subjects you're aware of",
+    "what_can_i_ask_you"
+  ],
+  [
+    "let me know what subjects you comprehend well",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are the sorts of things i can ask you about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what questions are you programmed to answer",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of things can i ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of questions can i ask of you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "are there certain types of questions i can ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what kinds of things would you be able to help me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "i need to know what kind of things you can help with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "i want to know what sort of things you can assist me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sort of things are you able to help with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "let me know what you can assist me with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "how can i benefit from using you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "how can you assist me",
+    "what_can_i_ask_you"
+  ],
+  [
+    "i wanna know the types of subjects are you familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "i wish to know the types of subjects are you familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "please inform me of the types of subjects are you familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can you be asked about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "tell me the types of subjects are you familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "i would like to know the types of subjects are you familiar with",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can i ask you all about",
+    "what_can_i_ask_you"
+  ],
+  [
+    "are you familiar with any types of subjects",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what skills do you have",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what are your capabilities",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what topics are you versed in",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what sort of stuff do you know",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what subjects do you know well",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what can i ask you to accomplish",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what tasks can you complete for me",
+    "what_can_i_ask_you"
+  ],
+  [
+    "what type of questions are you partial to that i can ask you",
+    "what_can_i_ask_you"
+  ],
+  [
+    "write this for me",
+    "notebook"
+  ],
+  [
+    "save what i'm going to tell you",
+    "notebook"
+  ],
+  [
+    "write this down ",
+    "notebook"
+  ],
+  [
+    "open a notebook and write this ",
+    "notebook"
+  ],
+  [
+    "open a notebook",
+    "notebook"
+  ],
+  [
+    "write down",
+    "notebook"
+  ],
+  [
+    "i need to write something",
+    "notebook"
+  ],
+  [
+    "i want to write a text",
+    "notebook"
+  ],
+  [
+    "hey, open a notebook",
+    "notebook"
+  ],
+  [
+    "can you write something for me",
+    "notebook"
+  ],
+  [
+    "write something for me please",
+    "notebook"
+  ],
+  [
+    "write this",
+    "notebook"
+  ],
+  [
+    "i want you to write",
+    "notebook"
+  ],
+  [
+    "let's write something",
+    "notebook"
+  ],
+  [
+    "let's write a text",
+    "notebook"
+  ],
+  [
+    "save this text in a notebook",
+    "notebook"
+  ],
+  [
+    "i want a text file",
+    "notebook"
+  ],
+  [
+    "open a text file",
+    "notebook"
+  ],
+  [
+    "open a text file and write what i'm going to say",
+    "notebook"
+  ],
+  [
+    "save what i'm going to say in a text file",
+    "notebook"
+  ],
+  [
+    "i need what i'm going to say to be save in a text file",
+    "notebook"
+  ],
+  [
+    "what i'm going to say now must be saved in a notebook or a text file",
+    "notebook"
+  ],
+  [
+    "can you please open a notebook for me",
+    "notebook"
+  ],
+  [
+    "can you please open a text file for me",
+    "notebook"
+  ],
+  [
+    "text file",
+    "notebook"
+  ],
+  [
+    "notebook",
+    "notebook"
+  ],
+  [
+    "write this text ",
+    "notebook"
+  ],
+  [
+    "i need you to write this for me ",
+    "notebook"
+  ],
+  [
+    "i need you to save what i'm going to say ",
+    "notebook"
+  ],
+  [
+    "can you open a notebook",
+    "notebook"
+  ],
+  [
+    "can you open a text file",
+    "notebook"
   ]
 ]
