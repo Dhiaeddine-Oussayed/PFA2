@@ -173,4 +173,10 @@ shutup = [
         "Rude, bye"
     ]
 
-
+courtesey_greeting = [
+                        "I am great, how are you? ",
+                        "I am good thank you, how are you? ",
+                        "I am great thanks! How can I help you?",
+                        "I am good thank you, How can I help you? ",
+                        "Good thank you, how are you doing? "
+                  ]
