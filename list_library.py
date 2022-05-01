@@ -180,3 +180,16 @@ courtesey_greeting = [
                         "I am good thank you, How can I help you? ",
                         "Good thank you, how are you doing? "
                   ]
+
+skills = [
+    'tell jokes',
+    'change the volume',
+    'tell the time',
+    'play music',
+    'search for definitions',
+    'translation',
+    'check the weather',
+    'write texts',
+    'set up timers',
+    'do calculations'
+]

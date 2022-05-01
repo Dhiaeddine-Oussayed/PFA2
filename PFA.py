@@ -1,104 +1,87 @@
 from numpy import argmax
-import random
+from nltk import word_tokenize, pos_tag
+from random import choice
 from datetime import datetime
-import pyautogui
+from pyautogui import press, screenshot
 import list_library
-# from keras.models import Sequential
 from keras import models
-# from keras import Input
-# from keras.layers import Dense
-import json
-import pandas as pd
-# import numpy as np
-# from sklearn.model_selection import train_test_split
-# from sklearn.feature_extraction.text import TfidfVectorizer
-import speech_recognition as sr
-import pickle
-import os
-import pyttsx3
+from speech_recognition import Recognizer, Microphone
+from pickle import load
+from os import environ
+from pyttsx3 import init
+from train import Y
+tfidf = load(open("tfidf.pkl", "rb"))
+model = models.load_model("ann_model")
 
-UserNameAsked = False
+
+environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 User_name = ''
-
-
 def greeting():
     text = list_library.greetings
-    return random.choice(text)
-
-
+    return choice(text)
 def courtesey_greeting():
     text = list_library.courtesey_greeting
-    return random.choice(text)
-
-
+    return choice(text)
 def goodbye():
     text = list_library.goodbyes
-    return random.choice(text)
-
-
+    return choice(text)
 def thanks():
     text = list_library.thanks
-    return random.choice(text)
-
-
+    return choice(text)
 def bot_name():
     text = list_library.bot_name
-    return random.choice(text)
-
-
+    return choice(text)
 def time():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     return current_time
-
-
 def jokes():
     joke = list_library.jokes
-    return random.choice(joke)
-
-
+    return choice(joke)
 def user_name():
-    global UserNameAsked
-    if not UserNameAsked:
-        text = list_library.no_name
-        with sr.Microphone() as source:
+    global User_name
+    if User_name == '':
+        text = choice(list_library.no_name)
+        print('Assistance: ', text)
+        engine.say(text)
+        engine.runAndWait()
+        with Microphone() as mic:
             print("User:")
-            voice = recording.listen(source)
-            command = recording.recognize_google(voice)
-
+            sound = recording.listen(mic)
+            wish = recording.recognize_google(sound)
+        words = word_tokenize(wish)
+        tagged = pos_tag(words)
+        for i in tagged:
+            if i[1] == 'NNP':
+                User_name = i[0]
+                break
+        return "I'll put that in mind"
     else:
-        text = ["You are {}! How can I help?",
-                "Your name is  {}, how can I help you?",
-                "They call you {}, what can I do for you?",
-                "Your name is {}, how can I help you?",
-                "{}, what can I do for you?"
+        text = [f"You are {User_name}! How can I help?",
+                f"Your name is  {User_name}, how can I help you?",
+                f"They call you {User_name}, what can I do for you?",
+                f"Your name is {User_name}, how can I help you?",
+                f"{User_name}, what can I do for you?"
                 ]
-    return random.choice(text)
-
-
+        return choice(text)
+def skills():
+    engine.say('This is a list of what I can do: ')
+    engine.runAndWait()
+    print(list_library.skills)
 def do_you_understand():
     text = list_library.understand
-    return random.choice(text)
-
-
-def shutup():
-    text = list_library.shutup
-    return random.choice(text)
-
-
+    return choice(text)
 def volume_up():
     for vu in range(5):
-        pyautogui.press('volumeup')
-
-
+        press('volumeup')
 def volume_down():
     for vd in range(5):
-        pyautogui.press('volumedown')
-
-
-def screenshot():
-    myScreenshot = pyautogui.screenshot()
+        press('volumedown')
+def Screenshot():
+    myScreenshot = screenshot()
     myScreenshot.save(r'D:\DHIA\PyCharm Community Edition 2021.2.1\screenshots')
+    print('Screenshot saved successfully!')
 
 
 def change_voice(engine, language, gender='VoiceGenderFemale'):
@@ -106,67 +89,15 @@ def change_voice(engine, language, gender='VoiceGenderFemale'):
         if language in voice.languages and gender == voice.gender:
             engine.setProperty('voice', voice.id)
             return True
-
-
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
-engine = pyttsx3.init()
+engine = init()
 change_voice(engine, 'en_US', "VoiceGenderFemale")
 
-
-dataset = json.load(open('dataset.json'))
-
-df = pd.DataFrame(dataset, columns=['text', 'label'])
-# df['text'] = df['text'].apply(lambda x: " ".join(x.lower() for x in x.split()))
-# df['text'] = df['text'].str.replace('[^\w\s]', '')
-# df['text'] = df['text'].apply(lambda y: str(TextBlob(y).correct()))
-# df['text'] = df['text'].apply(lambda z: " ".join([Word(word).lemmatize() for word in z.split()]))
-
-
-dummies = ['label']
-dataframe = pd.get_dummies(df, columns=dummies)
-
-# X = dataframe["text"]
-Y = dataframe.drop(['text'], axis=1)
-
-# x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.05)
-
-# x_train_list = x_train.tolist()
-# x_test_list = x_test.tolist()
-# Y_train = np.array(y_train)
-# Y_test = np.array(y_test)
-
-# vectorizer = TfidfVectorizer()
-tfidf = pickle.load(open("tfidf.pkl", "rb"))
-# A = tfidf.transform(x_train_list)
-# B = tfidf.transform(x_test_list)
-
-# A.sort_indices()
-# B.sort_indices()
-# number_of_classes = len(set(Y))
 print(set(Y.columns))
-model = models.load_model("ann_model")
 
-# model = Sequential()
-# model.add(Input(shape=A.shape[1]))
-# model.add(Dense(128, activation='relu'))
-# model.add(Dense(64, activation='relu'))
-#
-# model.add(Dense(number_of_classes, activation='softmax'))
-#
-# model.compile(optimizer="Adam", loss="categorical_crossentropy", metrics=["accuracy"])
-#
-# print(model.summary())
-#
-# history = model.fit(A, Y_train, validation_data=(B, Y_test), batch_size=30, epochs=10, verbose=1)
-#
-# model.save("ann_model")
-# pickle.dump(tfidf, open("tfidf.pkl", "wb"))
-
-
-recording = sr.Recognizer()
+recording = Recognizer()
 while True:
-    with sr.Microphone() as source:
+    answer = ''
+    with Microphone() as source:
         print("User:")
         voice = recording.listen(source)
         command = recording.recognize_google(voice)
@@ -194,10 +125,21 @@ while True:
         answer = bot_name()
     elif Y.columns[predicted_class] == 'label_time':
         answer = time()
+    elif Y.columns[predicted_class] == 'label_user_name':
+        answer = user_name()
+    elif Y.columns[predicted_class] == 'label_what_can_i_ask_you':
+        skills()
+    elif Y.columns[predicted_class] == 'label_volumedown':
+        volume_down()
+    elif Y.columns[predicted_class] == 'label_volumeup':
+        volume_up()
+    elif Y.columns[predicted_class] == 'label_screenshot':
+        Screenshot()
+    if answer == '':
+        answer = 'Anything else?'
     print('Assistance: ', answer)
     engine.say(answer)
     engine.runAndWait()
-
 # def alarm():
 # def TakePicture():
 # def repeat()
