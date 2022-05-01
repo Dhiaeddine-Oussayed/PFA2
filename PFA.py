@@ -187,6 +187,8 @@ while True:
         break
     elif Y.columns[predicted_class] == 'label_namequery':
         answer = bot_name()
+    elif Y.columns[predicted_class] == 'label_time':
+        answer = time()
     print('Assistance: ', answer)
     engine.say(answer)
     engine.runAndWait()
