@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import pickle
+from nltk.stem import WordNetLemmatizer
 from textblob import TextBlob
 
 dataset = json.load(open('dataset.json'))
@@ -15,7 +16,7 @@ df = pd.DataFrame(dataset, columns=['text', 'label'])
 df['text'] = df['text'].apply(lambda x: " ".join(x.lower() for x in x.split()))
 df['text'] = df['text'].str.replace('[^\w\s]', '')
 df['text'] = df['text'].apply(lambda y: str(TextBlob(y).correct()))
-df['text'] = df['text'].apply(lambda z: " ".join([Word(word).lemmatize() for word in z.split()]))
+df['text'] = df['text'].apply(lambda z: " ".join([WordNetLemmatizer().lemmatize(word) for word in z.split()]))
 
 
 dummies = ['label']

@@ -152,26 +152,12 @@ goodbyes = ["See you later, thanks for visiting", "Have a nice day", "Bye! Come 
 
 thanks = ["No problem!", "Happy to help!", "Any time!", "My pleasure"]
 
-bot_name = ["You can call me Assistance", "You may call me Assistance", "Call me Assistance"]
+bot_name = ["You can call me Assistance", "You may call me Assistance",
+            "Call me Assistance", "I am your intelligent bot, Assistance"]
 
 no_name = ["You still didn't tell me your name Sir", "You didn't tell me that yet",
            "How about you tell me your name first then i'll answer that", "I'll call you Sir or Miss for now"]
 
-understand = [
-        "Well I would not be a very clever AI if I did not would I?",
-        "I read you loud and clear!",
-        "I do in deed!",
-        "Yup I do"
-    ]
-
-
-shutup = [
-        "I am sorry to disturb you",
-        "Fine, sorry to disturb you",
-        "OK, sorry to disturb you",
-        "You could just say goodbye, you don't have to be rude"
-        "Rude, bye"
-    ]
 
 courtesey_greeting = [
                         "I am great, how are you? ",
@@ -192,4 +178,12 @@ skills = [
     'write texts',
     'set up timers',
     'do calculations'
+]
+
+oos = [
+    'Sorry, can you repeat that please?',
+    "I didn't quite understand what you did just say",
+    "I didn't catch that, repeat please",
+    "Sorry, I didn't quite understand",
+    "That is out of my reach. Would you like to ask for something else?"
 ]

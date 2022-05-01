@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 import speech_recognition as sr
 
-dataset = json.load(open('new_file.json'))
+dataset = json.load(open('dataset.json'))
 
 df = pd.DataFrame(dataset, columns=['text', 'label'])
 df['text'] = df['text'].apply(lambda x: " ".join(x.lower() for x in x.split()))
