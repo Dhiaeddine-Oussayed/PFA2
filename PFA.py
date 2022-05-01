@@ -140,6 +140,7 @@ while True:
     print('Assistance: ', answer)
     engine.say(answer)
     engine.runAndWait()
+
 # def alarm():
 # def TakePicture():
 # def repeat()
