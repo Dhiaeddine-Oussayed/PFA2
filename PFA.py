@@ -18,6 +18,7 @@ import os
 import pyttsx3
 
 UserNameAsked = False
+User_name = ''
 
 
 def greeting():
@@ -60,6 +61,10 @@ def user_name():
     global UserNameAsked
     if not UserNameAsked:
         text = list_library.no_name
+        with sr.Microphone() as source:
+            print("User:")
+            voice = recording.listen(source)
+            command = recording.recognize_google(voice)
 
     else:
         text = ["You are {}! How can I help?",
