@@ -14,9 +14,7 @@ from pandas import Index
 environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 tfidf = load(open("tfidf.pkl", "rb"))
 model = models.load_model("ann_model")
-
 User_name = ''
-
 
 def greeting():
     text = list_library.greetings
@@ -66,8 +64,7 @@ def user_name():
         engine.say(text)
         engine.runAndWait()
         wish = listen()
-        words = word_tokenize(wish)
-        tagged = pos_tag(words)
+        tagged = pos_tag(word_tokenize(wish))
         for i in tagged:
             if i[1] == 'NNP':
                 User_name = i[0]
@@ -108,8 +105,8 @@ def Screenshot():
 def listen():
     with Microphone() as source:
         print("User:", end=' ')
-        voice = recording.listen(source)
-    return recording.recognize_google(voice)
+        voice = Recognizer().listen(source)
+    return Recognizer().recognize_google(voice)
 
 
 def prediction(intention):
@@ -129,7 +126,6 @@ def change_voice(eng, language, gender='VoiceGenderFemale'):
 
 engine = init()
 change_voice(engine, 'en_US', "VoiceGenderFemale")
-
 classes = Index(['label_calculator', 'label_courtesygreeting', 'label_definition',
                  'label_goodbye', 'label_greeting', 'label_namequery', 'label_next_song',
                  'label_notebook', 'label_oos', 'label_play_music', 'label_screenshot',
@@ -138,47 +134,52 @@ classes = Index(['label_calculator', 'label_courtesygreeting', 'label_definition
                  'label_volumeup', 'label_weather', 'label_what_can_i_ask_you'],
                 dtype='object')
 
-recording = Recognizer()
-while 1:
-    answer = ''
-    command = listen()
-    print(command)
-    predicted_class = prediction(command)
-    if classes[predicted_class] == 'label_greeting':
-        answer = greeting()
-    elif classes[predicted_class] == 'label_courtesygreeting':
-        answer = courtesey_greeting()
-    elif classes[predicted_class] == 'label_thank_you':
-        answer = thanks()
-    elif classes[predicted_class] == 'label_tell_joke':
-        answer = jokes()
-    elif classes[predicted_class] == 'label_goodbye':
-        answer = goodbye()
+def main():
+    while 1:
+        answer = ''
+        command = listen()
+        print(command)
+        predicted_class = prediction(command)
+        if classes[predicted_class] == 'label_greeting':
+            answer = greeting()
+        elif classes[predicted_class] == 'label_courtesygreeting':
+            answer = courtesey_greeting()
+        elif classes[predicted_class] == 'label_thank_you':
+            answer = thanks()
+        elif classes[predicted_class] == 'label_tell_joke':
+            answer = jokes()
+        elif classes[predicted_class] == 'label_namequery':
+            answer = bot_name()
+        elif classes[predicted_class] == 'label_time':
+            answer = time()
+        elif classes[predicted_class] == 'label_user_name':
+            answer = user_name()
+        elif classes[predicted_class] == 'label_what_can_i_ask_you':
+            skills()
+        elif classes[predicted_class] == 'label_volumedown':
+            volume_down()
+        elif classes[predicted_class] == 'label_volumeup':
+            volume_up()
+        elif classes[predicted_class] == 'label_screenshot':
+            Screenshot()
+        elif classes[predicted_class] == 'label_oos':
+            answer = oos()
+        elif classes[predicted_class] == 'label_goodbye':
+            answer = goodbye()
+            print('Assistance: ', answer)
+            engine.say(answer)
+            engine.runAndWait()
+            break
+        if answer == '':
+            answer = 'Anything else?'
         print('Assistance: ', answer)
         engine.say(answer)
         engine.runAndWait()
-        break
-    elif classes[predicted_class] == 'label_namequery':
-        answer = bot_name()
-    elif classes[predicted_class] == 'label_time':
-        answer = time()
-    elif classes[predicted_class] == 'label_user_name':
-        answer = user_name()
-    elif classes[predicted_class] == 'label_what_can_i_ask_you':
-        skills()
-    elif classes[predicted_class] == 'label_volumedown':
-        volume_down()
-    elif classes[predicted_class] == 'label_volumeup':
-        volume_up()
-    elif classes[predicted_class] == 'label_screenshot':
-        Screenshot()
-    elif classes[predicted_class] == 'label_oos':
-        answer = oos()
-    if answer == '':
-        answer = 'Anything else?'
-    print('Assistance: ', answer)
-    engine.say(answer)
-    engine.runAndWait()
+
+
+if __name__ == '__main__':
+    main()
+
 
 # def alarm():
 # def TakePicture():
