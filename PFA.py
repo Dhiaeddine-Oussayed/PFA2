@@ -10,6 +10,7 @@ from pickle import load
 from os import environ
 from pyttsx3 import init
 from pandas import Index
+from googletrans import Translator
 
 environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 tfidf = load(open("tfidf.pkl", "rb"))
@@ -104,10 +105,12 @@ def Screenshot():
 
 
 def listen():
-    with Microphone() as source:
-        print("User:", end=' ')
-        voice = Recognizer().listen(source)
-    return Recognizer().recognize_google(voice)
+    # with Microphone() as source:
+    #     print("User:", end=' ')
+    #     voice = Recognizer().listen(source)
+    # return Recognizer().recognize_google(voice)
+    print("User:", end=' ')
+    return input()
 
 
 def prediction(intention):
@@ -117,6 +120,27 @@ def prediction(intention):
     predicted = model.predict(test)
     return argmax(predicted)
 
+
+def talk(speech):
+    print('Assistance: ', speech)
+    engine.say(speech)
+    engine.runAndWait()
+
+
+def translate(com):
+    talk('Sure ! What do you want to translate?')
+    query = listen()
+    phrase = word_tokenize(com)
+    if 'in' in phrase:
+        dest = phrase[phrase.index('in')+1]
+    else:
+        talk('To which language?')
+        dest = listen()
+    translator = Translator()
+    talk(" ".join(["Your result for translating *", query, "* in", dest, 'is']))
+    change_voice(engine, 'fr_CA', "VoiceGenderFemale")
+    talk(translator.translate(query, dest=dest[:2]).text)
+    change_voice(engine, 'en_US', "VoiceGenderFemale")
 
 def change_voice(eng, language, gender='VoiceGenderFemale'):
     for voice in eng.getProperty('voices'):
@@ -134,6 +158,7 @@ classes = Index(['label_calculator', 'label_courtesygreeting', 'label_definition
                  'label_translate', 'label_user_name', 'label_volumedown',
                  'label_volumeup', 'label_weather', 'label_what_can_i_ask_you'],
                 dtype='object')
+
 
 def main():
     while 1:
@@ -166,6 +191,8 @@ def main():
             Screenshot()
         elif classes[predicted_class] == 'label_oos':
             answer = oos()
+        elif classes[predicted_class] == 'label_translate':
+            translate(command)
         elif classes[predicted_class] == 'label_goodbye':
             answer = goodbye()
             print('Assistance: ', answer)
@@ -174,14 +201,11 @@ def main():
             break
         if answer == '':
             answer = 'Anything else?'
-        print('Assistance: ', answer)
-        engine.say(answer)
-        engine.runAndWait()
+        talk(answer)
 
 
 if __name__ == '__main__':
     main()
-
 
 # def alarm():
 # def TakePicture():
@@ -192,7 +216,6 @@ if __name__ == '__main__':
 # def Meeting()
 # def spelling()
 # def timer()
-# def translate()
 # def weather()
 # def info()
 # def mail()
