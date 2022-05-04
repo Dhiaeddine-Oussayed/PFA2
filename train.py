@@ -14,9 +14,9 @@ dataset = json.load(open('dataset.json'))
 
 df = pd.DataFrame(dataset, columns=['text', 'label'])
 df['text'] = df['text'].apply(lambda x: " ".join(x.lower() for x in x.split()))
-df['text'] = df['text'].str.replace('[^\w\s]', '')
-df['text'] = df['text'].apply(lambda y: str(TextBlob(y).correct()))
-df['text'] = df['text'].apply(lambda z: " ".join([WordNetLemmatizer().lemmatize(word) for word in z.split()]))
+#df['text'] = df['text'].str.replace('[^\w\s]', '')
+#df['text'] = df['text'].apply(lambda y: str(TextBlob(y).correct()))
+#df['text'] = df['text'].apply(lambda z: " ".join([WordNetLemmatizer().lemmatize(word) for word in z.split()]))
 
 
 dummies = ['label']

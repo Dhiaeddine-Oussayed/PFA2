@@ -141,6 +141,7 @@ def main():
         command = listen()
         print(command)
         predicted_class = prediction(command)
+        print(classes[predicted_class])
         if classes[predicted_class] == 'label_greeting':
             answer = greeting()
         elif classes[predicted_class] == 'label_courtesygreeting':
