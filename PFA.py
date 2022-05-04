@@ -11,6 +11,10 @@ from os import environ
 from pyttsx3 import init
 from pandas import Index
 from googletrans import Translator
+from time import sleep
+from itertools import chain
+from pygame import mixer
+
 
 environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 tfidf = load(open("tfidf.pkl", "rb"))
@@ -127,6 +131,33 @@ def talk(speech):
     engine.runAndWait()
 
 
+def playAlarm():
+    mixer.init()
+    mixer.music.load(r'Alarm.mp3')
+    mixer.music.play()
+
+
+def timer(com):
+    a = list(chain(*pos_tag(word_tokenize(com))))
+    time_dic = {"hours": 0, "minutes": 0, "seconds": 0}
+    talk('Your timer has started')
+    for i in range(len(a)):
+        if a[i] == 'second' or a[i] == 'seconds':
+            time_dic['seconds'] = int(a[i - 2])
+        elif a[i] == 'minutes' or a[i] == 'minute':
+            time_dic['minutes'] = int(a[i - 2])
+        elif a[i] == 'hours' or a[i] == 'hour':
+            time_dic['hours'] = int(a[i - 2])
+    timer_time = time_dic["hours"]*3600 + time_dic["minutes"]*60 + time_dic["seconds"]
+    sleep(timer_time-8.349)
+    talk('Your timer finishes in 5 seconds')
+    for i in range(5):
+        sleep(1)
+        print("Timer finished in ", 5 - i)
+    playAlarm()
+    return
+
+
 def translate(com):
     talk('Sure ! What do you want to translate?')
     query = listen()
@@ -193,6 +224,8 @@ def main():
             answer = oos()
         elif classes[predicted_class] == 'label_translate':
             translate(command)
+        elif classes[predicted_class] == 'label_timer':
+            timer(command)
         elif classes[predicted_class] == 'label_goodbye':
             answer = goodbye()
             print('Assistance: ', answer)
