@@ -16,6 +16,7 @@ tfidf = load(open("tfidf.pkl", "rb"))
 model = models.load_model("ann_model")
 User_name = ''
 
+
 def greeting():
     text = list_library.greetings
     return choice(text)
