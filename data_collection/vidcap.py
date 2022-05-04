@@ -18,7 +18,7 @@ while 1:
         print("Escape hit, closing...")
         break
     elif k == 32:
-        while img_counter < 1000:
+        while img_counter < 3:
             ret, frame = cam.read()
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             faces = fc.detectMultiScale(gray, 1.1, 4)
