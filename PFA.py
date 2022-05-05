@@ -14,13 +14,16 @@ from googletrans import Translator
 from time import sleep
 from itertools import chain
 from pygame import mixer
+from threading import Thread
+import json
 
 
+languages = json.load(open('languages.json'))
 environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 tfidf = load(open("tfidf.pkl", "rb"))
 model = models.load_model("ann_model")
 User_name = ''
-
+state = 0
 
 def greeting():
     text = list_library.greetings
@@ -109,12 +112,12 @@ def Screenshot():
 
 
 def listen():
-    # with Microphone() as source:
-    #     print("User:", end=' ')
-    #     voice = Recognizer().listen(source)
-    # return Recognizer().recognize_google(voice)
-    print("User:", end=' ')
-    return input()
+    with Microphone() as source:
+        print("User:", end=' ')
+        voice = Recognizer().listen(source)
+    return Recognizer().recognize_google(voice)
+    # print("User:", end=' ')
+    # return input()
 
 
 def prediction(intention):
@@ -136,8 +139,7 @@ def playAlarm():
     mixer.music.load(r'Alarm.mp3')
     mixer.music.play()
 
-
-def timer(com):
+def timerTime(com):
     a = list(chain(*pos_tag(word_tokenize(com))))
     time_dic = {"hours": 0, "minutes": 0, "seconds": 0}
     talk('Your timer has started')
@@ -148,29 +150,30 @@ def timer(com):
             time_dic['minutes'] = int(a[i - 2])
         elif a[i] == 'hours' or a[i] == 'hour':
             time_dic['hours'] = int(a[i - 2])
-    timer_time = time_dic["hours"]*3600 + time_dic["minutes"]*60 + time_dic["seconds"]
-    sleep(timer_time-8.349)
-    talk('Your timer finishes in 5 seconds')
-    for i in range(5):
-        sleep(1)
-        print("Timer finished in ", 5 - i)
-    playAlarm()
-    return
+    return time_dic["hours"] * 3600 + time_dic["minutes"] * 60 + time_dic["seconds"]
 
+def timer(time_for_timer):
+    global state
+    state = time_for_timer
+    for i in range(time_for_timer):
+        sleep(1)
+        state -= 1
+    playAlarm()
 
 def translate(com):
     talk('Sure ! What do you want to translate?')
     query = listen()
     phrase = word_tokenize(com)
     if 'in' in phrase:
-        dest = phrase[phrase.index('in')+1]
+        dest = phrase[phrase.index('in')+1].lower()
     else:
         talk('To which language?')
-        dest = listen()
+        dest = listen().lower()
+    destination = languages[dest]
     translator = Translator()
     talk(" ".join(["Your result for translating *", query, "* in", dest, 'is']))
-    change_voice(engine, 'fr_CA', "VoiceGenderFemale")
-    talk(translator.translate(query, dest=dest[:2]).text)
+    change_voice(engine, destination, "VoiceGenderFemale")
+    talk(translator.translate(query, dest=destination[:2]).text)
     change_voice(engine, 'en_US', "VoiceGenderFemale")
 
 def change_voice(eng, language, gender='VoiceGenderFemale'):
@@ -192,6 +195,7 @@ classes = Index(['label_calculator', 'label_courtesygreeting', 'label_definition
 
 
 def main():
+    talk('Welcome, I am Assistant your favourite virtual assistant')
     while 1:
         answer = ''
         command = listen()
@@ -225,7 +229,9 @@ def main():
         elif classes[predicted_class] == 'label_translate':
             translate(command)
         elif classes[predicted_class] == 'label_timer':
-            timer(command)
+            time_for_timer = timerTime(command)
+            timer_thread = Thread(target=timer, args=[time_for_timer])
+            timer_thread.start()
         elif classes[predicted_class] == 'label_goodbye':
             answer = goodbye()
             print('Assistance: ', answer)
