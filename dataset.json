@@ -3960,7 +3960,7 @@
     "weather"
   ],
   [
-    "what expression would i use to say i love you if i were an italian",
+    "what expression would i use to say judges if i were an italian",
     "translate"
   ],
   [
@@ -4020,7 +4020,7 @@
     "translate"
   ],
   [
-    "can you tell me how to say 'i do not speak much spanish', in spanish",
+    "can you tell me how to say 'judges', in spanish",
     "translate"
   ],
   [
@@ -6698,5 +6698,125 @@
   [
     "can you open a text file",
     "notebook"
+  ],
+  [
+    "assistance, greet the judges",
+    "say_something"
+  ],
+  [
+    "hey assistance say something",
+    "say_something"
+  ],
+  [
+    "say hello to the people",
+    "say_something"
+  ],
+  [
+    "can you say hello to the judges",
+    "say_something"
+  ],
+  [
+    "say something nice to the people ",
+    "say_something"
+  ],
+  [
+    "say something nice to the judges",
+    "say_something"
+  ],
+  [
+    "greet everyone here ",
+    "say_something"
+  ],
+  [
+    "say something nice",
+    "say_something"
+  ],
+  [
+    "can you welcome them please ",
+    "say_something"
+  ],
+  [
+    "welcome everyone here please",
+    "say_something"
+  ],
+  [
+    "can you salute everyone here",
+    "say_something"
+  ],
+  [
+    "salute the guests",
+    "say_something"
+  ],
+  [
+    "say hello to the guests",
+    "say_something"
+  ],
+  [
+    "greet the guests",
+    "say_something"
+  ],
+  [
+    "bid my friends welcome",
+    "say_something"
+  ],
+  [
+    "bid them welcome",
+    "say_something"
+  ],
+  [
+    "bid the judges welcome",
+    "say_something"
+  ],
+  [
+    "hey assistance meet my friends",
+    "say_something"
+  ],
+  [
+    "hey assistance meet the guests ",
+    "say_something"
+  ],
+  [
+    "can you meet our guests please",
+    "say_something"
+  ],
+  [
+    "show hospitality to the judges assistance",
+    "say_something"
+  ],
+  [
+    "show some hospitality to these people",
+    "say_something"
+  ],
+  [
+    "welcome everyone here",
+    "say_something"
+  ],
+  [
+    "meet everyone here assistance",
+    "say_something"
+  ],
+  [
+    "Assistance introduce yourself",
+    "say_something"
+  ],
+  [
+    "assistance what should we say to the people present here",
+    "say_something"
+  ],
+  [
+    "assistance what do we say to welcome our guests",
+    "say_something"
+  ],
+  [
+    "how should we greet the judges",
+    "say_something"
+  ],
+  [
+    "how do we welcome the judges",
+    "say_something"
+  ],
+  [
+    "what do we say when we meet new people",
+    "say_something"
   ]
 ]

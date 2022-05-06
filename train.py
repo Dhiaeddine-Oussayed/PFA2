@@ -14,11 +14,11 @@ dataset = json.load(open('dataset.json'))
 
 df = pd.DataFrame(dataset, columns=['text', 'label'])
 df['text'] = df['text'].apply(lambda x: " ".join(x.lower() for x in x.split()))
-#df['text'] = df['text'].str.replace('[^\w\s]', '')
+df['text'] = df['text'].str.replace('[^\w\s]', '')
 #df['text'] = df['text'].apply(lambda y: str(TextBlob(y).correct()))
 #df['text'] = df['text'].apply(lambda z: " ".join([WordNetLemmatizer().lemmatize(word) for word in z.split()]))
 
-
+df.sample(frac=1)
 dummies = ['label']
 dataframe = pd.get_dummies(df, columns=dummies)
 
@@ -53,7 +53,7 @@ model.compile(optimizer="Adam", loss="categorical_crossentropy", metrics=["accur
 
 print(model.summary())
 
-history = model.fit(A, Y_train, validation_data=(B, Y_test), batch_size=30, epochs=10, verbose=1)
+history = model.fit(A, Y_train, validation_data=(B, Y_test), batch_size=40, epochs=20, verbose=1)
 
 model.save("ann_model")
 pickle.dump(tfidf, open("tfidf.pkl", "wb"))

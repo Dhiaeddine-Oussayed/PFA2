@@ -17,13 +17,13 @@ from pygame import mixer
 from threading import Thread
 import json
 
-
 languages = json.load(open('languages.json'))
 environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 tfidf = load(open("tfidf.pkl", "rb"))
 model = models.load_model("ann_model")
 User_name = ''
 state = 0
+
 
 def greeting():
     text = list_library.greetings
@@ -112,12 +112,12 @@ def Screenshot():
 
 
 def listen():
-    with Microphone() as source:
-        print("User:", end=' ')
-        voice = Recognizer().listen(source)
-    return Recognizer().recognize_google(voice)
-    # print("User:", end=' ')
-    # return input()
+    # with Microphone() as source:
+    #     print("User:", end=' ')
+    #     voice = Recognizer().listen(source)
+    # return Recognizer().recognize_google(voice)
+    print("User:", end=' ')
+    return input()
 
 
 def prediction(intention):
@@ -130,8 +130,8 @@ def prediction(intention):
 
 def talk(speech):
     print('Assistance: ', speech)
-    engine.say(speech)
-    engine.runAndWait()
+    # engine.say(speech)
+    # engine.runAndWait()
 
 
 def playAlarm():
@@ -139,7 +139,11 @@ def playAlarm():
     mixer.music.load(r'Alarm.mp3')
     mixer.music.play()
 
+
 def timerTime(com):
+    if not any(value.isdigit() for value in com.split()):
+        talk('How long would you like the timer to be?')
+        com = listen()
     a = list(chain(*pos_tag(word_tokenize(com))))
     time_dic = {"hours": 0, "minutes": 0, "seconds": 0}
     talk('Your timer has started')
@@ -152,6 +156,7 @@ def timerTime(com):
             time_dic['hours'] = int(a[i - 2])
     return time_dic["hours"] * 3600 + time_dic["minutes"] * 60 + time_dic["seconds"]
 
+
 def timer(time_for_timer):
     global state
     state = time_for_timer
@@ -160,12 +165,13 @@ def timer(time_for_timer):
         state -= 1
     playAlarm()
 
+
 def translate(com):
     talk('Sure ! What do you want to translate?')
     query = listen()
     phrase = word_tokenize(com)
     if 'in' in phrase:
-        dest = phrase[phrase.index('in')+1].lower()
+        dest = phrase[phrase.index('in') + 1].lower()
     else:
         talk('To which language?')
         dest = listen().lower()
@@ -175,6 +181,7 @@ def translate(com):
     change_voice(engine, destination, "VoiceGenderFemale")
     talk(translator.translate(query, dest=destination[:2]).text)
     change_voice(engine, 'en_US', "VoiceGenderFemale")
+
 
 def change_voice(eng, language, gender='VoiceGenderFemale'):
     for voice in eng.getProperty('voices'):
@@ -187,10 +194,11 @@ engine = init()
 change_voice(engine, 'en_US', "VoiceGenderFemale")
 classes = Index(['label_calculator', 'label_courtesygreeting', 'label_definition',
                  'label_goodbye', 'label_greeting', 'label_namequery', 'label_next_song',
-                 'label_notebook', 'label_oos', 'label_play_music', 'label_screenshot',
-                 'label_tell_joke', 'label_thank_you', 'label_time', 'label_timer',
-                 'label_translate', 'label_user_name', 'label_volumedown',
-                 'label_volumeup', 'label_weather', 'label_what_can_i_ask_you'],
+                 'label_notebook', 'label_oos', 'label_play_music',
+                 'label_say_something', 'label_screenshot', 'label_tell_joke',
+                 'label_thank_you', 'label_time', 'label_timer', 'label_translate',
+                 'label_user_name', 'label_volumedown', 'label_volumeup',
+                 'label_weather', 'label_what_can_i_ask_you'],
                 dtype='object')
 
 
@@ -199,9 +207,9 @@ def main():
     while 1:
         answer = ''
         command = listen()
-        print(command)
+        # print(command)
         predicted_class = prediction(command)
-        print(classes[predicted_class])
+        # print(classes[predicted_class])
         if classes[predicted_class] == 'label_greeting':
             answer = greeting()
         elif classes[predicted_class] == 'label_courtesygreeting':
@@ -234,9 +242,7 @@ def main():
             timer_thread.start()
         elif classes[predicted_class] == 'label_goodbye':
             answer = goodbye()
-            print('Assistance: ', answer)
-            engine.say(answer)
-            engine.runAndWait()
+            talk(answer)
             break
         if answer == '':
             answer = 'Anything else?'
