@@ -240,6 +240,9 @@ def main():
             time_for_timer = timerTime(command)
             timer_thread = Thread(target=timer, args=[time_for_timer])
             timer_thread.start()
+        elif classes[predicted_class] == 'label_say_something':
+            answer = choice(list_library.say_hello)
+            talk(answer)
         elif classes[predicted_class] == 'label_goodbye':
             answer = goodbye()
             talk(answer)

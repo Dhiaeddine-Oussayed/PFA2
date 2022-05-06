@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6235de7-d42d-4e4e-a17e-c6c5067f9ff6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bag_of_words.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFA.py" beforeDir="false" afterPath="$PROJECT_DIR$/PFA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ann_model/keras_metadata.pb" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/keras_metadata.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ann_model/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/saved_model.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ann_model/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/variables/variables.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ann_model/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/variables/variables.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tets.py" beforeDir="false" afterPath="$PROJECT_DIR$/tets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfidf.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_library.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_library.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +32,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "/Users/dhiaoussayed/Work/project/PFA2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;/Users/dhiaoussayed/Work/project/PFA2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.PFA">
     <configuration name="PFA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PFA2" />

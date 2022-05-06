@@ -187,3 +187,10 @@ oos = [
     "Sorry, I didn't quite understand",
     "That is out of my reach. Would you like to ask for something else?"
 ]
+
+say_hello = [
+    "Welcome everyone and thank you for attending",
+    "Hello Misses and Misters, welcome among us",
+    "Welcome to everyone here and thank you for attending, we are pleased",
+    "Greeting to everyone attending, we hope that we impress you"
+]
