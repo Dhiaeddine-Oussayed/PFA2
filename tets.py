@@ -1,18 +1,34 @@
+import audioread
 from pygame import mixer
 import os
+from time import sleep
+from threading import Thread, Event
 
-
-
-# Instantiate mixer
+_exit = Event()
 mixer.init()
 
-# Play the music
-for i in range(len(playlist)):
-    mixer.music.load(os.path.join(path, playlist[i]))
-    mixer.music.play()
+path = '/Users/dhiaoussayed/Music/Music/Media.localized/Music/Unknown Artist/Unknown Album'
+playlist = [os.path.join(path, music) for music in os.listdir(path)]
 
+index = 0
+stop_threads = False
+def play_music():
+    global index
+    while 1:
+        mixer.music.load(playlist[index])
+        mixer.music.play()
+        with audioread.audio_open(playlist[index]) as f:
+            length = f.duration
+        _exit.wait(length)
+        index += 1
+        if index >= len(playlist):
+            index = 0
 
-# Infinite loop
+        if stop_threads:
+            break
+music_thread = Thread(target=play_music)
+music_thread.start()
+
 while True:
     print("------------------------------------------------------------------------------------")
     print("Press 'p' to pause the music")
@@ -23,13 +39,10 @@ while True:
     userInput = input(" ")
 
     if userInput == 'p':
-        i+=1
-        if i>2:
-            i=0
+
         # Pause the music
-        mixer.music.load(os.path.join(path, playlist[i]))
-        mixer.music.play()
-        print(i)
+        mixer.music.pause()
+        print("music is paused....")
     elif userInput == 'r':
 
         # Resume the music
@@ -40,4 +53,7 @@ while True:
         # Stop the music playback
         mixer.music.stop()
         print("music is stopped....")
+        stop_threads = True
+        _exit.set()
         break
+
