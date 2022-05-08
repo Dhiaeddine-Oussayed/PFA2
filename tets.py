@@ -1,21 +1,43 @@
-from time import time
-from nltk import word_tokenize, pos_tag
-from itertools import chain
+from pygame import mixer
+import os
 
-start = time()
 
-a = list(chain(*pos_tag(word_tokenize("i want a timer please"))))
-if 'CD' not in a:
-    print(False)
-else:
-    print(True)
-end = time()
 
-starting = time()
+# Instantiate mixer
+mixer.init()
 
-print(any(value.isdigit() for value in "i want a timer please".split()))
+# Play the music
+for i in range(len(playlist)):
+    mixer.music.load(os.path.join(path, playlist[i]))
+    mixer.music.play()
 
-ending = time()
 
-print(end - start)
-print(ending- starting)
+# Infinite loop
+while True:
+    print("------------------------------------------------------------------------------------")
+    print("Press 'p' to pause the music")
+    print("Press 'r' to resume the music")
+    print("Press 'e' to exit the program")
+
+    # take user input
+    userInput = input(" ")
+
+    if userInput == 'p':
+        i+=1
+        if i>2:
+            i=0
+        # Pause the music
+        mixer.music.load(os.path.join(path, playlist[i]))
+        mixer.music.play()
+        print(i)
+    elif userInput == 'r':
+
+        # Resume the music
+        mixer.music.unpause()
+        print("music is resumed....")
+    elif userInput == 'e':
+
+        # Stop the music playback
+        mixer.music.stop()
+        print("music is stopped....")
+        break

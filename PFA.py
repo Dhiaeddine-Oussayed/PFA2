@@ -1,10 +1,11 @@
+import os
 from numpy import argmax
 from nltk import word_tokenize, pos_tag
 from random import choice
 from datetime import datetime
 from pyautogui import press, screenshot
 import list_library
-from keras import models
+from keras.models import load_model
 from speech_recognition import Recognizer, Microphone
 from pickle import load
 from os import environ
@@ -20,10 +21,12 @@ import json
 languages = json.load(open('languages.json'))
 environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 tfidf = load(open("tfidf.pkl", "rb"))
-model = models.load_model("ann_model")
+model = load_model("ann_model")
 User_name = ''
 state = 0
-
+music_state = 'run'
+playlist_path = '/Users/dhiaoussayed/Music/Music/Media.localized/Music/Unknown Artist/Unknown Album'
+playlist = [music_name for music_name in os.listdir(playlist_path)]
 
 def greeting():
     text = list_library.greetings
@@ -69,9 +72,7 @@ def user_name():
     global User_name
     if User_name == '':
         text = choice(list_library.no_name)
-        print('Assistance: ', text)
-        engine.say(text)
-        engine.runAndWait()
+        talk(text)
         wish = listen()
         tagged = pos_tag(word_tokenize(wish))
         for i in tagged:
@@ -90,8 +91,7 @@ def user_name():
 
 
 def skills():
-    engine.say('This is a list of what I can do: ')
-    engine.runAndWait()
+    tlak('This is a list of what I can do: ')
     print(list_library.skills)
 
 
@@ -115,7 +115,9 @@ def listen():
     # with Microphone() as source:
     #     print("User:", end=' ')
     #     voice = Recognizer().listen(source)
-    # return Recognizer().recognize_google(voice)
+    #     command = Recognizer().recognize_google(voice)
+    #     print(command)
+    # return command
     print("User:", end=' ')
     return input()
 
@@ -132,6 +134,32 @@ def talk(speech):
     print('Assistance: ', speech)
     # engine.say(speech)
     # engine.runAndWait()
+
+def play_music(play_list_path=playlist_path, play_list=playlist):
+    mixer.init()
+    for i in range(len(play_list)):
+        mixer.music.load(os.path.join(play_list_path, playlist[i]))
+        mixer.music.play()
+    # while True:
+    #     if music_state == 'pause':
+    #         # Pause the music
+    #         mixer.music.pause()
+    #         print("music is paused....")
+    #     elif music_state == 'resume':
+    #
+    #         # Resume the music
+    #         mixer.music.unpause()
+    #         print("music is resumed....")
+    #     elif music_state == 'exit':
+    #
+    #         # Stop the music playback
+    #         mixer.music.stop()
+    #         print("music is stopped....")
+    #         break
+
+def play_next_music():
+    global music_state
+    return
 
 
 def playAlarm():
@@ -207,13 +235,15 @@ def main():
     while 1:
         answer = ''
         command = listen()
-        # print(command)
         predicted_class = prediction(command)
-        # print(classes[predicted_class])
+        print(classes[predicted_class])
         if classes[predicted_class] == 'label_greeting':
             answer = greeting()
         elif classes[predicted_class] == 'label_courtesygreeting':
             answer = courtesey_greeting()
+        elif classes[predicted_class] == 'label_play_music':
+            music_thread = Thread(target=play_music())
+            music_thread.start()
         elif classes[predicted_class] == 'label_thank_you':
             answer = thanks()
         elif classes[predicted_class] == 'label_tell_joke':
@@ -237,12 +267,10 @@ def main():
         elif classes[predicted_class] == 'label_translate':
             translate(command)
         elif classes[predicted_class] == 'label_timer':
-            time_for_timer = timerTime(command)
-            timer_thread = Thread(target=timer, args=[time_for_timer])
+            timer_thread = Thread(target=timer, args=[timerTime(command)])
             timer_thread.start()
         elif classes[predicted_class] == 'label_say_something':
             answer = choice(list_library.say_hello)
-            talk(answer)
         elif classes[predicted_class] == 'label_goodbye':
             answer = goodbye()
             talk(answer)
@@ -258,7 +286,6 @@ if __name__ == '__main__':
 # def alarm():
 # def TakePicture():
 # def calculator()
-# def calendar()
 # def definition()
 # def music()
 # def Meeting()
