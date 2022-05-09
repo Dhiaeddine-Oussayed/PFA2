@@ -67,7 +67,7 @@ def sendMail(msg, recever):
 
 # -----------------------------------------------------------------------------------------------------------------------------------
 # EXEMPLES:
-sendMail("Hello,\nThis is a simple mail. There is only text, no attachments are there The mail is sent using Python SMTP library.\nThank You","harbawijawher@gmail.com")
+#sendMail("Hello,\nThis is a simple mail. There is only text, no attachments are there The mail is sent using Python SMTP library.\nThank You","harbawijawher@gmail.com")
 # alarm(9,8,["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"])
 # timer(10)
 
