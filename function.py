@@ -39,32 +39,35 @@ def alarm(hour, minute,
                 time.sleep(30)
 
 
-def sendMail(msg, recever):  # pip install sib_api_v3_sdk
-    import time
-    import sib_api_v3_sdk
-    from sib_api_v3_sdk.rest import ApiException
-    from pprint import pprint
+def sendMail(msg, recever):  
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    mail_content = msg
+    #The mail addresses and password
+    sender_address = 'marwenijawher7@gmail.com'
+    sender_pass = 'mot de passe'
+    receiver_address = recever
+    #Setup the MIME
+    message = MIMEMultipart()
+    message['From'] = sender_address
+    message['To'] = receiver_address
+    message['Subject'] = 'A test mail sent by Python. It has an attachment.'   #The subject line
+    #The body and the attachments for the mail
+    message.attach(MIMEText(mail_content, 'plain'))
+    #Create SMTP session for sending the mail
+    session = smtplib.SMTP('smtp.gmail.com', 587) #use gmail with port
+    session.starttls() #enable security
+    session.login(sender_address, sender_pass) #login with mail_id and password
+    text = message.as_string()
+    session.sendmail(sender_address, receiver_address, text)
+    session.quit()
+    print('Mail Sent')
 
-    configuration = sib_api_v3_sdk.Configuration()
-    configuration.api_key[
-        'api-key'] = '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'
-    api_instance = sib_api_v3_sdk.TransactionalEmailsApi(sib_api_v3_sdk.ApiClient(configuration))
-    subject = "My Subject"
-    html_content = "<html><body><h1>" + msg + "</h1></body></html>"
-    sender = {"name": "John Doe", "email": "harbawijawher@gmail.com"}
-    to = [{"email": recever, "name": "Jane Doe"}]
-    headers = {"Some-Custom-Name": "unique-id-1234"}
-    send_smtp_email = sib_api_v3_sdk.SendSmtpEmail(to=to, headers=headers, html_content=html_content, sender=sender,
-                                                   subject=subject)
 
-    try:
-        api_response = api_instance.send_transac_email(send_smtp_email)
-        pprint(api_response)
-    except ApiException as e:
-        print("Exception when calling SMTPApi->send_transac_email: %s\n" % e)
 # -----------------------------------------------------------------------------------------------------------------------------------
 # EXEMPLES:
-# sendMail("This is my first transactional email","harbawijawher@gmail.com")
+sendMail("Hello,\nThis is a simple mail. There is only text, no attachments are there The mail is sent using Python SMTP library.\nThank You","harbawijawher@gmail.com")
 # alarm(9,8,["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"])
 # timer(10)
 
