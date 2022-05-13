@@ -1,8 +1,8 @@
 import cv2
-fc = cv2.CascadeClassifier(r'data_collection/haarcascade_frontalface_alt.xml')
+fc = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')
 cam = cv2.VideoCapture(0)
 cv2.namedWindow("test")
-img_counter = 1
+img_counter = 0
 img = None
 while 1:
     ret, frame = cam.read()
@@ -18,7 +18,7 @@ while 1:
         print("Escape hit, closing...")
         break
     elif k == 32:
-        while img_counter < 3:
+        while img_counter < 200:
             ret, frame = cam.read()
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             faces = fc.detectMultiScale(gray, 1.1, 4)

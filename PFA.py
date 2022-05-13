@@ -95,14 +95,14 @@ def Screenshot():
     myScreenshot.save(r'D:\DHIA\PyCharm Community Edition 2021.2.1\screenshots')
     print('Screenshot saved successfully!')
 def listen():
-    # with Microphone() as source:
-    #     print("User:", end=' ')
-    #     voice = Recognizer().listen(source)
-    #     command = Recognizer().recognize_google(voice)
-    #     print(command)
-    # return command
-    print("User:", end=' ')
-    return input()
+    with Microphone() as source:
+        print("User:", end=' ')
+        voice = Recognizer().listen(source)
+        command = Recognizer().recognize_google(voice)
+        print(command)
+    return command
+    # print("User:", end=' ')
+    # return input()
 def prediction(intention):
     test = [intention]
     test = tfidf.transform(test)
@@ -111,8 +111,8 @@ def prediction(intention):
     return argmax(predicted)
 def talk(speech):
     print('Assistance: ', speech)
-    # engine.say(speech)
-    # engine.runAndWait()
+    engine.say(speech)
+    engine.runAndWait()
 def play_music():
     global index, stop_threads
     while 1:
@@ -206,7 +206,7 @@ def main():
             _exit.set()
         else:
             predicted_class = prediction(command)
-            print(classes[predicted_class])
+            # print(classes[predicted_class])
             if classes[predicted_class] == 'label_greeting':
                 answer = greeting()
             elif classes[predicted_class] == 'label_courtesygreeting':
@@ -262,11 +262,11 @@ if __name__ == '__main__':
 # def alarm():
 # def TakePicture():
 # def calculator()
-# def definition()
-# def music()
+# def definition(to_define):
+
+
 # def Meeting()
 # def spelling()
-# def timer()
 # def weather()
 # def info()
 # def mail()
