@@ -45,7 +45,7 @@ while 1:
         inverse_oh = argmax(prediction)
         inverse_oh = inverse_oh.reshape(-1, 1)
         name = encoder.inverse_transform(inverse_oh)
-        cv2.putText(frame, str(name), (x + 5, y + 5), font, fontScale, fontColor, thickness, lineType)
+        cv2.putText(frame, name[0], (x + 5, y + 5), font, fontScale, fontColor, thickness, lineType)
     else:
         pass
 

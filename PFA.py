@@ -19,7 +19,6 @@ from threading import Thread, Event
 import json
 import audioread
 
-
 languages = json.load(open('languages.json'))
 
 environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -27,6 +26,8 @@ tfidf = load(open("tfidf.pkl", "rb"))
 model = load_model("ann_model")
 
 User_name = ''
+
+bot_name = 'Assistance'
 
 state = 0
 
@@ -40,27 +41,44 @@ stop_threads = False
 def greeting():
     text = list_library.greetings
     return choice(text)
+
+
 def courtesey_greeting():
     text = list_library.courtesey_greeting
     return choice(text)
+
+
 def goodbye():
     text = list_library.goodbyes
     return choice(text)
+
+
 def thanks():
     text = list_library.thanks
     return choice(text)
-def bot_name():
-    text = list_library.bot_name
-    return choice(text)
+
+
+def Bot_name():
+    Bot_name_list = [f"You can call me {bot_name}", f"You may call me {bot_name}",
+                     f"Call me {bot_name}", f"I am your intelligent bot, {bot_name}"]
+    return choice(Bot_name_list)
+
+
 def time():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     return current_time
+
+
 def jokes():
     joke = list_library.jokes
     return choice(joke)
+
+
 def oos():
     return choice(list_library.oos)
+
+
 def user_name():
     global User_name
     if User_name == '':
@@ -68,9 +86,9 @@ def user_name():
         talk(text)
         wish = listen()
         tagged = pos_tag(word_tokenize(wish))
-        for i in tagged:
-            if i[1] == 'NNP':
-                User_name = i[0]
+        for i, j in tagged:
+            if j == 'NNP':
+                User_name = i
                 break
         return "I'll put that in mind"
     else:
@@ -81,38 +99,54 @@ def user_name():
                 f"{User_name}, what can I do for you?"
                 ]
         return choice(text)
+
+
 def skills():
     talk('This is a list of what I can do: ')
     print(list_library.skills)
+
+
 def volume_up():
     for vu in range(5):
         press('volumeup')
+
+
 def volume_down():
     for vd in range(5):
         press('volumedown')
+
+
 def Screenshot():
     myScreenshot = screenshot()
     myScreenshot.save(r'D:\DHIA\PyCharm Community Edition 2021.2.1\screenshots')
     print('Screenshot saved successfully!')
+
+
 def listen():
-    with Microphone() as source:
-        print("User:", end=' ')
-        voice = Recognizer().listen(source)
-        command = Recognizer().recognize_google(voice)
-        print(command)
-    return command
-    # print("User:", end=' ')
-    # return input()
+    # with Microphone() as source:
+    #     print("User:", end=' ')
+    #     voice = Recognizer().listen(source)
+    #     command = Recognizer().recognize_google(voice)
+    #     print(command)
+    # return command
+    print("User:", end=' ')
+    return input()
+
+
 def prediction(intention):
     test = [intention]
     test = tfidf.transform(test)
     test.sort_indices()
     predicted = model.predict(test)
     return argmax(predicted)
+
+
 def talk(speech):
-    print('Assistance: ', speech)
-    engine.say(speech)
-    engine.runAndWait()
+    print(bot_name, ': ', speech)
+    # engine.say(speech)
+    # engine.runAndWait()
+
+
 def play_music():
     global index, stop_threads
     while 1:
@@ -126,10 +160,14 @@ def play_music():
             index = 0
         if stop_threads:
             break
+
+
 def playAlarm():
     mixer.init()
     mixer.music.load(r'Alarm.mp3')
     mixer.music.play()
+
+
 def timerTime(com):
     if not any(value.isdigit() for value in com.split()):
         talk('How long would you like the timer to be?')
@@ -145,6 +183,19 @@ def timerTime(com):
         elif a[i] == 'hours' or a[i] == 'hour':
             time_dic['hours'] = int(a[i - 2])
     return time_dic["hours"] * 3600 + time_dic["minutes"] * 60 + time_dic["seconds"]
+
+
+def change_ai_name():
+    global bot_name
+    talk("To what name?")
+    bot_name = listen()
+    talk("I got that, from now on my name will be " + bot_name)
+
+def change_user_name():
+    global User_name
+    talk("To what name?")
+    User_name = listen()
+
 def timer(time_for_timer):
     global state
     state = time_for_timer
@@ -152,6 +203,8 @@ def timer(time_for_timer):
         sleep(1)
         state -= 1
     playAlarm()
+
+
 def translate(com):
     talk('Sure ! What do you want to translate?')
     query = listen()
@@ -168,6 +221,7 @@ def translate(com):
     talk(translator.translate(query, dest=destination[:2]).text)
     change_voice(engine, 'en_US', "VoiceGenderFemale")
 
+
 def change_voice(eng, language, gender='VoiceGenderFemale'):
     for voice in eng.getProperty('voices'):
         if language in voice.languages and gender == voice.gender:
@@ -177,19 +231,12 @@ def change_voice(eng, language, gender='VoiceGenderFemale'):
 
 engine = init()
 change_voice(engine, 'en_US', "VoiceGenderFemale")
-classes = Index(['label_calculator', 'label_courtesygreeting', 'label_definition',
-                 'label_goodbye', 'label_greeting', 'label_namequery', 'label_next_song',
-                 'label_notebook', 'label_oos', 'label_play_music',
-                 'label_say_something', 'label_screenshot', 'label_tell_joke',
-                 'label_thank_you', 'label_time', 'label_timer', 'label_translate',
-                 'label_user_name', 'label_volumedown', 'label_volumeup',
-                 'label_weather', 'label_what_can_i_ask_you'],
-                dtype='object')
+classes = load(open("Labels.pkl", "rb"))
 
 
 def main():
     global stop_threads, index
-    talk('Welcome, I am Assistant your favourite virtual assistant')
+    talk('Welcome, I am ' + bot_name + ' your favourite virtual assistant')
     while 1:
         answer = ''
         command = listen()
@@ -201,7 +248,7 @@ def main():
             mixer.music.stop()
             index -= 1
             if index < 0:
-                index = len(playlist)-1
+                index = len(playlist) - 1
             stop_threads = True
             _exit.set()
         else:
@@ -211,6 +258,8 @@ def main():
                 answer = greeting()
             elif classes[predicted_class] == 'label_courtesygreeting':
                 answer = courtesey_greeting()
+            elif classes[predicted_class] == 'label_change_ai_name':
+                change_ai_name()
             elif classes[predicted_class] == 'label_play_music':
                 music_thread = Thread(target=play_music)
                 music_thread.start()
@@ -222,10 +271,16 @@ def main():
                 music_thread.start()
             elif classes[predicted_class] == 'label_thank_you':
                 answer = thanks()
+            elif classes[predicted_class] == 'label_how_old_are_you':
+                answer = choice(list_library.old)
             elif classes[predicted_class] == 'label_tell_joke':
                 answer = jokes()
+            elif classes[predicted_class] == 'label_are_you_a_bot':
+                answer = choice(list_library.are_you_a_bot)
             elif classes[predicted_class] == 'label_namequery':
-                answer = bot_name()
+                answer = Bot_name()
+            elif classes[predicted_class] == 'label_change_user_name':
+                change_user_name()
             elif classes[predicted_class] == 'label_time':
                 answer = time()
             elif classes[predicted_class] == 'label_user_name':

@@ -18738,7 +18738,11 @@
     [
         "yes, that's it", 
         "yes"
-    ], 
+    ],
+    [
+      "yes",
+      "yes"
+    ],
     [
         "yes, that is right", 
         "yes"
@@ -21274,7 +21278,11 @@
     [
         "not at all", 
         "no"
-    ], 
+    ],
+    [
+      "no",
+      "no"
+    ],
     [
         "that turns out to be false", 
         "no"
@@ -36000,7 +36008,7 @@
         "change_volume"
     ], 
     [
-        "who is your employeer", 
+        "who is your employer",
         "who_do_you_work_for"
     ], 
     [

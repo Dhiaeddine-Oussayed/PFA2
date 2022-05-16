@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e6235de7-d42d-4e4e-a17e-c6c5067f9ff6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFA.py" beforeDir="false" afterPath="$PROJECT_DIR$/PFA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_model/keras_metadata.pb" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/keras_metadata.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_model/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/saved_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_model/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_model/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/ann_model/variables/variables.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/is_train.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/is_train.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_library.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recognition_skill/f_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition_skill/f_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfidf.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +54,7 @@
       <recent name="$PROJECT_DIR$/data_collection/jhonny" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.f_classification">
+  <component name="RunManager" selected="Python.PFA">
     <configuration name="PFA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PFA2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PFA2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,19 +161,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.train" />
       <item itemvalue="Python.f_classification" />
       <item itemvalue="Python.recognition" />
       <item itemvalue="Python.vidcap" />
-      <item itemvalue="Python.tets" />
       <item itemvalue="Python.PFA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PFA" />
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.f_classification" />
         <item itemvalue="Python.recognition" />
-        <item itemvalue="Python.PFA" />
         <item itemvalue="Python.vidcap" />
-        <item itemvalue="Python.tets" />
       </list>
     </recent_temporary>
   </component>

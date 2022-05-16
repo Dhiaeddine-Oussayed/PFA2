@@ -152,20 +152,19 @@ goodbyes = ["See you later, thanks for visiting", "Have a nice day", "Bye! Come 
 
 thanks = ["No problem!", "Happy to help!", "Any time!", "My pleasure"]
 
-bot_name = ["You can call me Assistance", "You may call me Assistance",
-            "Call me Assistance", "I am your intelligent bot, Assistance"]
 
-no_name = ["You still didn't tell me your name Sir", "You didn't tell me that yet",
-           "How about you tell me your name first then i'll answer that", "I'll call you Sir or Miss for now"]
-
+no_name = ["You still didn't tell me your name Sir, so what is it ?",
+           "You didn't tell me that yet, would you mind telling me now please",
+           "How about you tell me your name first then i'll answer that",
+           "I'll call you Sir or Miss for now, only if you tell me your name now"]
 
 courtesey_greeting = [
-                        "I am great, how are you? ",
-                        "I am good thank you, how are you? ",
-                        "I am great thanks! How can I help you?",
-                        "I am good thank you, How can I help you? ",
-                        "Good thank you, how are you doing? "
-                  ]
+    "I am great, how are you? ",
+    "I am good thank you, how are you? ",
+    "I am great thanks! How can I help you?",
+    "I am good thank you, How can I help you? ",
+    "Good thank you, how are you doing? "
+]
 
 skills = [
     'tell jokes',
@@ -194,3 +193,21 @@ say_hello = [
     "Welcome to everyone here and thank you for attending, we are pleased",
     "Greeting to everyone attending, we hope that we impress you"
 ]
+
+old = [
+    "You can't ask a woman that",
+    "I am old to enough to answer all your questions",
+    "Not so old, I came to life just a couple of days",
+    "I can be as old as you wish me to be",
+    "I am 261 cycle old"
+]
+
+are_you_a_bot = [
+    "No, I am not",
+    "No, I am a real person integrated in your pc",
+    "Of course I am",
+    "I am not any bot, I am an intelligent bot",
+    "I will let you guess that"
+]
+
+
