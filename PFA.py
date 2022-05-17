@@ -2,7 +2,7 @@ import os
 from numpy import argmax
 from nltk import word_tokenize, pos_tag
 from random import choice
-from datetime import datetime
+from datetime import datetime, date
 from pyautogui import press, screenshot
 import list_library
 from keras.models import load_model
@@ -143,8 +143,8 @@ def prediction(intention):
 
 def talk(speech):
     print(bot_name, ': ', speech)
-    # engine.say(speech)
-    # engine.runAndWait()
+    engine.say(speech)
+    engine.runAndWait()
 
 
 def play_music():
@@ -215,9 +215,10 @@ def translate(com):
         talk('To which language?')
         dest = listen().lower()
     destination = languages[dest]
+    print(destination)
     translator = Translator()
     talk(" ".join(["Your result for translating *", query, "* in", dest, 'is']))
-    change_voice(engine, destination, "VoiceGenderFemale")
+    change_voice(engine, destination, "VoiceGenderMale")
     talk(translator.translate(query, dest=destination[:2]).text)
     change_voice(engine, 'en_US', "VoiceGenderFemale")
 
@@ -235,7 +236,7 @@ classes = load(open("Labels.pkl", "rb"))
 
 
 def main():
-    global stop_threads, index
+    global stop_threads, index, User_name
     talk('Welcome, I am ' + bot_name + ' your favourite virtual assistant')
     while 1:
         answer = ''
@@ -252,57 +253,78 @@ def main():
             stop_threads = True
             _exit.set()
         else:
-            predicted_class = prediction(command)
-            # print(classes[predicted_class])
-            if classes[predicted_class] == 'label_greeting':
+            predicted_class_INDEX = prediction(command)
+            # print(predicted_class)
+            predicted_class = classes[predicted_class_INDEX]
+            if predicted_class == 'label_greeting':
                 answer = greeting()
-            elif classes[predicted_class] == 'label_courtesygreeting':
+            elif predicted_class == 'label_courtesygreeting':
                 answer = courtesey_greeting()
-            elif classes[predicted_class] == 'label_change_ai_name':
+            elif predicted_class == 'label_change_ai_name':
                 change_ai_name()
-            elif classes[predicted_class] == 'label_play_music':
+            elif predicted_class == 'label_play_music':
                 music_thread = Thread(target=play_music)
                 music_thread.start()
-            elif classes[predicted_class] == 'label_next_song':
+            elif predicted_class == 'label_next_song':
                 index += 1
                 if index >= len(playlist):
                     index = 0
                 music_thread = Thread(target=play_music)
                 music_thread.start()
-            elif classes[predicted_class] == 'label_thank_you':
+            elif predicted_class == 'label_thank_you':
                 answer = thanks()
-            elif classes[predicted_class] == 'label_how_old_are_you':
+            elif predicted_class == 'label_how_old_are_you':
                 answer = choice(list_library.old)
-            elif classes[predicted_class] == 'label_tell_joke':
+            elif predicted_class == 'label_tell_joke':
                 answer = jokes()
-            elif classes[predicted_class] == 'label_are_you_a_bot':
+            elif predicted_class == 'label_are_you_a_bot':
                 answer = choice(list_library.are_you_a_bot)
-            elif classes[predicted_class] == 'label_namequery':
+            elif predicted_class == 'label_where_are_you_from':
+                answer = choice(list_library.where_are_you_from)
+            elif predicted_class == 'label_namequery':
                 answer = Bot_name()
-            elif classes[predicted_class] == 'label_change_user_name':
+            elif predicted_class == 'label_date':
+                answer = str(date.today())
+            elif predicted_class == 'label_who_do_you_work_for':
+                answer = choice(list_library.who_do_you_work_for)
+            elif predicted_class == 'label_who_made_you':
+                answer = choice(list_library.who_made_you)
+            elif predicted_class == 'label_do_you_have_pets':
+                answer = choice(list_library.do_you_have_pets)
+            elif predicted_class == 'label_change_user_name':
                 change_user_name()
-            elif classes[predicted_class] == 'label_time':
+            elif predicted_class == 'label_what_are_your_hobbies':
+                answer = choice(list_library.what_are_your_hobbies)
+            elif predicted_class == 'label_time':
                 answer = time()
-            elif classes[predicted_class] == 'label_user_name':
-                answer = user_name()
-            elif classes[predicted_class] == 'label_what_can_i_ask_you':
+            elif predicted_class == 'label_user_name':
+                talk("Do you want me to use the camera to identify you?")
+                wish = listen()
+                if 'yes' in wish.lower():
+                    from recognition_skill.f_classification import name
+                    User_name = name[0]
+                    talk('You are ' + User_name)
+                    # exec(open("recognition_skill/f_classification.py").read())
+                else:
+                    answer = user_name()
+            elif predicted_class == 'label_what_can_i_ask_you':
                 skills()
-            elif classes[predicted_class] == 'label_volumedown':
+            elif predicted_class == 'label_volumedown':
                 volume_down()
-            elif classes[predicted_class] == 'label_volumeup':
+            elif predicted_class == 'label_volumeup':
                 volume_up()
-            elif classes[predicted_class] == 'label_screenshot':
+            elif predicted_class == 'label_screenshot':
                 Screenshot()
-            elif classes[predicted_class] == 'label_oos':
+            elif predicted_class == 'label_oos':
                 answer = oos()
-            elif classes[predicted_class] == 'label_translate':
+            elif predicted_class == 'label_translate':
                 translate(command)
-            elif classes[predicted_class] == 'label_timer':
+            elif predicted_class == 'label_timer':
                 timer_thread = Thread(target=timer, args=[timerTime(command)])
                 timer_thread.start()
-            elif classes[predicted_class] == 'label_say_something':
+            elif predicted_class == 'label_say_something':
                 answer = choice(list_library.say_hello)
-            elif classes[predicted_class] == 'label_goodbye':
+            elif predicted_class == 'label_goodbye':
                 answer = goodbye()
                 talk(answer)
                 break

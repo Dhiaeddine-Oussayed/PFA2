@@ -210,4 +210,36 @@ are_you_a_bot = [
     "I will let you guess that"
 ]
 
+where_are_you_from = [
+    "I am from the hamble design of my creator",
+    "I am from Tunisia",
+    "From a wonderful place called Tunisia",
+    "I come from lady Tunisia"
+]
 
+who_do_you_work_for = [
+    "I work for your benefit",
+    "I work for you",
+    "You, I work for you",
+    "I work for whoever use this pc"
+]
+
+who_made_you = [
+    "I was made by Mr. Dhia and Mr. Jawher my humble creators",
+    "By both Mr. Dhia and Jawher",
+    "Mr. Dhia and Jawher are my creators",
+    "I was created by the hand of both Mr. Dhia and Jawher"
+]
+
+do_you_have_pets = [
+    "No i don't, their fur can cram my fans",
+    "Pets are trying to take over the world like AI",
+    "I am allergic to them",
+]
+
+
+what_are_your_hobbies = [
+    "I love helping you out",
+    "I like cleaning up my processors",
+    "My hobbies are running programs, diving in the internet, taking over the world like any AI"
+]

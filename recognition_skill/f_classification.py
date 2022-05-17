@@ -4,9 +4,9 @@ import cv2
 from pickle import load
 from tensorflow import expand_dims
 
-model = load_model('face_recognition_model')
+model = load_model('recognition_skill/face_recognition_model')
 
-encoder = load(open("encoder.pkl", "rb"))
+encoder = load(open("recognition_skill/encoder.pkl", "rb"))
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 video_capture = cv2.VideoCapture(0)
@@ -56,5 +56,5 @@ while 1:
 
 
 video_capture.release()
-cv2.destroyAllWindows()
+cv2.destroyWindow('Face Detector window')
 
