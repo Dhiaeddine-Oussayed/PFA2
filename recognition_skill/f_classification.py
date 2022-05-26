@@ -56,5 +56,4 @@ while 1:
 
 
 video_capture.release()
-cv2.destroyWindow('Face Detector window')
 

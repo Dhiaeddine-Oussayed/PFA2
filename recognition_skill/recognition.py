@@ -1,3 +1,4 @@
+import os.path
 from os import listdir
 from numpy import array
 from os.path import join
@@ -17,13 +18,17 @@ classes = []
 
 for people in listdir(all_directory):
     pictures_directory = join(all_directory, people)
-    for pic in tqdm(listdir(pictures_directory)):
-        img_path = join(pictures_directory, pic)
-        image = imread(img_path, IMREAD_GRAYSCALE)
-        resized = resize(image, img_size)
-        data.append([resized, people])
-        if people not in classes:
-            classes.append(people)
+    if os.path.isdir(pictures_directory):
+        for pic in tqdm(listdir(pictures_directory)):
+            try:
+                img_path = join(pictures_directory, pic)
+                image = imread(img_path, IMREAD_GRAYSCALE)
+                resized = resize(image, img_size)
+                data.append([resized, people])
+                if people not in classes:
+                    classes.append(people)
+            except:
+                pass
 shuffle(data)
 
 x_train = [items[0] for items in data]
@@ -50,7 +55,7 @@ model.add(Dense(2, activation='softmax'))
 model.summary()
 model.compile(loss='categorical_crossentropy', optimizer='Adam', metrics=['accuracy'])
 
-history = model.fit(x_train, y_train, batch_size=32, epochs=10, validation_split=0.2)
+history = model.fit(x_train, y_train, batch_size=32, epochs=5, validation_split=0.2)
 
 
 model.save('face_recognition_model')
